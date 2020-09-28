@@ -1,0 +1,47 @@
+---
+layout: post_default
+---
+
+
+<div class="sidebar" style="background-color:{{page.project_color}}">
+  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <ul id="section-names">
+    
+  </ul>
+<!--   {%- assign lines = content | split: "h1" -%}
+  {%- for line in lines -%}
+      {% if line contains "id=" %}
+        {%- assign section_name = line | split: ">" | last -%}
+        <h1>
+        {{ section_name }}
+        </h1>    
+      {% endif %}
+  {% endfor %} -->
+</div>
+
+<div class="main-content">
+  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </header>
+
+    <div id="content" class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
+</div>

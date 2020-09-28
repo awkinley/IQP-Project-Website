@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="home">
+    <div class="project-boxes">
+        {%- assign project_posts = site.posts -%}
+        {% assign project_box_class = "project-box-left" %}
+        {% for post in project_posts %}
+          {% if post.categories contains "project" %}
+            <div class="{{project_box_class}}">
+            
+                <a href="{{post.url}}">
+                  <div class="project-image-box" style="background-color: {{post.project_color}}">
+                      <h1>{{post.title}}</h1>
+                      <img src="{{post.project_img}}">
+                  </div>
+                </a>
+                <div class="project-text-box">
+                    <p>
+                      {{post.project_desc}}
+                    </p>
+                    <a href="{{post.url}}" class="learn-more" style="background-color: {{post.project_color}}">
+                        LEARN MORE
+                    </a>
+                </div>
+              </div>
+
+              {% if project_box_class == "project-box-left" %}    
+                {% assign project_box_class = "project-box-right" %}
+              {% else %}
+                {% assign project_box_class = "project-box-left" %}
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+    </div>
+</div>
