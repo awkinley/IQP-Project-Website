@@ -12,14 +12,14 @@ layout: default
                 <a href="{{ post.url | relative_url }}">
                   <div class="project-image-box" style="background-color: {{post.project_color}}">
                       <h1>{{post.title}}</h1>
-                      <img src="{{post.project_img}}">
+                      <img src="{{ post.project_img | relative_url }}">
                   </div>
                 </a>
                 <div class="project-text-box">
                     <p>
                       {{post.project_desc}}
                     </p>
-                    <a href="{{ post.url | relative_url }}" class="learn-more" style="background-color: {{post.project_color}}">
+                    <a href="{{ post.url | relative_url   }}" class="learn-more" style="background-color: {{post.project_color}}">
                         LEARN MORE
                     </a>
                 </div>
