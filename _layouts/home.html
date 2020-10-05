@@ -9,7 +9,7 @@ layout: default
           {% if post.categories contains "project" %}
             <div class="{{project_box_class}}">
             
-                <a href="{{post.url | relative_url}}">
+                <a href="{{ post.url | relative_url }}">
                   <div class="project-image-box" style="background-color: {{post.project_color}}">
                       <h1>{{post.title}}</h1>
                       <img src="{{post.project_img}}">
