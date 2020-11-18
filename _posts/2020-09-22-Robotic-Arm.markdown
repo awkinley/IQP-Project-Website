@@ -34,6 +34,7 @@ Throughout this tutorial we will discuss the rational behind these design goals,
 # Design
 
 Like we said in the overview, we have split the design into three major subsystems: mechanical, electrical, and software. First let's define exactly what we mean by those terms.
+
 Mechanical System:
 	This is concerned with the parts of the arm that are a part of it's structure. This is a fairly broad definition because it's a broad category. It includes the design of the joints of the robotic arm, the linkages between the joints, the base of the arm, and any other parts that physically hold, support, or contain any part of the robot.
 
@@ -48,7 +49,16 @@ A note about motors: motors exist in a bit of a gray spot between the mechanical
 
 ## Mechanical System
 
-Now that we've gotten through the design requirements we can start the actual designing. We will also talk about why the design requirements are the way they are. 
+Now that we've gotten through the design requirements we can start the actual designing. We will also talk about why the design requirements are the way they are. So we'll start from the ground up. As discussed early when you want to build a robotic arm you still have a lot of questions to answer about specific design requirements before you can really start in on a design. So lets go through the design requirements one by one and talk about what they mean, why they were chosen, and what they imply for the design.
+
+1 - Be small enough to sit on a desk and affordable to build
+
+We don't want to build a big robotic arm that you might find on a factory production floor, and we don't want it to cost thousands of dollars to build. These are practical requirements that will inform our design as well as our other design requirements. 
+
+
+2 - Have a reach of about 12in or 30cm
+
+This is really a more specific version of saying it should be able to sit on a desk. 
 
 ## Electrical System
 
