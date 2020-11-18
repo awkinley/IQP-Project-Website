@@ -10,40 +10,34 @@ project_color: "#44679C"
 
 # Robotic Arm Page
 
-Hey look, it's some changes to see if this works.
+# Overview 
 
-adfjkl;aefjkl;awebf huoawebvgf huio;asgrnkl;asbf nhyi0pawevtrhjl; sfjip'aswgrh u890 q2w4vthuiop aer bjuilo zsbf dm,xdgfn ui0w35bv
+The goal of this tutorial is to walk you through the design of a robotic arm, from design requirements to planning to a completed design that you could then fabricate. We hope to provide enough context for our decisions so that you could take this knowledge and apply it to designing things besides a robotic arm. We will also routinely reference physics and other engineering theory to verify that the arm will work, improve the design, and demonstrate how theory gets used in practical engineering. 
 
-adfjkl;aefjkl;awebf huoawebvgf huio;asgrnkl;asbf nhyi0pawevtrhjl; sfjip'aswgrh u890 q2w4vthuiop aer bjuilo zsbf dm,xdgfn ui0w35bv
-
-adfjkl;aefjkl;awebf huoawebvgf huio;asgrnkl;asbf nhyi0pawevtrhjl; sfjip'aswgrh u890 q2w4vthuiop aer bjuilo zsbf dm,xdgfn ui0w35bv
+This tutorial is split up into sections for the various "subsystem" of the robotic arm. These subsystems are the mechanical system, electrical system, and software system. These systems will then be broken up into even smaller subsystems. Most things in the world can be viewed as a collection of systems working together. There are many advantages to taking this viewpoint when designing things. For one it gives you a logical way to break the project into manageable chunks to work through. It is also scalable, you could have different people work on different subsystems, or even entire teams working on a subsystem. That is not to say the design of the systems are independent. Obviously the electronics of a robotic arm depend on the mechanical system and vica-versa. But by incrementally designing you can ensure that all design goals are met and that the systems will work together seamlessly. 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis odio faucibus, sodales diam quis, lobortis metus. Nullam fermentum nulla sit amet ante lacinia molestie. Morbi venenatis blandit lectus, nec porttitor odio gravida a. Vivamus quis mattis quam. Phasellus malesuada facilisis est nec convallis. Integer ultrices massa faucibus, placerat diam id, porta ex. Donec felis risus, molestie vitae aliquet imperdiet, luctus id augue. Nullam tempor ut orci non luctus. Nullam accumsan cursus ullamcorper. Nunc convallis massa non tellus mollis aliquet. Aenean maximus nulla dolor, malesuada laoreet lacus maximus vitae. Aliquam erat volutpat. In ac interdum ligula. Fusce dignissim, purus sed laoreet consectetur, massa purus suscipit metus, vitae pretium magna orci non metus. Sed mollis urna vitae placerat tristique. Nunc laoreet orci a laoreet suscipit.
 
-$$\tilde G = \mathbb{R}^2\ltimes O(2)$$
+## Design Goals
+Before we can start designing anything, we first have to figure out what we are going to make. Robotic arms can vary wildly and every decision about the design creates trade-offs and compromise. Generally the more specific your design goals and requirements are the more straightforward the design process will be. That said, you're most likely not going to know all of the trade-offs of various requirements going into a project and so the design may have to change if it turns out that someone isn't feasible or impractical.
 
-\\[ H(p,q) = -\int_X p(x)\, \log q(x)\, d\mu(x)\\]
+That being said for this robotic arm our main goal was for it to be straight forward to design and build, and make use of available parts that are reasonably priced. Here are the design goals we came up with:
+
+- Be small enough to sit on a desk and affordable to build
+- Have a reach of about 12in or 30cm
+- Be able to lift small objects
+- Have 3 axises plus a controllable hand/grabber
+- Have a reasonable amount of positional accuracy and repeatability
+
+Throughout this tutorial we will discuss the rational behind these design goals, and what the robot might look like if you choose different design goals. But for now we'll keep them in mind as we start the design process. 
+
+# Design
+
+## Mechanical System
 
 
-## a subsection with more words
 
-Phasellus vehicula vel tellus in tempus. Etiam scelerisque scelerisque rhoncus. Proin elementum consectetur velit, non lobortis augue lobortis sit amet. Nullam feugiat ullamcorper consequat. Nunc finibus odio risus, quis porttitor erat dapibus at. Donec posuere lectus a massa aliquet, nec dignissim nisi convallis. Mauris tempus eleifend dui. Maecenas faucibus interdum lectus id vestibulum. Curabitur et commodo erat. In maximus iaculis lorem ac efficitur. Nulla a dui imperdiet justo interdum porttitor. Vivamus venenatis mattis mi, sed euismod lorem vehicula ac. 
+## Electrical System
 
-### farther subsection
 
-Phasellus vehicula vel tellus in tempus. Etiam scelerisque scelerisque rhoncus. Proin elementum consectetur velit, non lobortis augue lobortis sit amet. Nullam feugiat ullamcorper consequat. Nunc finibus odio risus, quis porttitor erat dapibus at. Donec posuere lectus a massa aliquet, nec dignissim nisi convallis. Mauris tempus eleifend dui. Maecenas faucibus interdum lectus id vestibulum. Curabitu
-
-# Another Section
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat lectus nisl, eget facilisis nibh consectetur quis. Aenean et rhoncus erat, quis ornare sem. Curabitur sit amet dolor ac sem consectetur molestie. Phasellus iaculis mi felis, a elementum diam rhoncus quis. Ut ac lectus ut lectus pellentesque mollis ut a purus. Nunc sed dolor lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus sodales tellus sit amet tempor. Donec placerat quam eget augue pulvinar viverra. Phasellus nec auctor felis.
-
-Aenean lobortis turpis tincidunt, molestie neque a, lobortis nunc. Praesent non urna sit amet quam blandit ullamcorper. Donec hendrerit ante in consequat molestie. Integer vel venenatis arcu. Morbi ac vestibulum tortor. Vivamus blandit, dui non malesuada feugiat, ante ante porta mi, et imperdiet quam neque quis nisi. Nunc venenatis nec augue et gravida.
-## more subsection
-Donec dignissim dolor sed erat consectetur ultricies. Quisque efficitur mi eu sem consectetur posuere. Pellentesque sit amet mi sollicitudin, varius lectus eu, congue odio. Fusce nec suscipit purus. Cras feugiat pharetra hendrerit. Vivamus et turpis enim. Aliquam hendrerit commodo ligula ut euismod. Pellentesque id lectus accumsan, tempus dolor vel, fermentum tortor. Cras porttitor, mi vel scelerisque luctus, ex purus ultricies risus, in dapibus nulla velit eu augue. Phasellus tortor elit, vestibulum et nisl a, scelerisque tincidunt mauris. Nam et sollicitudin ligula. Duis luctus in sapien id laoreet. Maecenas tempus lacinia velit vel hendrerit. Phasellus eu blandit lacus.
-
-# More Section
-
-Phasellus sit amet magna vel ex iaculis mollis accumsan aliquet velit. Morbi nec sapien bibendum, ullamcorper tellus non, egestas augue. Sed et rhoncus mi, at ullamcorper sem. Duis tempus commodo nunc ac maximus. Etiam vehicula et diam ac facilisis. Vivamus pharetra lacinia nisi, quis ornare neque feugiat in. In at tempus nibh.
-
-Nam mattis turpis eu dui dapibus fringilla. Phasellus malesuada lorem et nibh bibendum, sit amet scelerisque justo faucibus. Integer convallis laoreet nisi, non imperdiet tortor. Maecenas purus eros, iaculis in enim ac, congue mollis eros. Fusce id libero bibendum, maximus diam sit amet, vestibulum nulla. Praesent cursus lectus placerat purus accumsan tempus. In sed nisi quis est posuere tincidunt. 
+## Software System
