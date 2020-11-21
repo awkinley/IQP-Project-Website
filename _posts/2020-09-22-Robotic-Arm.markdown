@@ -8,14 +8,15 @@ project_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor
 project_color: "#44679C"
 ---
 
-# Robotic Arm Page
+# Introduction 
+
+---
 
 ## Overview 
 
 The goal of this tutorial is to walk you through the design of a robotic arm, from design requirements to planning to a completed design that you could then fabricate. We hope to provide enough context for our decisions so that you could take this knowledge and apply it to designing things besides a robotic arm. We will also routinely reference physics and other engineering theory to verify that the arm will work, improve the design, and demonstrate how theory gets used in practical engineering. 
 
 This tutorial is split up into sections for the various "subsystems" of the robotic arm. These subsystems are the mechanical system, electrical system, and software system. These systems will then be broken up into even smaller subsystems. Most things in the world can be viewed as a collection of systems working together. There are many advantages to taking this viewpoint when designing things. For one it gives you a logical way to break the project into manageable chunks to work through. It is also scalable, you could have different people work on different subsystems, or even entire teams working on a subsystem. That is not to say the design of the systems are independent. Obviously the electronics of a robotic arm depend on the mechanical system and vica-versa. But by incrementally designing you can ensure that all design goals are met and that the systems will work together seamlessly. 
-
 
 
 ## Design Requirements
@@ -32,6 +33,10 @@ That being said for this robotic arm our main goal was for it to be straight for
 Throughout this tutorial we will discuss the rational behind these design goals, and what the robot might look like if you choose different design goals. But for now we'll keep them in mind as we start the design process. 
 
 # Design
+
+---
+
+## Basics
 
 Like we said in the overview, we have split the design into three major subsystems: mechanical, electrical, and software. First let's define exactly what we mean by those terms.
 
@@ -58,7 +63,7 @@ We don't want to build a big robotic arm that you might find on a factory produc
 
 2 - Have a reach of about 12in or 30cm
 
-This is really a more specific version of saying it should be able to sit on a desk. 
+This is really a more specific version of saying it should be able to sit on a desk. We have taken a general requirement and
 
 ## Electrical System
 
