@@ -234,7 +234,7 @@
 
 }
 .project-boxes > div > a {
-        margin: calc(#{$spacing-unit} / 2);
+    margin: calc(#{$spacing-unit} / 2);
 }
 .project-boxes > div > div{
     margin: calc(#{$spacing-unit} / 2);
@@ -346,8 +346,9 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include media-query($post-width) {
         @include relative-font-size(2.25);
+        padding-left: 30px
     }
 }
 
@@ -403,16 +404,17 @@
     overflow: clip;
 }
 
-#section-names a{
-    @include relative-font-size(2);
+#section-names a {
+    @include relative-font-size(1.2);
 
     @include media-query($on-laptop) {
-        @include relative-font-size(1.5);
-    }
-}
+        @include relative-font-size(1);
+   }
+}  
+
 
 .post-nav {
-    min-width: 300px;
+    min-width: 250px;
     width: 20%;
     height: 100%;
     float: left;
@@ -421,8 +423,10 @@
     /* what to do when we have enough space for the sidebar */
     .sidebar {
         height: 100%;
-        padding: $spacing-unit;
-
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
+        padding-left: $spacing-unit;
+        padding-right: calc(#{$spacing-unit} / 2);
 
     }
 
@@ -436,10 +440,12 @@
 
     @include media-query($post-width) {
         /* when we have to go into a hamburger */
+        min-width: 0px;
+        width: auto;
         position: absolute;
-        top: 9px;
-        left: 0px;
-        background-color: $background-color;
+        top: $spacing-unit;
+        left: calc(5% + #{$spacing-unit} - 10px);
+        background-color: $background-color !important;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: left;
@@ -480,6 +486,31 @@
     }
 }
 
+.sidebar {
+    .site-title{
+        color: $grey-color-dark;
+        @include relative-font-size(2);
+        font-weight: 300;
+        font-family: Ubuntu;
+        line-height: $base-line-height * $base-font-size * 2.25;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+        float: left;
+
+    }
+    a {
+        color: #393939;
+    }
+    > ul {
+        margin-left: 0px;
+    }
+    ul {
+        list-style: none;
+    }
+    li:before {
+      content: "\2010 ";
+    }
+}
 
 .main-content {
     float: right;
