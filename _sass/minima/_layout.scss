@@ -229,8 +229,16 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-}
 
+    
+
+}
+.project-boxes > div > a {
+        margin: calc(#{$spacing-unit} / 2);
+}
+.project-boxes > div > div{
+    margin: calc(#{$spacing-unit} / 2);
+}
 @mixin project-box {
     max-width: 800px;
     display: flex;
