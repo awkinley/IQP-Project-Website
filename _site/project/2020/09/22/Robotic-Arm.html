@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Robotic Arm | Maker Projects for Learning</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Robotic Arm" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction" />
+<meta property="og:description" content="Introduction" />
+<link rel="canonical" href="http://localhost:4000/project/2020/09/22/Robotic-Arm.html" />
+<meta property="og:url" content="http://localhost:4000/project/2020/09/22/Robotic-Arm.html" />
+<meta property="og:site_name" content="Maker Projects for Learning" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-22T10:06:30-04:00" />
+<script type="application/ld+json">
+{"headline":"Robotic Arm","dateModified":"2020-09-22T10:06:30-04:00","datePublished":"2020-09-22T10:06:30-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2020/09/22/Robotic-Arm.html"},"url":"http://localhost:4000/project/2020/09/22/Robotic-Arm.html","description":"Introduction","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Maker Projects for Learning" /><script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="/scripts/sidebar.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </script>
+    </script>
+</head><body>
+	
+    <main class="post-main" aria-label="Content">
+        <nav class="post-nav" style="background-color:#44679C">
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger">
+        <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+            </svg>
+        </span>
+    </label>
+    <div class="sidebar">
+        <a class="site-title" rel="author" href="/">Maker Projects for Learning</a>
+        <ul id="section-names">
+        </ul>
+    </div>
+</nav>
+<!-- <div class="sidebar" style="background-color:#44679C">
+    <a class="site-title" rel="author" href="/">Maker Projects for Learning</a>
+    <ul id="section-names">
+    </ul>
+</div> -->
+<div class="main-content">
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">Robotic Arm</h1>
+            <p class="post-meta">
+                <time class="dt-published" datetime="2020-09-22T10:06:30-04:00" itemprop="datePublished">Sep 22, 2020
+                </time></p>
+        </header>
+        <div id="content" class="post-content e-content" itemprop="articleBody">
+            <h1 id="introduction">Introduction</h1>
+
+<hr />
+
+<h2 id="overview">Overview</h2>
+
+<p>The goal of this tutorial is to walk you through the design of a robotic arm, from design requirements to planning to a completed design that you could then fabricate. We hope to provide enough context for our decisions so that you could take this knowledge and apply it to designing things besides a robotic arm. We will also routinely reference physics and other engineering theory to verify that the arm will work, improve the design, and demonstrate how theory gets used in practical engineering.</p>
+
+<p>This tutorial is split up into sections for the various “subsystems” of the robotic arm. These subsystems are the mechanical system, electrical system, and software system. These systems will then be broken up into even smaller subsystems. Most things in the world can be viewed as a collection of systems working together. There are many advantages to taking this viewpoint when designing things. For one it gives you a logical way to break the project into manageable chunks to work through. It is also scalable, you could have different people work on different subsystems, or even entire teams working on a subsystem. That is not to say the design of the systems are independent. Obviously the electronics of a robotic arm depend on the mechanical system and vica-versa. But by incrementally designing you can ensure that all design goals are met and that the systems will work together seamlessly.</p>
+
+<h2 id="methodology">Methodology</h2>
+
+<p>This chart demonstrates the basic design methodology that I’ll be walking you through. At the most basic level we start with a set of goals, that we use to form more concrete design requirements. These design requirements then inform the design requirements of the various subsections. Then the various subsections get designed, and then combined together in the final design.</p>
+<p style="text-align: center;"><img src="/imgs/Robotic_Arm_imgs/Engineering_Flowchart.png" alt="Engineering Flowchart" /></p>
+
+<p>As is denoted in this diagram, the subsections are not designed in a vacuum. The size of the arm in part determines the motors that get used which determine what circuitry is needed to control those motors, etc. What this diagram does not show, is that the process is not as linear as may be indicated. Your design requirements may change, parts of your goals may not be attainable, etc. You likely won’t know how feasible your design requirements are until you start designing and prototyping. As such you may learn that what you thought was possible may not be, or maybe your requirements weren’t as ambitious as they could have been.</p>
+
+<p>This tutorial will generally follow this flowchart. Included in this will be discussion of various sections that might have driven our design requirements or forced us to go with a different solution that we may have originally imagined.</p>
+
+<h1 id="goals">Goals</h1>
+<hr />
+
+<p>Starting at the first step of our design methodology, we first need to start with basic goals for the project. These goals are as follows</p>
+
+<ul>
+  <li>Create something that obviously resembles a robotic arm</li>
+  <li>Design something that can reasonably be built by a college student with access to standard equipment</li>
+  <li>Follow “good design practices” as often as possible</li>
+  <li>Have the final design be affordable enough to built</li>
+</ul>
+
+<p>Most of these goals are self explanatory. Some of these goals may get higher priority than others as design decisions need to be made, but these are the basics of what we started with. If you were to design a robotic arm, you may end up with different goals. You may care more about the functionality, or you may have a specific application in mind that you can tailor your design towards.</p>
+
+<h1 id="design-requirements">Design Requirements</h1>
+
+<hr />
+
+<p>Now that we have our basic goals, we can try and flesh these out into design requirements. Generally speaking, the more specific your design goals and requirements are the more straightforward the design process will be. That said, there are a lot of decisions that you make when you define your design requirements. For example the size of robotic arm plays a large part in terms of things like materials used, motor choice, and design cost. You’re most likely not going to know all of the trade-offs that those decisions play when you set out on a project. That means your design requirements are likely to change as you progress through the design phase.</p>
+
+<p>That being said for this robotic arm our main goal was for it to be straight forward to design and build, and make use of available parts that are reasonably priced. Here are the design goals we came up with:</p>
+
+<ul>
+  <li>Be small enough to sit on a desk and affordable to build</li>
+  <li>Have a reach of about 12in or 30cm</li>
+  <li>Be able to lift small objects</li>
+  <li>Have 3 axises plus a controllable hand/grabber</li>
+  <li>Have a reasonable amount of positional accuracy and repeatability</li>
+</ul>
+
+<p>Throughout this tutorial we will discuss the rational behind these design goals, and what the robot might look like if you choose different design goals. But for now we’ll keep them in mind as we start the design process.</p>
+
+<h1 id="design">Design</h1>
+
+<hr />
+
+<h2 id="basics">Basics</h2>
+
+<p>Like we said in the overview, we have split the design into three major subsystems: mechanical, electrical, and software. First let’s define exactly what we mean by those terms.</p>
+
+<p><strong>Mechanical System</strong>:</p>
+<div style="padding-left: 30px;">
+This is concerned with the parts of the arm that are a part of it's structure. This is a fairly broad definition because it's a broad category. It includes the design of the joints of the robotic arm, the linkages between the joints, the base of the arm, and any other parts that physically hold, support, or contain any part of the robot.
+</div>
+
+<p><br />
+<strong>Electrical System</strong>:</p>
+<div style="padding-left: 30px;">
+This one if fairly self explanatory, if it uses electricity it's probably part of the electrical system. This includes the motors, power supplies, and controllers. 
+</div>
+<p><br />
+<strong>Software System</strong>:</p>
+<div style="padding-left: 30px;">
+Again fairly self explanatory, any code that is part of the operation of the robot. This could include code that runs on a microcontroller or programs that run on a computer connected to the robotic arm. 
+</div>
+<p><br />
+A note about motors: motors exist in a bit of a gray spot between the mechanical and electrical system, they are an integral part of both design. That being said the mechanical system views motors as a physical part that produces a force and needs to be mounted, while the electrical system views motors as a circuit element that needs to be powered and controlled.</p>
+
+<h2 id="mechanical-system">Mechanical System</h2>
+
+<p>Now that we’ve gotten through the design requirements we can start the actual designing. We will also talk about why the design requirements are the way they are. So we’ll start from the ground up. As discussed early when you want to build a robotic arm you still have a lot of questions to answer about specific design requirements before you can really start in on a design. So lets go through the design requirements one by one and talk about what they mean, why they were chosen, and what they imply for the design.</p>
+
+<p>1 - Be small enough to sit on a desk and affordable to build</p>
+
+<p>We don’t want to build a big robotic arm that you might find on a factory production floor, and we don’t want it to cost thousands of dollars to build. These are practical requirements that will inform our design as well as our other design requirements.</p>
+
+<p>2 - Have a reach of about 12in or 30cm</p>
+
+<p>This is really a more specific version of saying it should be able to sit on a desk. We have taken a general requirement and given it a clear meaning. The exact size if somewhat arbitrary. A nice round number like 30cm will our numbers reasonably nice. This size also influences what motors we have to choose. As we’ll talk about later, the longer the arm is, the bigger motor or the more mechanical advantage we need in order for the robot to be able to support itself as well as anything it is holding onto.</p>
+
+<p>3 - Be able to lift small objects</p>
+
+<p>We want the arm to at least be somewhat functional, although we’re prioritizing 
+4 - Have 3 axises plus a controllable hand/grabber
+5 - Have a reasonable amount of positional accuracy and repeatability</p>
+
+<h3 id="base-of-the-arm">Base of the Arm</h3>
+
+<h3 id="shoulder">Shoulder</h3>
+
+<h3 id="elbow">Elbow</h3>
+
+<h3 id="hand">Hand</h3>
+
+<h2 id="electrical-system">Electrical System</h2>
+
+<h2 id="software-system">Software System</h2>
+
+        </div><a class="u-url" href="/project/2020/09/22/Robotic-Arm.html" hidden></a>
+    </article>
+</div>
+    </main>
+</body>
+
+</html>

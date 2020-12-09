@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-08T14:26:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/project/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;The goal of this tutorial is to walk you through the design of a robotic arm, from design requirements to planning to a completed design that you could then fabricate. We hope to provide enough context for our decisions so that you could take this knowledge and apply it to designing things besides a robotic arm. We will also routinely reference physics and other engineering theory to verify that the arm will work, improve the design, and demonstrate how theory gets used in practical engineering.&lt;/p&gt;
+
+&lt;p&gt;This tutorial is split up into sections for the various “subsystems” of the robotic arm. These subsystems are the mechanical system, electrical system, and software system. These systems will then be broken up into even smaller subsystems. Most things in the world can be viewed as a collection of systems working together. There are many advantages to taking this viewpoint when designing things. For one it gives you a logical way to break the project into manageable chunks to work through. It is also scalable, you could have different people work on different subsystems, or even entire teams working on a subsystem. That is not to say the design of the systems are independent. Obviously the electronics of a robotic arm depend on the mechanical system and vica-versa. But by incrementally designing you can ensure that all design goals are met and that the systems will work together seamlessly.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodology&quot;&gt;Methodology&lt;/h2&gt;
+
+&lt;p&gt;This chart demonstrates the basic design methodology that I’ll be walking you through. At the most basic level we start with a set of goals, that we use to form more concrete design requirements. These design requirements then inform the design requirements of the various subsections. Then the various subsections get designed, and then combined together in the final design.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/imgs/Robotic_Arm_imgs/Engineering_Flowchart.png&quot; alt=&quot;Engineering Flowchart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As is denoted in this diagram, the subsections are not designed in a vacuum. The size of the arm in part determines the motors that get used which determine what circuitry is needed to control those motors, etc. What this diagram does not show, is that the process is not as linear as may be indicated. Your design requirements may change, parts of your goals may not be attainable, etc. You likely won’t know how feasible your design requirements are until you start designing and prototyping. As such you may learn that what you thought was possible may not be, or maybe your requirements weren’t as ambitious as they could have been.&lt;/p&gt;
+
+&lt;p&gt;This tutorial will generally follow this flowchart. Included in this will be discussion of various sections that might have driven our design requirements or forced us to go with a different solution that we may have originally imagined.&lt;/p&gt;
+
+&lt;h1 id=&quot;goals&quot;&gt;Goals&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Starting at the first step of our design methodology, we first need to start with basic goals for the project. These goals are as follows&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create something that obviously resembles a robotic arm&lt;/li&gt;
+  &lt;li&gt;Design something that can reasonably be built by a college student with access to standard equipment&lt;/li&gt;
+  &lt;li&gt;Follow “good design practices” as often as possible&lt;/li&gt;
+  &lt;li&gt;Have the final design be affordable enough to built&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these goals are self explanatory. Some of these goals may get higher priority than others as design decisions need to be made, but these are the basics of what we started with. If you were to design a robotic arm, you may end up with different goals. You may care more about the functionality, or you may have a specific application in mind that you can tailor your design towards.&lt;/p&gt;
+
+&lt;h1 id=&quot;design-requirements&quot;&gt;Design Requirements&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Now that we have our basic goals, we can try and flesh these out into design requirements. Generally speaking, the more specific your design goals and requirements are the more straightforward the design process will be. That said, there are a lot of decisions that you make when you define your design requirements. For example the size of robotic arm plays a large part in terms of things like materials used, motor choice, and design cost. You’re most likely not going to know all of the trade-offs that those decisions play when you set out on a project. That means your design requirements are likely to change as you progress through the design phase.&lt;/p&gt;
+
+&lt;p&gt;That being said for this robotic arm our main goal was for it to be straight forward to design and build, and make use of available parts that are reasonably priced. Here are the design goals we came up with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be small enough to sit on a desk and affordable to build&lt;/li&gt;
+  &lt;li&gt;Have a reach of about 12in or 30cm&lt;/li&gt;
+  &lt;li&gt;Be able to lift small objects&lt;/li&gt;
+  &lt;li&gt;Have 3 axises plus a controllable hand/grabber&lt;/li&gt;
+  &lt;li&gt;Have a reasonable amount of positional accuracy and repeatability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Throughout this tutorial we will discuss the rational behind these design goals, and what the robot might look like if you choose different design goals. But for now we’ll keep them in mind as we start the design process.&lt;/p&gt;
+
+&lt;h1 id=&quot;design&quot;&gt;Design&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
+
+&lt;p&gt;Like we said in the overview, we have split the design into three major subsystems: mechanical, electrical, and software. First let’s define exactly what we mean by those terms.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanical System&lt;/strong&gt;:&lt;/p&gt;
+&lt;div style=&quot;padding-left: 30px;&quot;&gt;
+This is concerned with the parts of the arm that are a part of it's structure. This is a fairly broad definition because it's a broad category. It includes the design of the joints of the robotic arm, the linkages between the joints, the base of the arm, and any other parts that physically hold, support, or contain any part of the robot.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Electrical System&lt;/strong&gt;:&lt;/p&gt;
+&lt;div style=&quot;padding-left: 30px;&quot;&gt;
+This one if fairly self explanatory, if it uses electricity it's probably part of the electrical system. This includes the motors, power supplies, and controllers. 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Software System&lt;/strong&gt;:&lt;/p&gt;
+&lt;div style=&quot;padding-left: 30px;&quot;&gt;
+Again fairly self explanatory, any code that is part of the operation of the robot. This could include code that runs on a microcontroller or programs that run on a computer connected to the robotic arm. 
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+A note about motors: motors exist in a bit of a gray spot between the mechanical and electrical system, they are an integral part of both design. That being said the mechanical system views motors as a physical part that produces a force and needs to be mounted, while the electrical system views motors as a circuit element that needs to be powered and controlled.&lt;/p&gt;
+
+&lt;h2 id=&quot;mechanical-system&quot;&gt;Mechanical System&lt;/h2&gt;
+
+&lt;p&gt;Now that we’ve gotten through the design requirements we can start the actual designing. We will also talk about why the design requirements are the way they are. So we’ll start from the ground up. As discussed early when you want to build a robotic arm you still have a lot of questions to answer about specific design requirements before you can really start in on a design. So lets go through the design requirements one by one and talk about what they mean, why they were chosen, and what they imply for the design.&lt;/p&gt;
+
+&lt;p&gt;1 - Be small enough to sit on a desk and affordable to build&lt;/p&gt;
+
+&lt;p&gt;We don’t want to build a big robotic arm that you might find on a factory production floor, and we don’t want it to cost thousands of dollars to build. These are practical requirements that will inform our design as well as our other design requirements.&lt;/p&gt;
+
+&lt;p&gt;2 - Have a reach of about 12in or 30cm&lt;/p&gt;
+
+&lt;p&gt;This is really a more specific version of saying it should be able to sit on a desk. We have taken a general requirement and given it a clear meaning. The exact size if somewhat arbitrary. A nice round number like 30cm will our numbers reasonably nice. This size also influences what motors we have to choose. As we’ll talk about later, the longer the arm is, the bigger motor or the more mechanical advantage we need in order for the robot to be able to support itself as well as anything it is holding onto.&lt;/p&gt;
+
+&lt;p&gt;3 - Be able to lift small objects&lt;/p&gt;
+
+&lt;p&gt;We want the arm to at least be somewhat functional, although we’re prioritizing 
+4 - Have 3 axises plus a controllable hand/grabber
+5 - Have a reasonable amount of positional accuracy and repeatability&lt;/p&gt;
+
+&lt;h3 id=&quot;base-of-the-arm&quot;&gt;Base of the Arm&lt;/h3&gt;
+
+&lt;h3 id=&quot;shoulder&quot;&gt;Shoulder&lt;/h3&gt;
+
+&lt;h3 id=&quot;elbow&quot;&gt;Elbow&lt;/h3&gt;
+
+&lt;h3 id=&quot;hand&quot;&gt;Hand&lt;/h3&gt;
+
+&lt;h2 id=&quot;electrical-system&quot;&gt;Electrical System&lt;/h2&gt;
+
+&lt;h2 id=&quot;software-system&quot;&gt;Software System&lt;/h2&gt;</content><author><name></name></author><category term="project" /><summary type="html">Introduction</summary></entry><entry><title type="html">Test Fixture</title><link href="http://localhost:4000/project/2020/09/22/Test-Fixture.html" rel="alternate" type="text/html" title="Test Fixture" /><published>2020-09-22T10:05:30-04:00</published><updated>2020-09-22T10:05:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Test-Fixture</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Test-Fixture.html">&lt;p&gt;Text Fixture Page&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis odio faucibus, sodales diam quis, lobortis metus. Nullam fermentum nulla sit amet ante lacinia molestie. Morbi venenatis blandit lectus, nec porttitor odio gravida a. Vivamus quis mattis quam. Phasellus malesuada facilisis est nec convallis. Integer ultrices massa faucibus, placerat diam id, porta ex. Donec felis risus, molestie vitae aliquet imperdiet, luctus id augue. Nullam tempor ut orci non luctus. Nullam accumsan cursus ullamcorper. Nunc convallis massa non tellus mollis aliquet. Aenean maximus nulla dolor, malesuada laoreet lacus maximus vitae. Aliquam erat volutpat. In ac interdum ligula. Fusce dignissim, purus sed laoreet consectetur, massa purus suscipit metus, vitae pretium magna orci non metus. Sed mollis urna vitae placerat tristique. Nunc laoreet orci a laoreet suscipit.&lt;/p&gt;
+
+&lt;p&gt;Phasellus vehicula vel tellus in tempus. Etiam scelerisque scelerisque rhoncus. Proin elementum consectetur velit, non lobortis augue lobortis sit amet. Nullam feugiat ullamcorper consequat. Nunc finibus odio risus, quis porttitor erat dapibus at. Donec posuere lectus a massa aliquet, nec dignissim nisi convallis. Mauris tempus eleifend dui. Maecenas faucibus interdum lectus id vestibulum. Curabitur et commodo erat. In maximus iaculis lorem ac efficitur. Nulla a dui imperdiet justo interdum porttitor. Vivamus venenatis mattis mi, sed euismod lorem vehicula ac.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Text Fixture Page</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Video Game</title><link href="http://localhost:4000/project/2020/09/22/Video-Game.html" rel="alternate" type="text/html" title="Video Game" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Video-Game</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Video-Game.html">&lt;p&gt;Video Game Page&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goal of the Project&lt;/strong&gt;&lt;br /&gt;
+This project is meant to serve as a method to teach you game design through theory and application. Using this documentation you will be able to design your own game and with the knowledge gained, be able to design a whole new game of your own and get on track to learn even more about game design. The game designed here is a very simple one, meant only to teach methods of game design and give useful lessons or techniques about game design. Although such a simple game like this one has plenty of room for additions of your own if you like. And remember, in game design, anything is possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prior Knowledge&lt;/strong&gt;&lt;br /&gt;
+No knowledge of Unity / Visual Studio is needed, and neither is any knowledge about C# scripting. Although not necessary, experience or understanding of coding or game design theory is useful for understanding these topics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Game Demo and Premade Sprites&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;/zip/DemoAndSprites.zip&quot;&gt;Download Zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;installing-unity-and-visual-studio&quot;&gt;Installing Unity and Visual Studio&lt;/h1&gt;
+&lt;p&gt;If you do not have Unity or Visual Studio installed you are going to want to install the latest versions of Unity Hub and Visual Studio. Unity Hub acts as a medium for installing the actual Unity Editor along with accessing content provided by other users, It also makes installing Unity much easier. Visual Studio is an excellent programming software that Unity prefers to use to edit code and create scripts for your game.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unity Installation Documentation&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.unity3d.com/2020.2/Documentation/Manual/GettingStartedInstallingUnity.html&quot;&gt;https://docs.unity3d.com/2020.2/Documentation/Manual/GettingStartedInstallingUnity.html&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Visual Studio Installation Documentation&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows&quot;&gt;https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;understanding-the-unity-editor&quot;&gt;Understanding the Unity Editor&lt;/h1&gt;
+&lt;p&gt;Before starting your project it is important to have a basic understanding of Unity and how you can use the Editor. However the bulk of your understanding will come from actually designing your game and testing things out.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-unity-editor&quot;&gt;&lt;strong&gt;The Unity Editor&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;This is a screenshot of what the Editor generally looks like&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&quot;/imgs/Mike_Images/image17.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;As you can see, there are four main parts of the screen&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;The Hierarchy (Upper Left)&lt;/strong&gt;&lt;br /&gt;
+This part shows all the objects present in the game scene at that moment. This could include the camera, the player, random objects like rocks, or enemies, etc. It also displays the relationship between the objects too, for example if a certain object is a child of another where all of its movements are relative to its parent instead of the space around it.&lt;br /&gt;
+&lt;strong&gt;The File System / Console (Bottom)&lt;/strong&gt;&lt;br /&gt;
+This part displays the files in your game such as images or programs or useful tools the editor needs but you don’t really need to worry about. The file system is useful for organizing things you need to put into your game. The console acts as a method to display errors or messages to you from code running in your game or errors with your game objects. It is useful for debugging your code.&lt;br /&gt;
+&lt;strong&gt;The Game (Middle)&lt;/strong&gt;&lt;br /&gt;
+This displays what your current scene looks like. It allows you to move objects around, scale them or edit components of them. It also displays your game when you run it so you can play it as you build it.&lt;br /&gt;
+&lt;strong&gt;The Inspector (Right)&lt;/strong&gt;&lt;br /&gt;
+This part allows you to add components and scripts to a game object, set variables, position objects very specifically and much more. It allows you to interact with your scripts’ variables before and during running your game.&lt;/p&gt;
+
+&lt;h3 id=&quot;important-concepts&quot;&gt;&lt;strong&gt;Important Concepts&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Game Objects&lt;/strong&gt;
+This is a very important concept to understand. Essentially everything that is in a game is an object or clone of an object. All code that is run must be attached to a game object. The camera is a game object, and so is some light source or some background image or an enemy or anything. All game objects have a Transform component which means they have a position that can be set in the X Y and Z axis, a scale on each axis, and a rotation around each axis. Game objects don’t have to be visible, some are there purely to run code. These values can be changed through the editor or through scripts.
+&lt;strong&gt;Scripts&lt;/strong&gt;
+This is another very important thing to understand. Scripts are files of C# code that can be attached to game objects. These scripts can manage player movement or spawn enemies or do whatever you need them to do for your game. Typically a script is made of a section of variables, a start method and an update method. Variables could be numbers or strings or game objects or whatever that you can set in the editor or through the script. The start method is called the first frame a game object runs its code and only then. And the update method is called every frame. In these methods are chunks of code you put in there. 
+An important concept in scripts is the variables, which generally are either public or private. A private variable can only be accessed within its script and must be set in that script, while a public variable can be accessed by other scripts and can be set in the editor too. 
+&lt;strong&gt;Components&lt;/strong&gt;
+These are additions to game objects you can add that handle various things not every game object might need. For example the Sprite Renderer component allows a game object to show an image in its place. And the BoxCollider component allows a game object to either collide and push other game objects with the same component or detect when overlapping with another game object. Components allow for game objects to do a lot more stuff. 
+&lt;strong&gt;Scenes&lt;/strong&gt;
+These are essentially the different levels of a game. They are built separately from each other and cannot interact with each other’s game objects easily because only one scene is able to run at a time. You are able to switch between scenes through scripts which stops and resets the current scene and starts the new one.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Video Game Page</summary></entry><entry><title type="html">CNC Machine</title><link href="http://localhost:4000/project/2020/09/22/CNC-Machine.html" rel="alternate" type="text/html" title="CNC Machine" /><published>2020-09-22T10:02:30-04:00</published><updated>2020-09-22T10:02:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/CNC-Machine</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/CNC-Machine.html">&lt;p&gt;CNC Machine Page&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis odio faucibus, sodales diam quis, lobortis metus. Nullam fermentum nulla sit amet ante lacinia molestie. Morbi venenatis blandit lectus, nec porttitor odio gravida a. Vivamus quis mattis quam. Phasellus malesuada facilisis est nec convallis. Integer ultrices massa faucibus, placerat diam id, porta ex. Donec felis risus, molestie vitae aliquet imperdiet, luctus id augue. Nullam tempor ut orci non luctus. Nullam accumsan cursus ullamcorper. Nunc convallis massa non tellus mollis aliquet. Aenean maximus nulla dolor, malesuada laoreet lacus maximus vitae. Aliquam erat volutpat. In ac interdum ligula. Fusce dignissim, purus sed laoreet consectetur, massa purus suscipit metus, vitae pretium magna orci non metus. Sed mollis urna vitae placerat tristique. Nunc laoreet orci a laoreet suscipit.&lt;/p&gt;
+
+&lt;p&gt;Phasellus vehicula vel tellus in tempus. Etiam scelerisque scelerisque rhoncus. Proin elementum consectetur velit, non lobortis augue lobortis sit amet. Nullam feugiat ullamcorper consequat. Nunc finibus odio risus, quis porttitor erat dapibus at. Donec posuere lectus a massa aliquet, nec dignissim nisi convallis. Mauris tempus eleifend dui. Maecenas faucibus interdum lectus id vestibulum. Curabitur et commodo erat. In maximus iaculis lorem ac efficitur. Nulla a dui imperdiet justo interdum porttitor. Vivamus venenatis mattis mi, sed euismod lorem vehicula ac.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">CNC Machine Page</summary></entry><entry><title type="html">example tests</title><link href="http://localhost:4000/project/2020/08/01/example-tests.html" rel="alternate" type="text/html" title="example tests" /><published>2020-08-01T10:06:30-04:00</published><updated>2020-08-01T10:06:30-04:00</updated><id>http://localhost:4000/project/2020/08/01/example-tests</id><content type="html" xml:base="http://localhost:4000/project/2020/08/01/example-tests.html">&lt;h1 id=&quot;markdown-and-other-cool-examples-webpage&quot;&gt;Markdown and other cool examples webpage&lt;/h1&gt;
+
+&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
+
+&lt;h1 id=&quot;example-heading&quot;&gt;Example Heading&lt;/h1&gt;
+&lt;h2 id=&quot;example-subheading&quot;&gt;Example subheading&lt;/h2&gt;
+
+&lt;h1 id=&quot;images&quot;&gt;Images&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/imgs/boat.jpg&quot; alt=&quot;Image test&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;equations&quot;&gt;Equations&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis odio faucibus, sodales diam quis, lobortis metus. Nullam fermentum nulla sit amet ante lacinia molestie. Morbi venenatis blandit lectus, nec porttitor odio gravida a. Vivamus quis mattis quam. Phasellus malesuada facilisis est nec convallis. Integer ultrices massa faucibus, placerat diam id, porta ex. Donec felis risus, molestie vitae aliquet imperdiet, luctus id augue. Nullam tempor ut orci non luctus. Nullam accumsan cursus ullamcorper. Nunc convallis massa non tellus mollis aliquet. Aenean maximus nulla dolor, malesuada laoreet lacus maximus vitae. Aliquam erat volutpat. In ac interdum ligula. Fusce dignissim, purus sed laoreet consectetur, massa purus suscipit metus, vitae pretium magna orci non metus. Sed mollis urna vitae placerat tristique. Nunc laoreet orci a laoreet suscipit.&lt;/p&gt;
+
+&lt;!-- $$\tilde G = \mathbb{R}^2 \ltimes O(2)$$ --&gt;
+
+&lt;p&gt;\[ H(p,q) = -\int_X p(x) \; \log q(x) d\mu(x)\]&lt;/p&gt;
+
+&lt;h1 id=&quot;code-blocks&quot;&gt;Code blocks&lt;/h1&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Image test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/imgs/boat.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;data-graphs&quot;&gt;data graphs&lt;/h1&gt;
+
+&lt;div id=&quot;tester&quot; style=&quot;width:600px;height:250px;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+	TESTER = document.getElementById('tester');
+
+	Plotly.plot( TESTER, [{
+	    x: [1, 2, 3, 4, 5],
+	    y: [1, 2, 4, 8, 16] }], { 
+	    margin: { t: 0 } }, {showSendToCloud:true} );
+&lt;/script&gt;
+
+&lt;h1 id=&quot;equation-graphs&quot;&gt;equation graphs&lt;/h1&gt;
+
+&lt;canvas id=&quot;myCanvas&quot; width=&quot;578&quot; height=&quot;300&quot;&gt;&lt;/canvas&gt;
+&lt;script&gt;
+  var myGraph = new Graph({
+    canvasId: 'myCanvas',
+    minX: -10,
+    minY: -10,
+    maxX: 10,
+    maxY: 10,
+    unitsPerTick: 1
+  });
+
+  myGraph.equations.push([(function(x) {
+    return 5 * Math.sin(x);
+  }), 'green', 3]);
+  myGraph.equations.push([(function(x) {
+    return x * x;
+  }), 'blue', 3]);
+  myGraph.equations.push([(function(x) {
+    return 1 * x;
+  }), 'red', 3]);
+  myGraph.redraw();
+
+&lt;/script&gt;
+
+&lt;h1 id=&quot;embed-youtube-videos&quot;&gt;Embed youtube videos&lt;/h1&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9LssTi4X8jY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="project" /><summary type="html">Markdown and other cool examples webpage</summary></entry></feed>
