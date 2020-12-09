@@ -105,8 +105,15 @@ This is really a more specific version of saying it should be able to sit on a d
 3 - Be able to lift small objects
 
 We want the arm to at least be somewhat functional, although we're prioritizing 
+
+
 4 - Have 3 axises plus a controllable hand/grabber
+
+This is a practical requirement. Most modern robotic arms have 6 axis, but at this scale that would be challenging, and is more design work that this tutorial is aiming for. Three axises is the smallest number of axises that can make something that is at least reasonably useful.
+
 5 - Have a reasonable amount of positional accuracy and repeatability
+
+This is another general requirement that basically amounts to saying that the robotic arm should know where it is and be able to move between locations, although the precise positional accuracy is unimportant.
 
 ### Base of the Arm
 
