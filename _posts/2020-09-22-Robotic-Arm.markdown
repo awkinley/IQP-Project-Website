@@ -24,7 +24,7 @@ This tutorial is split up into sections for the various "subsystems" of the robo
 
 This chart demonstrates the basic design methodology that I'll be walking you through. At the most basic level we start with a set of goals, that we use to form more concrete design requirements. These design requirements then inform the design requirements of the various subsections. Then the various subsections get designed, and then combined together in the final design. 
 {:refdef: style="text-align: center;"}
-![Engineering Flowchart]({{ "/imgs/Robotic_Arm_imgs/Engineering_Flowchart.png" | relative_path }})
+![Engineering Flowchart]({{ site.url }} /imgs/Robotic_Arm_imgs/Engineering_Flowchart.png)
 {: refdef}
 
 As is denoted in this diagram, the subsections are not designed in a vacuum. The size of the arm in part determines the motors that get used which determine what circuitry is needed to control those motors, etc. What this diagram does not show, is that the process is not as linear as may be indicated. Your design requirements may change, parts of your goals may not be attainable, etc. You likely won't know how feasible your design requirements are until you start designing and prototyping. As such you may learn that what you thought was possible may not be, or maybe your requirements weren't as ambitious as they could have been.
