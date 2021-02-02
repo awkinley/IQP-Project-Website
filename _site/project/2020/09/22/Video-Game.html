@@ -66,7 +66,7 @@ This project will introduce game development through Unity and C# Scripting and 
 No knowledge of Unity / Visual Studio is needed, and neither is any knowledge about C# scripting. Although not necessary, experience or understanding of coding or game design theory is useful for understanding these topics.</p>
 
 <p><strong>Game Demo and Premade Sprites</strong><br />
-<a href="/zip/DemoSprites.zip">Download Zip</a><br />
+<a href="http://localhost:4000/zip/DemoSprites.zip">Download Zip</a><br />
 <em>To play the demo, extract the zip file and run the middle application file from the folder named demo.</em></p>
 
 <h1 id="installing-unity-and-visual-studio">Installing Unity and Visual Studio</h1>
@@ -82,7 +82,7 @@ No knowledge of Unity / Visual Studio is needed, and neither is any knowledge ab
 
 <h3 id="the-unity-editor"><strong>The Unity Editor</strong></h3>
 <p><em>This is a screenshot of what the Editor generally looks like</em><br />
-<img src="/imgs/Mike_Images/image17.png" alt="" />
+<img src="http://localhost:4000/imgs/Mike_Images/image17.png" alt="" />
 <em>As you can see, there are four main parts of the screen</em><br />
 <strong>The Hierarchy (Upper Left)</strong><br />
 This part shows all the objects present in the game scene at that moment. This could include the camera, the player, random objects like rocks, or enemies, etc. It also displays the relationship between the objects too, for example if a certain object is a child of another where all of its movements are relative to its parent instead of the space around it.<br />
@@ -106,7 +106,7 @@ You can pretty much set a variable to be any kind of thing, like a regular numbe
 These are basically functions that are handled specific ways in a script. There are some premade ones like Start (which runs its contents once at the start of a game) or Update (which runs its contents each frame of a game) or functions you define on your own which are handled based on how they are called in your script. They can also return a value such as a number or a component or even nothing (void).<br />
 <strong>Scripts</strong><br />
 This is a very important part of unity. A script is basically code that you write that can become components for game objects.<br />
-<img src="/imgs/Mike_Images/Script.PNG" width="400px" height="auto" /><br />
+<img src="http://localhost:4000/imgs/Mike_Images/Script.PNG" width="400px" height="auto" /><br />
 So “Frames” is the name of this script (which is also the name of the class of the script), this is also the name of the component this script becomes when put onto a game object. It is called a class because when it is attatched to an object it is essentially being represented as an object that shares that class info with similar objects like how animals can be divided into classes and share traits but are still individuals.</p>
 
 <p>Inside the Frames class definition are methods and variables. These are the traits of the class essentially. in this examples we have the start and update method. The Start method runs whatever code is inside it once for the first frame an object exists. The Update method runs its code every frame of the game.</p>
@@ -116,17 +116,17 @@ So “Frames” is the name of this script (which is also the name of the class 
 <h1 id="setting-up-for-your-game">Setting up for Your Game</h1>
 <h3 id="create-a-new-project"><strong>Create a New Project</strong></h3>
 <p>We will be making a simple 2D game so you can start by clicking new and making a new 2D project and save it to wherever you want it to be located such as your Desktop or a specific folder or something.<br />
-<img src="/imgs/Mike_Images/image8.png" alt="" /></p>
+<img src="http://localhost:4000/imgs/Mike_Images/image8.png" alt="" /></p>
 <h3 id="folders"><strong>Folders</strong></h3>
 <p>The first thing you should do if you want to stay organized is to set up several files to divide your assets into. Four general folders for a simple game like this one would be <em>Scenes</em> (which should already exist), <em>Sprites</em>, <em>Scripts</em>, <em>Prefabs</em> and if you want, <em>Audio</em> (optional whether you want to include audio in your game). Right click on open space in Assets or click the + to the left while in Assets to add  the folders.
-<img src="/imgs/Mike_Images/image44.png" alt="" /></p>
+<img src="http://localhost:4000/imgs/Mike_Images/image44.png" alt="" /></p>
 
 <h1 id="making-your-game">Making Your Game</h1>
 <h3 id="the-player"><strong>The Player</strong></h3>
 <p>The first essential part of making a game is setting up the player controls and making sure it feels right to play, we will start by making the game object for it.<br />
-<img src="/imgs/Mike_Images/image31.png" width="210px" height="auto" />
-<img src="/imgs/Mike_Images/image28.png" width="200px" height="auto" />
-<img src="/imgs/Mike_Images/image45.png" width="200px" height="auto" /></p>
+<img src="http://localhost:4000/imgs/Mike_Images/image31.png" width="210px" height="auto" />
+<img src="http://localhost:4000/imgs/Mike_Images/image28.png" width="200px" height="auto" />
+<img src="http://localhost:4000/imgs/Mike_Images/image45.png" width="200px" height="auto" /></p>
 
 <p>To add a Game Object into your scene, there are a couple methods:</p>
 <ul>
@@ -148,8 +148,8 @@ As of now we will just need two components to make the player movement:</p>
 
 <p>To add components to an object you can click on the player object in the heirarchy or in the scene view, then look over to the right in the Inspector.<br />
 Then you can press the button ‘Add Component’ and search for <em>Sprite Renderer</em> and <em>Rigidbdy2D</em> and add each of them to the Player object.<br />
-<img src="/imgs/Mike_Images/image41.png" width="250px" height="auto" />
-<img src="/imgs/Mike_Images/image23.png" width="250px" height="auto" /></p>
+<img src="http://localhost:4000/imgs/Mike_Images/image41.png" width="250px" height="auto" />
+<img src="http://localhost:4000/imgs/Mike_Images/image23.png" width="250px" height="auto" /></p>
 
 <p>In the Rigidbody2D component we will need to make some changes:</p>
 <ul>
@@ -182,14 +182,14 @@ Then you can press the button ‘Add Component’ and search for <em>Sprite Rend
   <li>Open the folder section to where the plaeyr sprite is located</li>
   <li>Then find the player object again and go to its inspector and open Sprite Renderer</li>
   <li>Then drag the player sprite into the empty slot in Sprite Renderer<br />
-<img src="/imgs/Mike_Images/image37.png" width="250px" height="auto" />
-<img src="/imgs/Mike_Images/image42.png" width="250px" height="auto" /></li>
+<img src="http://localhost:4000/imgs/Mike_Images/image37.png" width="250px" height="auto" />
+<img src="http://localhost:4000/imgs/Mike_Images/image42.png" width="250px" height="auto" /></li>
 </ul>
 
 <p>Now you may or may not notice the Sprite is not the size it should be and that is because the pixel size Unity thinks it is has not been set.<br />
 So we can select all the images in the sprite folder and in the inspector it should show some information about the sprites:<br />
-<img src="/imgs/Mike_Images/SpriteFolder.PNG" width="500px" height="auto" />
-<img src="/imgs/Mike_Images/SpriteStuff2.PNG" width="250px" height="auto" /><br />
+<img src="http://localhost:4000/imgs/Mike_Images/SpriteFolder.PNG" width="500px" height="auto" />
+<img src="http://localhost:4000/imgs/Mike_Images/SpriteStuff2.PNG" width="250px" height="auto" /><br />
 We should:</p>
 <ul>
   <li>Set the pixels per unit to 16, this can help unity with handling the sprites but is more useful with keeping pixel art images consistent in pixel sizes.</li>
@@ -203,10 +203,10 @@ We should:</p>
   <hr />
   <p><strong>How to Control a Game Object’s Velocity</strong><br />
 Requires a Reference to said Game Object with a Rigidbody Component like so:    <br />
-<img src="/imgs/Mike_Images/Learned/VelocityVar.PNG" alt="VelocityVar" /></p>
+<img src="http://localhost:4000/imgs/Mike_Images/Learned/VelocityVar.PNG" alt="VelocityVar" /></p>
 
   <p>Then You can set the Velocity in a Method like so:
-<img src="/imgs/Mike_Images/Learned/VelocitySet.PNG" alt="VelocitySet" /><br />
+<img src="http://localhost:4000/imgs/Mike_Images/Learned/VelocitySet.PNG" alt="VelocitySet" /><br />
 <strong>What are the uses</strong><br />
 This is used for applying physics to a game object such as a velocity, but can also be used for collisions or gravity.</p>
 </blockquote>
@@ -217,7 +217,7 @@ This is used for applying physics to a game object such as a velocity, but can a
   <p><strong>How to Handle Hitboxes Overlapping between Objects</strong><br />
 Requires both Objects to have a Collider Component, which then requires them to have a Rigidbody Component.<br />
 Use the OnTriggerEnter2D method in a script on one or both Objects like so:
-<img src="/imgs/Mike_Images/Learned/Overlap.PNG" alt="Overlap" />
+<img src="http://localhost:4000/imgs/Mike_Images/Learned/Overlap.PNG" alt="Overlap" />
 This method is called on frames when the Object collides with another Object</p>
 </blockquote>
 

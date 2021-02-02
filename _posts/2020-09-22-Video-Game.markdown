@@ -68,10 +68,10 @@ You can define variables in the same scope of the methods, so within the class d
 # Setting up for Your Game  
 ### **Create a New Project**  
 We will be making a simple 2D game so you can start by clicking new and making a new 2D project and save it to wherever you want it to be located such as your Desktop or a specific folder or something.  
-![](/imgs/Mike_Images/image8.png)  
+![]({{ site.url }}/imgs/Mike_Images/image8.png)  
 ### **Folders**  
 The first thing you should do if you want to stay organized is to set up several files to divide your assets into. Four general folders for a simple game like this one would be *Scenes* (which should already exist), *Sprites*, *Scripts*, *Prefabs* and if you want, *Audio* (optional whether you want to include audio in your game). Right click on open space in Assets or click the + to the left while in Assets to add  the folders.
-![](/imgs/Mike_Images/image44.png)  
+![]({{ site.url }}/imgs/Mike_Images/image44.png)  
 
 # Making Your Game
 ### **The Player**  

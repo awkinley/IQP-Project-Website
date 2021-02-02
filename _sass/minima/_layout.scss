@@ -230,15 +230,18 @@
     flex-direction: column;
     margin: 0 auto;
 
-    
+
 
 }
-.project-boxes > div > a {
+
+.project-boxes>div>a {
     margin: calc(#{$spacing-unit} / 2);
 }
-.project-boxes > div > div{
+
+.project-boxes>div>div {
     margin: calc(#{$spacing-unit} / 2);
 }
+
 @mixin project-box {
     max-width: 800px;
     display: flex;
@@ -404,13 +407,17 @@
     overflow: clip;
 }
 
-#section-names a {
-    @include relative-font-size(1.2);
+#section-names {
+    line-height: $base-line-height * $base-font-size * 1.25;
 
-    @include media-query($on-laptop) {
+    a {
         @include relative-font-size(1);
-   }
-}  
+
+        @include media-query($on-laptop) {
+            @include relative-font-size(0.8);
+        }
+    }
+}
 
 
 .post-nav {
@@ -487,7 +494,7 @@
 }
 
 .sidebar {
-    .site-title{
+    .site-title {
         color: $grey-color-dark;
         @include relative-font-size(2);
         font-weight: 300;
@@ -498,17 +505,24 @@
         float: left;
 
     }
+
     a {
         color: #393939;
     }
-    > ul {
-        margin-left: 0px;
-    }
+
     ul {
         list-style: none;
+        margin-left: 20px;
     }
+    
+    >ul {
+        margin-left: 0px;
+    }
+
+    
+
     li:before {
-      content: "\2010 ";
+        content: "\2010 ";
     }
 }
 
