@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Video Game"
+title:  "Make a Video Game"
 date:   2020-09-22 10:03:30 -0400
 categories: project
 project_img: "/imgs/video_game_placeholder.png"
-project_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor metus, molestie ac quam vitae, vulputate congue felis. Etiam dictum neque ante, ac efficitur sapien commodo non. Quisque et venenatis risus, non interdum dui."
+project_desc: "Make a simple 2D video game using the Unity game engine. Prior programming experience is not required."
 project_color: "#4B9E37"
 ---
 

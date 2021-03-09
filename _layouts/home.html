@@ -2,36 +2,55 @@
 layout: default
 ---
 <div class="home">
-    <div class="project-boxes">
-        {%- assign project_posts = site.posts -%}
-        {% assign project_box_class = "project-box-left" %}
-        {% for post in project_posts %}
-          {% if post.categories contains "project" %}
-            <div class="{{project_box_class}}">
-            
-                <a href="{{ post.url | relative_url }}">
-                  <div class="project-image-box" style="background-color: {{post.project_color}}">
-                      <h1>{{post.title}}</h1>
-                      <img src="{{ post.project_img | relative_url }}">
-                  </div>
-                </a>
-                <div class="project-text-box">
-                    <p>
-                      {{post.project_desc}}
-                    </p>
-                    <a href="{{ post.url | relative_url   }}" class="learn-more" style="background-color: {{post.project_color}}">
-                        LEARN MORE
-                    </a>
-                </div>
-              </div>
+  <div class="recruitment">
+    <h1>
+      Participate in the Study!
+    </h1>
+    <p>
+      We are looking for students who are interested in participating in a study where they would take a survey before
+      and after going through one of the projects. If this is something that you might be interested in doing, you can
+      sign up for the mailing list at <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdRjhD7AXpXBOrU1C6fC1OwsjtS3chAmqpw5fLIXs-R9509Zg/viewform?usp=sf_link">this
+        survey</a>. Being put on the mailing list does not mean you agree to submit to the study, but it is the best
+      way to get informatino about how to formally join the study.
+    </p>
+    <div class="button">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdRjhD7AXpXBOrU1C6fC1OwsjtS3chAmqpw5fLIXs-R9509Zg/viewform?usp=sf_link">
+        GET INVOLVED!
+      </a>
+    </div>
 
-              {% if project_box_class == "project-box-left" %}    
-                {% assign project_box_class = "project-box-right" %}
-              {% else %}
-                {% assign project_box_class = "project-box-left" %}
-              {% endif %}
-          {% endif %}
-        {% endfor %}
+    <div class="project-boxes">
+      {%- assign project_posts = site.posts -%}
+      {% assign project_box_class = "project-box-left" %}
+      {% for post in project_posts %}
+      {% if post.categories contains "project" %}
+      <div class="{{project_box_class}}">
+
+        <a href="{{ post.url | relative_url }}">
+          <div class="project-image-box" style="background-color: {{post.project_color}}">
+            <h1>{{post.title}}</h1>
+            <img src="{{ post.project_img | relative_url }}">
+          </div>
+        </a>
+        <div class="project-text-box">
+          <p>
+            {{post.project_desc}}
+          </p>
+          <a href="{{ post.url | relative_url   }}" class="learn-more" style="background-color: {{post.project_color}}">
+            LEARN MORE
+          </a>
+        </div>
+      </div>
+
+      {% if project_box_class == "project-box-left" %}
+      {% assign project_box_class = "project-box-right" %}
+      {% else %}
+      {% assign project_box_class = "project-box-left" %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
     </div>
     <a href="testing/2020/10/01/example-tests.html"></a>
-</div>
+  </div>

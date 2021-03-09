@@ -2,7 +2,7 @@
 layout: post
 title:  "Robotic Arm"
 date:   2020-09-22 10:06:30 -0400
-categories: project
+categories: change
 project_img: "/imgs/robotic_arm_placeholder.jpg"
 project_desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor metus, molestie ac quam vitae, vulputate congue felis. Etiam dictum neque ante, ac efficitur sapien commodo non. Quisque et venenatis risus, non interdum dui."
 project_color: "#44679C"

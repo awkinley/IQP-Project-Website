@@ -215,6 +215,36 @@
     }
 }
 
+/**
+ * Get involved section
+ */
+
+.recruitment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    .button {
+        // max-width: 300px;
+        a {
+            color: $text-color;
+   
+        }
+        line-height: $base-line-height;
+        border: 1px solid #777777;
+        padding: 10px 20px;
+        font-family: Ubuntu;
+        @include relative-font-size(1);
+        text-align: center;
+    }
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 900px;
+    font-family: Segoe UI;
+
+}
 
 /**
 * Project Boxes on homepage
@@ -229,9 +259,6 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-
-
-
 }
 
 .project-boxes>div>a {
@@ -264,7 +291,7 @@
 }
 
 .project-image-box {
-    width: 320px;
+    width: 350px;
     height: 370px;
 
     h1 {
@@ -273,14 +300,16 @@
     }
 
     img {
-        display: block;
-        width: 300px;
+        // display: block;
+        max-width: 300px;
+        max-height: 300px;
         margin: 10px auto;
+        // padding: 10px 10px;
     }
 }
 
 .project-text-box {
-    max-width: 320px;
+    max-width: 350px;
 }
 
 .learn-more {
@@ -514,15 +543,52 @@
         list-style: none;
         margin-left: 20px;
     }
-    
+
     >ul {
         margin-left: 0px;
     }
 
-    
 
-    li:before {
-        content: "\2010 ";
+    a {
+        margin: 0px;
+        padding: 6px 15px 6px 20px;
+    }
+
+    li {
+        position: relative;
+        display: block;
+    }
+
+
+    i {
+        display: inline-block;
+        position: relative;
+        width: 16px;
+        margin-left: -16px;
+        box-sizing: border-box;
+    }
+
+    i:before {
+        position: absolute;
+        display: block;
+        content: "";
+        margin: -.25em 0 0 -.4em;
+        left: 50%;
+        top: 50%;
+        width: .5em;
+        height: .5em;
+        border-right: .15em solid #b3b3b3;
+        border-top: .15em solid #b3b3b3;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition-duration: .3s;
+        transition-duration: .3s;
+    }
+
+    i.open {
+        margin-left: -.25em;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
     }
 }
 
