@@ -7,15 +7,15 @@
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Make a Video Game" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Video Game Page" />
-<meta property="og:description" content="Video Game Page" />
+<meta name="description" content="Page in progress…" />
+<meta property="og:description" content="Page in progress…" />
 <link rel="canonical" href="http://localhost:4000/project/2020/09/22/Video-Game.html" />
 <meta property="og:url" content="http://localhost:4000/project/2020/09/22/Video-Game.html" />
 <meta property="og:site_name" content="Maker Projects for Learning" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-22T10:03:30-04:00" />
 <script type="application/ld+json">
-{"headline":"Make a Video Game","dateModified":"2020-09-22T10:03:30-04:00","datePublished":"2020-09-22T10:03:30-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2020/09/22/Video-Game.html"},"url":"http://localhost:4000/project/2020/09/22/Video-Game.html","description":"Video Game Page","@context":"https://schema.org"}</script>
+{"headline":"Make a Video Game","dateModified":"2020-09-22T10:03:30-04:00","datePublished":"2020-09-22T10:03:30-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2020/09/22/Video-Game.html"},"url":"http://localhost:4000/project/2020/09/22/Video-Game.html","description":"Page in progress…","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Maker Projects for Learning" /><!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
@@ -56,171 +56,9 @@
                 </time></p>
         </header>
         <div id="content" class="post-content e-content" itemprop="articleBody">
-            <p>Video Game Page</p>
+            <p>Page in progress…</p>
 
-<h1 id="introduction">Introduction</h1>
-<p><strong>Goal of the Project</strong><br />
-This project will introduce game development through Unity and C# Scripting and provide the knowledge to make your own game and create the foundation for learning more C# and building games at a higher level. Unity is a very useful tool for developing games whether it be some small one for a game jam or even much larger games sold around the world. And C# is a very useful modern object orientated language found in many different softwares today.</p>
-
-<p><strong>Prior Knowledge</strong><br />
-No knowledge of Unity / Visual Studio is needed, and neither is any knowledge about C# scripting. Although not necessary, experience or understanding of coding or game design theory is useful for understanding these topics.</p>
-
-<p><strong>Game Demo and Premade Sprites</strong><br />
-<a href="http://localhost:4000/zip/DemoSprites.zip">Download Zip</a><br />
-<em>To play the demo, extract the zip file and run the middle application file from the folder named demo.</em></p>
-
-<h1 id="installing-unity-and-visual-studio">Installing Unity and Visual Studio</h1>
-<p>If you do not have Unity or Visual Studio installed you are going to want to install the latest versions of Unity Hub and Visual Studio. Unity Hub acts as a medium for installing the actual Unity Editor along with accessing content provided by other users, It also makes installing Unity much easier. Visual Studio is an excellent programming software that Unity prefers to use to edit code and create scripts for your game.</p>
-
-<p><strong>Unity Installation Documentation</strong><br />
-<a href="https://docs.unity3d.com/2020.2/Documentation/Manual/GettingStartedInstallingUnity.html">https://docs.unity3d.com/2020.2/Documentation/Manual/GettingStartedInstallingUnity.html</a><br />
-<strong>Visual Studio Installation Documentation</strong><br />
-<a href="https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows">https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity?pivots=windows</a></p>
-
-<h1 id="understanding-the-unity-editor">Understanding the Unity Editor</h1>
-<p>Before starting your project it is important to have a basic understanding of Unity and how you can use the Editor. However the bulk of your understanding will come from actually designing your game and testing things out.</p>
-
-<h3 id="the-unity-editor"><strong>The Unity Editor</strong></h3>
-<p><em>This is a screenshot of what the Editor generally looks like</em><br />
-<img src="http://localhost:4000/imgs/Mike_Images/image17.png" alt="" />
-<em>As you can see, there are four main parts of the screen</em><br />
-<strong>The Hierarchy (Upper Left)</strong><br />
-This part shows all the objects present in the game scene at that moment. This could include the camera, the player, random objects like rocks, or enemies, etc. It also displays the relationship between the objects too, for example if a certain object is a child of another where all of its movements are relative to its parent instead of the space around it.<br />
-<strong>The File System / Console (Bottom)</strong><br />
-This part displays the files in your game such as images or programs or useful tools the editor needs but you don’t really need to worry about. The file system is useful for organizing things you need to put into your game. The console acts as a method to display errors or messages to you from code running in your game or errors with your game objects. It is useful for debugging your code.<br />
-<strong>The Game (Middle)</strong><br />
-This displays what your current scene looks like. It allows you to move objects around, scale them or edit components of them. It also displays your game when you run it so you can play it as you build it.<br />
-<strong>The Inspector (Right)</strong><br />
-This part allows you to add components and scripts to a game object, set variables, position objects very specifically and much more. It allows you to interact with your scripts’ variables before and during running your game.</p>
-
-<h3 id="important-concepts"><strong>Important Concepts</strong></h3>
-<p><strong>Game Objects</strong><br />
-This is a very important concept to understand. Essentially everything that is in a game is an object or clone of an object. All code that is run must be attached to a game object. The camera is a game object, and so is some light source or some background image or an enemy or anything. All game objects have a Transform component which means they have a position that can be set in the X Y and Z axis, a scale on each axis, and a rotation around each axis. Game objects don’t have to be visible, some are there purely to run code. These values can be changed through the editor or through scripts.<br />
-<strong>Components</strong><br />
-These are additions to game objects you can add that handle various things not every game object might need. For example the Sprite Renderer component allows a game object to show an image in its place. And the BoxCollider component allows a game object to either collide and push other game objects with the same component or detect when overlapping with another game object. Components allow for game objects to do a lot more stuff.<br />
-<strong>Scenes</strong><br />
-These are essentially the different levels of a game. They are built separately from each other and cannot interact with each other’s game objects easily because only one scene is able to run at a time. You are able to switch between scenes through scripts which stops and resets the current scene and starts the new one.<br />
-<strong>Variables</strong><br />
-You can pretty much set a variable to be any kind of thing, like a regular number or word(‘string’) or a component or game object. Some exaples of what the numbers are usally set as are either <em>int</em>, an exact number like 5 or 3 or -2, or <em>double</em>, which is a decimal number like 6.5 or 4.333, or <em>float</em>, which is a like a decimal number with an ‘f’ at the end like 7.8f and with less memory space so it is less precise, however it is very rare you need to be more precise than float can be.<br />
-<strong>Methods</strong><br />
-These are basically functions that are handled specific ways in a script. There are some premade ones like Start (which runs its contents once at the start of a game) or Update (which runs its contents each frame of a game) or functions you define on your own which are handled based on how they are called in your script. They can also return a value such as a number or a component or even nothing (void).<br />
-<strong>Scripts</strong><br />
-This is a very important part of unity. A script is basically code that you write that can become components for game objects.<br />
-<img src="http://localhost:4000/imgs/Mike_Images/Script.PNG" width="400px" height="auto" /><br />
-So “Frames” is the name of this script (which is also the name of the class of the script), this is also the name of the component this script becomes when put onto a game object. It is called a class because when it is attatched to an object it is essentially being represented as an object that shares that class info with similar objects like how animals can be divided into classes and share traits but are still individuals.</p>
-
-<p>Inside the Frames class definition are methods and variables. These are the traits of the class essentially. in this examples we have the start and update method. The Start method runs whatever code is inside it once for the first frame an object exists. The Update method runs its code every frame of the game.</p>
-
-<p>You can define variables in the same scope of the methods, so within the class defnitiion but not within other methods, which means they can be used anywhere inside that class, in any method, or you can define a variable inside a method which means it can only be used within that method.</p>
-
-<h1 id="setting-up-for-your-game">Setting up for Your Game</h1>
-<h3 id="create-a-new-project"><strong>Create a New Project</strong></h3>
-<p>We will be making a simple 2D game so you can start by clicking new and making a new 2D project and save it to wherever you want it to be located such as your Desktop or a specific folder or something.<br />
-<img src="http://localhost:4000/imgs/Mike_Images/image8.png" alt="" /></p>
-<h3 id="folders"><strong>Folders</strong></h3>
-<p>The first thing you should do if you want to stay organized is to set up several files to divide your assets into. Four general folders for a simple game like this one would be <em>Scenes</em> (which should already exist), <em>Sprites</em>, <em>Scripts</em>, <em>Prefabs</em> and if you want, <em>Audio</em> (optional whether you want to include audio in your game). Right click on open space in Assets or click the + to the left while in Assets to add  the folders.
-<img src="http://localhost:4000/imgs/Mike_Images/image44.png" alt="" /></p>
-
-<h1 id="making-your-game">Making Your Game</h1>
-<h3 id="the-player"><strong>The Player</strong></h3>
-<p>The first essential part of making a game is setting up the player controls and making sure it feels right to play, we will start by making the game object for it.<br />
-<img src="http://localhost:4000/imgs/Mike_Images/image31.png" width="210px" height="auto" />
-<img src="http://localhost:4000/imgs/Mike_Images/image28.png" width="200px" height="auto" />
-<img src="http://localhost:4000/imgs/Mike_Images/image45.png" width="200px" height="auto" /></p>
-
-<p>To add a Game Object into your scene, there are a couple methods:</p>
-<ul>
-  <li>Click on the + to open a drop down menu, or Right Click in the open space below the Main Camera</li>
-  <li>In this menu you can select either Empty Game Object, or select 2D Object then select Sprite</li>
-  <li>You can also open up the GameObject menu at the top of the screen for the drop down menu</li>
-  <li>Clicking on the new Game Object after already clicking it (Highlighted Blue) will allow you to name it whatever you want to distinguish it &gt;within the hierarchy</li>
-</ul>
-
-<p><em>Selecting 2D &gt; Sprite will essentially make an Empty Game Object but with a Sprite Renderer already attached to it</em><br />
-<em>Always Remeber to Reset the Transform component of a new Game Object (sometimes start off as random values)</em></p>
-
-<p><strong>Player Components</strong><br />
-As of now we will just need two components to make the player movement:</p>
-<ul>
-  <li>Sprite Renderer - This simply displays an image for the object</li>
-  <li>Rigidbody2D - This allows you to apply physics to an object such as velocity in 2 Dimensions</li>
-</ul>
-
-<p>To add components to an object you can click on the player object in the heirarchy or in the scene view, then look over to the right in the Inspector.<br />
-Then you can press the button ‘Add Component’ and search for <em>Sprite Renderer</em> and <em>Rigidbdy2D</em> and add each of them to the Player object.<br />
-<img src="http://localhost:4000/imgs/Mike_Images/image41.png" width="250px" height="auto" />
-<img src="http://localhost:4000/imgs/Mike_Images/image23.png" width="250px" height="auto" /></p>
-
-<p>In the Rigidbody2D component we will need to make some changes:</p>
-<ul>
-  <li>Set the body type to Kinematic</li>
-  <li>
-    <ul>
-      <li>Dynamic means it will experience Mass and Forces applied to it by scripts and other objects</li>
-    </ul>
-  </li>
-  <li>
-    <ul>
-      <li>Kinematic means it will only have a velocity value that is set through scripts</li>
-    </ul>
-  </li>
-  <li>Set collision detection to Continuous</li>
-  <li>
-    <ul>
-      <li>Discrete means it checks for collisions less often which means they may be missed at higher speeds</li>
-    </ul>
-  </li>
-  <li>
-    <ul>
-      <li>Continuous check for colliosions more often which avoids the clipping effects</li>
-    </ul>
-  </li>
-</ul>
-
-<p>In the Sprite Renderer component we need to</p>
-<ul>
-  <li>Open the folder section to where the plaeyr sprite is located</li>
-  <li>Then find the player object again and go to its inspector and open Sprite Renderer</li>
-  <li>Then drag the player sprite into the empty slot in Sprite Renderer<br />
-<img src="http://localhost:4000/imgs/Mike_Images/image37.png" width="250px" height="auto" />
-<img src="http://localhost:4000/imgs/Mike_Images/image42.png" width="250px" height="auto" /></li>
-</ul>
-
-<p>Now you may or may not notice the Sprite is not the size it should be and that is because the pixel size Unity thinks it is has not been set.<br />
-So we can select all the images in the sprite folder and in the inspector it should show some information about the sprites:<br />
-<img src="http://localhost:4000/imgs/Mike_Images/SpriteFolder.PNG" width="500px" height="auto" />
-<img src="http://localhost:4000/imgs/Mike_Images/SpriteStuff2.PNG" width="250px" height="auto" /><br />
-We should:</p>
-<ul>
-  <li>Set the pixels per unit to 16, this can help unity with handling the sprites but is more useful with keeping pixel art images consistent in pixel sizes.</li>
-  <li>Set Filter Mode to Point (no filter) and Compression to none</li>
-  <li>Select Apply</li>
-</ul>
-
-<p><em>Do something like this after each useful concept</em></p>
-<blockquote>
-  <h3 id="what-you-have-learned"><strong>What You Have Learned</strong></h3>
-  <hr />
-  <p><strong>How to Control a Game Object’s Velocity</strong><br />
-Requires a Reference to said Game Object with a Rigidbody Component like so:    <br />
-<img src="http://localhost:4000/imgs/Mike_Images/Learned/VelocityVar.PNG" alt="VelocityVar" /></p>
-
-  <p>Then You can set the Velocity in a Method like so:
-<img src="http://localhost:4000/imgs/Mike_Images/Learned/VelocitySet.PNG" alt="VelocitySet" /><br />
-<strong>What are the uses</strong><br />
-This is used for applying physics to a game object such as a velocity, but can also be used for collisions or gravity.</p>
-</blockquote>
-
-<blockquote>
-  <h3 id="what-you-have-learned-1"><strong>What You Have Learned</strong></h3>
-  <hr />
-  <p><strong>How to Handle Hitboxes Overlapping between Objects</strong><br />
-Requires both Objects to have a Collider Component, which then requires them to have a Rigidbody Component.<br />
-Use the OnTriggerEnter2D method in a script on one or both Objects like so:
-<img src="http://localhost:4000/imgs/Mike_Images/Learned/Overlap.PNG" alt="Overlap" />
-This method is called on frames when the Object collides with another Object</p>
-</blockquote>
-
+<p>Come back soon to see the tutorial.</p>
 
         </div><a class="u-url" href="/project/2020/09/22/Video-Game.html" hidden></a>
     </article>
