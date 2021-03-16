@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-10T09:43:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-16T10:17:55-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -109,9 +109,704 @@ A note about motors: motors exist in a bit of a gray spot between the mechanical
 
 &lt;h2 id=&quot;electrical-system&quot;&gt;Electrical System&lt;/h2&gt;
 
-&lt;h2 id=&quot;software-system&quot;&gt;Software System&lt;/h2&gt;</content><author><name></name></author><category term="change" /><summary type="html">Introduction</summary></entry><entry><title type="html">Design a Carabiner</title><link href="http://localhost:4000/project/2020/09/22/Test-Fixture.html" rel="alternate" type="text/html" title="Design a Carabiner" /><published>2020-09-22T10:05:30-04:00</published><updated>2020-09-22T10:05:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Test-Fixture</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Test-Fixture.html">&lt;p&gt;Page in progress…&lt;/p&gt;
+&lt;h2 id=&quot;software-system&quot;&gt;Software System&lt;/h2&gt;</content><author><name></name></author><category term="change" /><summary type="html">Introduction</summary></entry><entry><title type="html">Design a Carabiner</title><link href="http://localhost:4000/project/2020/09/22/Test-Fixture.html" rel="alternate" type="text/html" title="Design a Carabiner" /><published>2020-09-22T10:05:30-04:00</published><updated>2020-09-22T10:05:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Test-Fixture</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Test-Fixture.html">&lt;h1 id=&quot;designing-a-carabiner&quot;&gt;Designing a Carabiner&lt;/h1&gt;
 
-&lt;p&gt;Come back soon to see the tutorial.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Page in progress…</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;h1 id=&quot;project-information&quot;&gt;Project Information&lt;/h1&gt;
+
+&lt;p&gt;Description: Students will follow along with a tutorial and learn to
+design a 3d printable carabiner in CAD and then use FEA to analyze the
+performance of the design under stress. Students will use the insights
+gained from FEA to improve the strength and performance of their design.&lt;/p&gt;
+
+&lt;p&gt;Learning outcomes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will understand how stress affects 3d printed parts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will know the basics of how FEA can be applied to part
+design.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will know what FEA is and its applications to mechanical
+engineering.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will better understand how to apply their knowledge of
+mechanical stress to part design.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will be able to use FEA to study part stresses.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estimated Time: 5 hours&lt;/p&gt;
+
+&lt;p&gt;What students will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A computer with some CAD and FEA software (Fusion 360 is used in
+this tutorial)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Basic knowledge of how to use CAD and FEA&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;This can be learned at the tutorial goes, although it will
+increase the amount of time it takes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;project-goal&quot;&gt;Project Goal&lt;/h2&gt;
+
+&lt;p&gt;The goal of this project is to introduce part design, design
+optimization using FEA (Finite Element Analysis), design for
+manufacture, and iterative design. Giving examples of how to apply those
+skills to a carabiner, then challenging them to design their own
+carabiner and compete to see who can make the strongest one inside a set
+of parameters.&lt;/p&gt;
+
+&lt;h2 id=&quot;prior-knowledge&quot;&gt;Prior knowledge&lt;/h2&gt;
+
+&lt;p&gt;Basic knowledge of a CAD program is needed, there are many online CAD
+classes available. Since I will be using Fusion 360 I would suggest this
+series by Lars Christensen &lt;a href=&quot;https://youtu.be/A5bc9c3S12g&quot;&gt;https://youtu.be/A5bc9c3S12g&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will also need to know your way around the FEA (Finite Element
+Analysis, a method for simulating physical phenomenon on parts or
+mechanisms) section of your CAD Program.&lt;/p&gt;
+
+&lt;p&gt;Fusion 360 is not the only CAD program you can use; the concepts will
+translate to most programs. You can use any program you prefer, but this
+tutorial will cover how to do things in Fusion 360.&lt;/p&gt;
+
+&lt;h2 id=&quot;needed-programs&quot;&gt;Needed Programs&lt;/h2&gt;
+
+&lt;p&gt;CAD/FEA: Fusion 360 or your choice&lt;/p&gt;
+
+&lt;p&gt;Slicer: Cura or your choice&lt;/p&gt;
+
+&lt;h2 id=&quot;3d-printing&quot;&gt;3D Printing&lt;/h2&gt;
+
+&lt;p&gt;3D printing and specifically FDM is a form of additive manufacturing
+that can turn part files into finished parts using a variety of
+materials. FDM stands for Fused Deposition Modeling, creating parts by
+putting down material layer by layer until a 3D part is formed. With
+each layer being a cross-section of the chosen part file.&lt;/p&gt;
+
+&lt;p&gt;(VIDEO HERE) &lt;a href=&quot;https://www.youtube.com/watch?v=AwIjArLWjtY&quot;&gt;https://www.youtube.com/watch?v=AwIjArLWjtY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;While not the most ideal for making carabiners the combination of
+widespread availability, speed, along with the low cost of 3D printing
+makes it ideal for interactive design and prototyping.&lt;/p&gt;
+
+&lt;p&gt;As a whole, you can 3D print out of materials from sugar to Kevlar, we
+will be focusing on PLA and ABS. The two most popular materials to print
+with.&lt;/p&gt;
+
+&lt;p&gt;PLA, Polylactic acid, is a thermoplastic polymer usually made from corn
+starch. PLA’s advantages are its low cost, ease of printability and good
+strength.&lt;/p&gt;
+
+&lt;p&gt;ABS, Acrylonitrile Butadiene Styrene, is another low-cost thermoplastic.
+With better impact resistance and wear resistance than PLA. With the
+main disadvantage of being harder to print due to higher temperatures
+and increased warpage.&lt;/p&gt;
+
+&lt;p&gt;One of the most useful ways to analyze a material is by looking at the
+stress-strain curve. Showing the relationship between stress (σ),
+representing the amount of force the material is under per cross
+sectional area, measured in lb/in\^2 or N/m\^2. And strain ε,
+representing how much the material has changed in shape measured in
+change in length (ΔL) / original length.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure X, Stress-Strain graph for low carbon steel&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _ ; ABS vs PLA Stress-Strain Graph&lt;/p&gt;
+
+&lt;p&gt;From these two graphs, what can we tell about these materials? From the
+start to the peak, called the elastic region, PLA has a steeper slope
+before the yield point. The slope of this line is the Young’s modulus E,
+the relation between tensile stress σ, and axial strain ε (E = σ/ε). So,
+looking back to the graphs of PLA and ABS, we can see that PLA is
+stiffer, and has a higher yield strength.&lt;/p&gt;
+
+&lt;p&gt;But this is not the whole story, since with this graph we can also
+measure the energy absorbed by the material, known as toughness. We find
+this by calculating the area under the curve created by the
+stress/strain graph. Comparing PLA to ABS, we can see that although PLA
+has a higher yield strength, ABS has better toughness and can absorb
+more energy before breaking.&lt;/p&gt;
+
+&lt;p&gt;While the stress vs strain graph is a great tool, the main problem with
+comparing material properties from PLA vs ABS (in our case) is the
+manufacturing method. FDM 3d printing does not create a solid block of
+the printer material. One of the main variables is your printer settings
+in your slicer. The slicer (I will be using CURA) takes a 3d part in an
+STL format and cuts it up into multiple layers depending on your printer
+settings. FDM builds 3d parts from the bottom up (+z) so each ‘slice’ is
+in the xy plane with a set layer height. Because of this, printed parts
+will have a lower tensile strength along the z axis compared to the xy
+axes.&lt;/p&gt;
+
+&lt;h1 id=&quot;designing-a-carabiner-1&quot;&gt;Designing a Carabiner&lt;/h1&gt;
+
+&lt;p&gt;Let’s start designing a carabiner. Like most CAD projects, it is almost
+always best to start with a hand drawing of what you want your part to
+look like before you do anything on the computer. This is a good way to
+quickly get your ideas down without having to give things specific
+values or precise plans. First, we’ll get the basic structure down A
+standard carabiner is pretty simple, and you probably have one laying
+around to copy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I decided to do with the more usual shapes. An oval(ish) one, a D shape,
+and a tapered design. The carabiner I have is a mix of a taper and D
+shape, with a D curved top and a smaller, circular radius at the bottom.
+Something I also do when drawing by hand is starting to think about how
+I will design it in CAD. For the tapered carabiner, there is a big and
+small circle space apart from each other. The ‘oval’ shape has two
+circles of the same size. While this example is relatively simple,
+considering CAD at the sketch level and thinking about how to break a
+part down into features is important for being an efficient CAD
+designer. But whatever you have, let's get out first sketch down in
+CAD.&lt;/p&gt;
+
+&lt;p&gt;But before you get started, if you want to compete in the design
+competition then I need to put down some ground rules so everyone is on
+the same level (no 100kg 3ft carabiners that would take 9 months to
+print, sorry). Your carabiner must be able to fit two, ¾ “ bar’s that
+are 2” apart. With either one or two gates large enough to fit the bars,
+with enough internal room to fit both bars in one at a time. Your
+carabiner will also need to weigh no more than 0.5 ounces (~14.2
+grams). That’s pretty light, good luck!&lt;/p&gt;
+
+&lt;p&gt;So now, we have our boundary conditions. Since those are our only known
+values, let's get those into CAD first. I started with a sketch on the
+top plane (the plane you use is arbitrary) using a construction line
+starting at the origin and going down horizontally. Then adding the two
+¾” circles at each end.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, boundary condition sketch&lt;/p&gt;
+
+&lt;p&gt;Your sketch should look something like this. Now that the boundary
+conditions are down, you can put in your own design. This is one of the
+more important choices to be made when starting a CAD model, since the
+first sketch or main body is usually the hardest to change later down
+the line. Since this will be 3D printed, I’d suggest making the main
+body a single straight extrusion from the base plane. This not only
+models how a 3D printer prints, from the bottom up, but (as outlined in
+the previous section) using this printing orientation will make the
+carabiner as strong as possible. Meaning that the main body won’t use
+any support material (support material example
+&lt;a href=&quot;https://www.gambody.com/blog/wp-content/uploads/2019/10/45-degree-rule-in-3d-printing.jpg&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;With the basic design chosen, I will now sketch out the overall design.
+Following my sketch, I’ll start with a larger circle for the top,
+connected to the bottom circle with tangent lines. Then for the outer
+boundary, I used the ‘offset’ tool in Fusion 360 (Offset Entities in
+Solidworks) to save time. After extruding your sketch, it should look
+something like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Carabiner Frame&lt;/p&gt;
+
+&lt;p&gt;If you are designing your carabiner for the competition, this is a good
+time to apply a material (PLA) and get a rough weight. You can always
+edit it at the end to get it exact, but make sure it doesn’t weigh 100+
+grams or else you might have a problem once it’s fully designed. If
+yours doesn’t look like mine, while I hope you arent doing this exactly
+since I’m making mine a simple as possible to leave you as much
+imagination room as possible. Feel free to email me any questions and
+I’ll be glad to help out
+(&lt;a href=&quot;mailto:MakerIQPCarabiner@Gmail.com&quot;&gt;MakerIQP\@Gmail.com&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Now that the easy part of designing a carabiner is done, we need to make
+the complicated part, the gate. But before we jump into that, lets apply
+some of what we learned from the previous unit on the outline of your
+carabiner. One of the key ways for approaching engineering problems is
+breaking it down into simple parts. So, with our basic model, let's
+find out the theoretical maximal force it can with stain before
+breaking. While carabiners have three main force ratings (the main axis,
+with the gate open, and in the transverse direction) we will only be
+looking at its maximum strength along the main axis with the gate
+closed. Let's start by drawing a free body diagram and find the load
+path. While carabiners have three main force ratings (the main axis,
+with the gate open, and transversally on the gate) we will only be
+looking at the major axis.&lt;/p&gt;
+
+&lt;p&gt;Pretty simple stuff, but this tells us some important information about
+how we can analyze this simplistic carabiner. Since the load is
+symmetrical on the part, we can split the carabiner in half and only
+worry about one side and multiply that by two at the end. Let's review
+the fundamental types of loading, before we find out what the carabiner
+is experiencing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, &lt;a href=&quot;https://www.linearmotiontips.com/mechanical-properties-of-materials-stress-and-strain/&quot;&gt;The five fundimental types of
+loading&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking at our carabiner, the loading on our carabiner is tension, and
+the bending effect brought by the two sides wanting to become
+perpendicular. While there will be some displacement from the carabiner
+being pulled thinner, we will be focusing on the tensile strength.&lt;/p&gt;
+
+&lt;p&gt;While the tensile strength of PLA is known, we will be 3D printing
+theses so we cant go off of those numbers. As a best estimate, I found a
+&lt;a href=&quot;https://aip.scitation.org/doi/abs/10.1063/1.5085981?class=pdf&amp;amp;journalCode=apc&quot;&gt;paper&lt;/a&gt;
+where they tested 3D printed PLA and found the ultimate tensile strength
+was 32.94 MPa (4777.5 PSI) with 80% infill. Wich is about as solid as
+you can go for 3D printed parts. Now we need the cross-section area of
+our carabiner, since tensile strength is measured in psi (pounds per
+square inch). My carabiner is 0.2in * 0.2in = 0.04in\^2 * 4777.5 =
+191.1 lb. So, our theoretical maximum tensile strength for my carabiner
+is 191.1lb * 2 (both sides) = 382.2lb.&lt;/p&gt;
+
+&lt;p&gt;Now, let's work on the gate of the carabiner, the main purpose of the
+gate is to allow a gap in the frame of the carabiner, letting you attach
+whatever is needed. Since we know roughly how strong the frame itself
+is, the goal is to design a working gate that can hold at least that
+much force.&lt;/p&gt;
+
+&lt;h1 id=&quot;designing-the-gate&quot;&gt;Designing the Gate&lt;/h1&gt;
+
+&lt;p&gt;Now, let's work on the gate of the carabiner, the main purpose of the
+gate is to allow a gap in the frame of the carabiner letting you attach
+whatever is needed. While also having a mechanism to automatically
+re-engage the gate once it has been opened (I will be referring to it as
+the sprint return, but it doesn’t need to be a spring). Since we know
+roughly how strong the frame itself is, the goal is to design a working
+gate that can hold at least that much force. While we will be 3D
+printing, let's have a look at some common metal carabiner designs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image7.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hook Pin-Hook&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image9.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image10.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Screw-lock hook Screw-lock pin Wire Gate&lt;/p&gt;
+
+&lt;p&gt;Looking at these designs, let's look at each part of the carabiner’s
+gate. They have a bottom pivot, a hook on the non-pivot side, some form
+of spring to keep the gate closed (inside the bottom pivot for most
+designs) and an optional gate lock.&lt;/p&gt;
+
+&lt;p&gt;The wire gate design is a great example of a very simplistic and
+efficient design. The bend in the wire creates the hook, the gate itself
+keeping the carabiner closed, and acting as the spring. Making the wire
+gate design vastly cheaper than other designs with the main trade-off
+being strength. How could this basic design idea be adapted for 3d
+printing? Looking at the size of the wire, a plastic version would need
+to be beefed up a good bit. Since PLA is more brittle, while the top
+notch will look similar the pivot and spring parts of the gate need some
+changes. Making the two sides of the gate further apart, meaning the
+gate will be easier to operate and not act like a solid piece of plastic
+or shatter when you try to clip the carabiner onto something.&lt;/p&gt;
+
+&lt;p&gt;Looking specifically at the bottom part of the gate, the main design
+goal is to create a 3d printable pivot that is at least as strong as the
+other side of your carabiner. Aka the maximum strength it can with the
+current design. Let's start by having a look at the classic bottom gate
+pivot with just a rivet that has been peened over (Peening is where a
+rivet is pushed through two parts then rounded off, but in this case the
+joint is not tight to allow the gate to pivot). For most of the
+non-climbing carabiners, we can take an educated guess that the pin on
+either the pivot point of the gate or the hook (depending on the design)
+will be the weak link. Making ‘engineering approximations’ is kind of a
+meme for mechanical engineers (like pi = 3, e = 3, gravity = pi\^3
+m/s\^2, etc) making assumptions based on your best judgement as an
+engineer is a needed skill. Many of you have already made these kinds of
+assumptions in physics or other classes. Like neglecting air resistance
+(good luck on that one aero majors) assuming negligible friction,
+assuming rigid bodies, etc. For the carabiner, we are assuming the hook
+at the top of the carabiner will be stronger than the pin at the bottom.
+This is reasonable since the pin doesn’t seem to be hardened (on any
+garden variety carabiner I have), and the hook is larger in area than
+the pin. With that said, let's make a basic sketch of the pin’s cross
+section.&lt;/p&gt;
+
+&lt;p&gt;Here, we will be dealing with shear stress (see Figure _ above). Shear
+stress is any stress that is acting parallel or tangential to a surface.
+Let's look at the most simplistic representation of shear, a single
+shear plane. The formula for average shear stress (denoted here as P) in
+a plane is P = F / A. Plugging in the formula for the area of a circle
+since we are using circular pins, P = F / (2*pi*r\^2). This formula is
+for normal shear stress, but we are applying a force to a pin, the way
+it transmits that force onto the contact surface is called bearing
+stress. Bearing stress is the contact pressure between separate bodies,
+in our case this is between the plate and the pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image12.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Un-deformed bearing load. Figure _ , Deformed Bearing Load.&lt;/p&gt;
+
+&lt;p&gt;While not exact, the force distribution from this bearing stress on the
+inside of a hole, and the resulting displacement will look something
+like this.&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image14.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Single Plane Shear&lt;/p&gt;
+
+&lt;p&gt;Before we go onto the carabiner pin, let's look at the simplest example
+with a pin and a single shear plane. Where the force is spread out along
+one cross sectional area of the bolt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image15.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Double Shear&lt;/p&gt;
+
+&lt;p&gt;In a double shear scenario, there are 3 total plates creating two shear
+planes within the pin resisting the shear force. So (as labeled in the
+drawing) the average shear stress on each plane is equal to ½ of the
+total force. Going back to our formula, denoting average shear stress as
+tau 𝜯 avg.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image16.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where&lt;/p&gt;
+
+&lt;p&gt;𝜯 = Shear Stress (lbs/in\^2 - N/mm\^2)&lt;/p&gt;
+
+&lt;p&gt;F = Force (lbs - N)&lt;/p&gt;
+
+&lt;p&gt;r = Radius (inches - mm)&lt;/p&gt;
+
+&lt;p&gt;For our carabiner, we want to find how much force for it to break, so we
+need to move the formula around to solve for F. F = 4π&lt;em&gt;T&lt;/em&gt;r\^2&lt;/p&gt;
+
+&lt;p&gt;With this formula, most carabiner pins seem to be about 1/16” in
+diameter. And for 𝜯, since the steel alloy is not precisely known we
+need to estimate based on general mild steels. Since shear strength of
+mild steel is usually around 50% of the tensile strength, so about 200
+MPa or 29,000 psi.&lt;/p&gt;
+
+&lt;p&gt;Plugging these values in F = 2*pi*29000psi*(1/32in) \^2 = 177.9 lb&lt;/p&gt;
+
+&lt;p&gt;With this equation, we can make a more applicable observation about
+using pins in carabiner design. Knowing the rough value for PLA’s shear
+strength, around 35Mpa or 5075psi, we can now relate the shear force to
+the radius of the pin by solving for r.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using this formula, we can use the shear strength of a material, and a
+set force to calculate the radius of the pin.&lt;/p&gt;
+
+&lt;p&gt;Another design is just using the PLA itself to act as the gate and pivot
+without a separate part or pivots. This is usually done by making
+cutouts in the lower part of the gate, using the elasticity of the
+material to make a small spring section that is printed along with the
+frame in the same print.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://www.flickr.com/photos/creative_tools/15188604861&quot;&gt;design&lt;/a&gt;,
+while lacking a locking mechanism, is the most simple of these designs
+and simply uses the bottom of the carabiner to operate the “gate” in and
+out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking at another &lt;a href=&quot;https://www.thingiverse.com/thing:950426&quot;&gt;design&lt;/a&gt;,
+the spring has matched shaped cutouts, going part way through the width
+of the frame. The matchstick shape of the cutouts is notable, since the
+fillets near the open side along with the round head dissipates stress
+concentrations. Making the structure less susceptible to forming cracks
+when used.&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction-to-fea&quot;&gt;Introduction to FEA&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image20.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image21.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Carabiner A, FEA Figure _, Stress Concentrations&lt;/p&gt;
+
+&lt;p&gt;FEA Stands for Finite Element Analysis, which is an analytical method
+for solving complicated aspects in many fields of study from structural
+analysis (what we will be doing) to fluid flow, heat transfer, and
+simulating pressure. The basic idea of FEA is to break up a model into
+small, manageable sections (called a mesh) that can be more easily
+solved by a computer. Which is great for us! Since trying to hand
+calculate forces on structural parts can take forever and are quite
+tedious.&lt;/p&gt;
+
+&lt;p&gt;FEA isn’t a cake walk since to get a simulation that will pop out useful
+information takes proper preparation and setup. While FEA software built
+into programs like Fusion 360 is great since it is easy to use, the
+problem is the concept of “garbage in, garbage out”. The idea that if
+you put in flawed data into a logical processor (the FEA program, in our
+case) the output will also be flawed.&lt;/p&gt;
+
+&lt;p&gt;In fusion, go to the design tab in the upper right and select simulation
+near the bottom. For solid works, click on Simulation in the add-on page
+if it isn't loaded, then select New Study in the simulation tab. When
+making a new study, Fusion gives up several options.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image22.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to go through and read the description for each item, but the
+main study’s we will be considering are static stress, Nonlinear Static
+stress, and event simulation. Even Simulation studies are meant to find
+out how your model responds to different factors like motion, impacts,
+and loads. Nonlinear Static Stress studies are meant to determine the
+static stresses and deformation throughout a model caused by the
+structural loads and boundary conditions while considering nonlinear
+material properties and large deformations. And the most basic FEA
+study, Static Stress, is meant to analyze the deformation and stress on
+a model from structural loads and constraints while only calculating
+results assuming linear response from the stress.&lt;/p&gt;
+
+&lt;p&gt;One of the main advantages of Nonlinear studies is it give a more
+accurate representation of real-world scenarios. Since many materials
+are nonlinear (like elasto plastics), nonlinear geometry like large
+deformations, and nonlinear kinematic constraints.&lt;/p&gt;
+
+&lt;p&gt;While both the Event Simulation, and Nonlinear Static Stress could be
+used in our application to find the resulting forces on the carabiner,
+we will be using Static Stress because of its simplicity, ease of setup,
+and ability to run on lower end systems.&lt;/p&gt;
+
+&lt;p&gt;Once we have our study with our applied material, we need to make the
+solid representation of our “rope”. Witch is a 0.75” steel bar. We need
+two of these in our assembly,&lt;/p&gt;
+
+&lt;p&gt;Next, we will need to model our “rope” for our simulation. Looking at
+our model, you might thing we can apply a force going up on the top
+curve, and a fixed relation on the bottom curve. Like the figure below,
+but this won’t give us an accurate simulation. A good example of why the
+most straightforward answer that seems obvious requires careful analysis
+to verify if it is correct to what is happening in the real world.&lt;/p&gt;
+
+&lt;p&gt;The key is to have a critical look at what is going on between the rope
+and the inner surface of the carabiner when it’s pulled until failure.
+The rope is not just applying a force to the surface, since the rope
+pushing against the carabiner has a radius and stretches the material
+while pressing against it. The rope also blocks the frame from
+distorting into the area it takes up, keeping the top of the carabiner’s
+frame from becoming pointed past the radius of the rope.&lt;/p&gt;
+
+&lt;p&gt;My rope consisted of the 0.75” bar that was 1” long, with two square
+tabs on the end. While this exact shape is not necessary beyond the
+0.75” bar, it will help us apply constraints more effectively and make
+our model match reality a little more.&lt;/p&gt;
+
+&lt;p&gt;When applying the rope’s material, it should be rigid, but Fusion does
+not have that capability. While we can create a custom material that is
+“rigid” as I cover in the next section, I will be making mine the
+in-build “steel” since it will be effectively rigid for this purpose.&lt;/p&gt;
+
+&lt;p&gt;After dragging in two models of our “rope”, or carabiner puller as I
+have named it, we need to join it into our model. This does not need to
+be exact, since we will be adding the exact relationship between the
+puller and the carabiner further on. I selected a rigid joint between
+the center of the circular portion of the puller, and the center radii
+of the lower carabiner. I then used the arrows to move the part down so
+it is coincident with the inner surface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image23.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Lower Carabiner Puller’s Joint&lt;/p&gt;
+
+&lt;p&gt;For the upper carabiner puller, we repeat the same joint selection as
+the lower one, just turned 180 degrees upwards (just to make it look
+good, not mission critical to the study).&lt;/p&gt;
+
+&lt;p&gt;Now we need to make the carabiner body, and gate PLA, but we run into a
+problem. Both Fusion 360 and Solidworks are missing PLA in their default
+materials library. But going beyond that, we want our study to
+specifically apply to 3d printed parts. And as we went over earlier in
+the Introduction to 3d Printing unit, each print will vary depending on
+print settings and orientation. While in the future there will probably
+be some way to slice a part and do FEA on the virtually print, for now
+we will account for this discrepancy by looking at available research.
+This
+&lt;a href=&quot;https://aip.scitation.org/doi/abs/10.1063/1.5085981?class=pdf&amp;amp;journalCode=apc&quot;&gt;study&lt;/a&gt;
+seems to have applicable data for making a good estimation of our part.
+Specifically, to FDM 3D printed parts with 80% infill along the x/y
+axis. For the rest of the mechanical properties, I used
+&lt;a href=&quot;https://dspace.mit.edu/bitstream/handle/1721.1/112940/Anderson_Physical%20and%20mechanical%20properties.pdf?sequence=1&amp;amp;isAllowed=y&quot;&gt;this&lt;/a&gt;
+paper from MIT. Don’t forget to check your units when adding them in (1
+MPa = 1 N/mm\^2 = 1 kg/m*s\^2).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solidworks:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Right click on “Material” in the feature tree and select “Edit Material”
+at the top of the menu. You should see a list of materials on the left
+side, scrolling down to the bottom you’ll find the “Custom Materials''
+folder in blue. Open it and click the “Custom Plastic”. You will now see
+the properties tab, where you can fill in the mechanical properties and
+add anything else you might want. Click save and apply to your part.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image24.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fusion 360:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the “SOLID” tab, click on “MODIFY” and open “Manage Materials” near
+the bottom of the drop down. In the Material Browser, click on the
+circle icon with a + mark on the lower left corner of the window, then
+click “Create New Material”. A window will pop up, in that window go
+into the ‘Fusion 360 Material Library’, click on plastic and find ‘ABS
+Plastic’. Close the window, and you will now see the ‘Identity”
+“Appearance’ and “Physical’ tabs on the left of the window. Fill in the
+required values in the physical tab and press ok. You can also edit the
+materials appearance and other properties here. The material should now
+show up in your favorite tab, so we can apply it and move on with our
+simulation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image25.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we need to move onto adding constraints to our study. Fusion gives
+us several tabs for adding information into our simulation before we can
+run it. Opening Load Case1, consisting of loads and Constraints. First,
+we need to constrain our model, in the Display tab, click on the middle
+icon. This is the DOF or Degree Of Freedom view for our study. You will
+see that every part of the study are free.&lt;/p&gt;
+
+&lt;p&gt;For our study, the lower puller is fixed, simulating the base of the
+tensile tester. Click on ‘Constraints’ in the tool bar. And click on the
+two bottom faces of the carabiner puller.&lt;/p&gt;
+
+&lt;p&gt;Next, we need to constrain the upper puller. Since this part is sliding
+upwards, we need to use the ‘Frictionless’ constraint in the constraints
+tab. Select only the outer x and y faces of the puller and click ok.
+These constraints mean that the puller can now only move up and down, in
+a virtual “Channel” crated by the outer faces of the
+puller.&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image26.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure _, Upper Puller Constraints&lt;/p&gt;
+
+&lt;p&gt;With our structural constraints in place, and before we apply our loads,
+we need to create a contact. A contact set is basically a way to
+identify a relation between two parts and how they reach to each other,
+like a pin sliding inside a slot that causes the other part to move.
+Right click on ‘Contacts’ and select ‘Manual Contacts’. You can try
+‘Automatic Contacts’ but I have never had that function work quite right
+for me.&lt;/p&gt;
+
+&lt;p&gt;Our first contact set will be between the carabiner the upper carabiner
+puller. For Selection Set 1, select the round surface of the puller. For
+Selection Set 2, select the inner face of the carabiner. For the contact
+type, since they are in contact our choices are bonded, or sliding.
+Bonded means geometry that is basically welded or permanently fixed,
+while sliding describes geometry that is touching but does not separate.
+Even though it is not traditionally sliding like a block on a ramp.&lt;/p&gt;
+
+&lt;p&gt;Now we can apply a force to the upper puller. Go to loads, create a new
+structural load, and select force as the type. The target is the two
+faces on top of the puller, with the force’s direction being upwards. At
+this stage, the load is fairly arbitrary as we will be changing it and
+running multiple simulations. But try and make your best estimate about
+how much it should hold and you can see how close you are.&lt;/p&gt;
+
+&lt;p&gt;Your simulation is now fully set up! Now it’s time for the fun part,
+meshing and running the study. Right click on mesh and select Mesh
+Settings, I usually have the slider around the middle for the first run.
+Create the mesh, your part should now look something like this.&lt;/p&gt;
+
+&lt;p&gt;At this stage, I hide the upper and lower pullers along with the symbols
+showing the constraints. Since they are no longer required for the
+study, and block us from seeing the whole carabiner. We can now click
+the Pre-check icon, on the left side of the solve section. You will
+probably see an error right about now... And it’s right. Opening the
+DOF window we will see that the carabiner is currently free. From what I
+can tell from my experience, this can be safely ignored since it needs
+to be free for our application. It won’t stop you from running the
+study, and if you want to make it go away you can apply a frictionless
+joint to the two sides of the carabiner. But I cannot say for certain
+what setup is fully correct. My results varied around 5% from one to the
+other.&lt;/p&gt;
+
+&lt;p&gt;Now, Finally, we can run our study. This should take &amp;gt;30 seconds
+depending on your hardware, but if it’s taking far too long you should
+make your mesh larger or see if Fusion has some errors ready for you.&lt;/p&gt;
+
+&lt;p&gt;Once your simulation has finished, we need to conduct a reality check on
+our findings. Fusion creates six plots for a Static Stress simulation.
+Safety Factor, Stress, Displacement, Reaction Force, Strain, and contact
+pressure. For our study, we are mainly concerned with Stress, Safety
+Factor, and Displacement.&lt;/p&gt;
+
+&lt;p&gt;Under Load Case1 by the colored graph, select stress in the drop down.
+You should now see a max and a min stress in MPa, if not click on the
+inspect tab on the top toolbar and select “Show Min/Max”. We also need
+to toggle the mesh visibility so we can see it, click on the icon above
+‘Display’ on the tool bar. You should now see the stress plotted on your
+carabiner along with the mesh.&lt;/p&gt;
+
+&lt;p&gt;During this stage in our study, the main goal is to evaluate your study
+and make sure there are no obvious discrepancies from your simulation,
+and what would happen In the real world. Everything depends on your
+specific carabiner’s geometry, but I will lay down some basic
+guidelines.&lt;/p&gt;
+
+&lt;p&gt;Look at your maximum and minimum stress. Do the values make sense? Are
+the numbers in the correct order of magnitude? Significantly
+lower/higher than you expected? You also need to look at the location of
+the maximum and minimum stress, along with any other locations with
+stress concentrations. Fusion 360 gives us an amazing tool for
+visualizing this. If you click on the colored slider to the right, you
+should see two arrows at the top and bottom. These arrows allow you to
+only see parts of your model with the corresponding range of stress,
+helping narrow down stress concentrations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image27.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In my model, we can see that the max stress is 22.95 MPa, or 3330 psi,
+Seems reasonable for my load. We can also locate the main stress
+concentrations, at the top and bottom where the puller is connected, and
+at the sides of the upper loop. This is a good time to use the lower
+slider starting at the max stress level and going down, giving you a
+good idea of how the stress propagates through your carabiner. Now is
+also a good time to un-hide the two pullers and check there’s nothing
+weird going on with them.&lt;/p&gt;
+
+&lt;p&gt;Lets change the results viewer to view the displacement, the default
+views are actual displacement and adjusted displacement. Adjusted just
+means that the program has made the displacement more dramatic to better
+show how your model is deforming. Should be &amp;gt;1mm ish and look like it
+isnt deforming in a crazy way.&lt;/p&gt;
+
+&lt;p&gt;Finally, change the viewer to show the safety factor. This view
+basically just takes the stress plot and divides the stress at each
+point by the failure point. So, if the material fails at 30 MPa, at a
+point with 30 MPa of stress the safety factor would be 1. From this
+point, we can adjust our guess for the applied force. The goal is to
+change the force so that the next resulting safety factor will be ~1.
+For my study, the minimum safety factor was 1.478 with an applied force
+of 100 N. So, I was 47.8% too low, meaning that for safety factor of ~1
+I need to change my applied force to 147.8 N. Since you have (hopefully)
+verified that there are no glaring errors in your study, this is a good
+time to make your mesh finer for more accurate results while taking
+longer to complete.&lt;/p&gt;
+
+&lt;p&gt;Go through the same steps outlined before about checking the simulation
+for errors and allows for better force averaging. In your previous
+studies, you might have noticed that your maximum stress was just along
+one mesh connection. With a finer mesh, the increase in cells allows for
+that force to average over multiple mesh nodes, leading to more accurate
+results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image28.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/TensileTester/image29.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, you should have all the data you need to analyze your design and
+make changes if needed. In areas with stress concentrations, try adding
+more material or changing the geometry of your part (adding/enlarging
+fillets, shortening connections to make the model stiffer, etc). For
+areas with very low stress, you might be able to safety remove material
+to add weight in other sections.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Designing a Carabiner</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -127,11 +822,2772 @@ A note about motors: motors exist in a bit of a gray spot between the mechanical
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Make a Video Game</title><link href="http://localhost:4000/project/2020/09/22/Video-Game.html" rel="alternate" type="text/html" title="Make a Video Game" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Video-Game</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Video-Game.html">&lt;p&gt;Page in progress…&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Make a Video Game</title><link href="http://localhost:4000/project/2020/09/22/Video-Game.html" rel="alternate" type="text/html" title="Make a Video Game" /><published>2020-09-22T10:03:30-04:00</published><updated>2020-09-22T10:03:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/Video-Game</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/Video-Game.html">&lt;p&gt;Making a Game in Unity&lt;/p&gt;
 
-&lt;p&gt;Come back soon to see the tutorial.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Page in progress…</summary></entry><entry><title type="html">Design CNC Machines</title><link href="http://localhost:4000/project/2020/09/22/CNC-Machine.html" rel="alternate" type="text/html" title="Design CNC Machines" /><published>2020-09-22T10:02:30-04:00</published><updated>2020-09-22T10:02:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/CNC-Machine</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/CNC-Machine.html">&lt;p&gt;Page in progress…&lt;/p&gt;
+&lt;h1 id=&quot;project-information&quot;&gt;Project Information&lt;/h1&gt;
 
-&lt;p&gt;Come back soon to see the tutorial.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Page in progress…</summary></entry><entry><title type="html">example tests</title><link href="http://localhost:4000/change/2020/08/01/example-tests.html" rel="alternate" type="text/html" title="example tests" /><published>2020-08-01T10:06:30-04:00</published><updated>2020-08-01T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/08/01/example-tests</id><content type="html" xml:base="http://localhost:4000/change/2020/08/01/example-tests.html">&lt;h1 id=&quot;markdown-and-other-cool-examples-webpage&quot;&gt;Markdown and other cool examples webpage&lt;/h1&gt;
+&lt;p&gt;Description: Students will follow along with the tutorial to setup the
+Unity game engine and create a game demonstrating different concepts and
+methods useful for game programming.&lt;/p&gt;
+
+&lt;p&gt;Learning outcomes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will create a simple game to demonstrate understanding of
+the Unity Engine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will write basic programs to show knowledge how to do basic
+scripting in C#.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will be able to design a simple game through Unity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Students will understand the basic theory of game design.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estimated Time: 5 Hours&lt;/p&gt;
+
+&lt;p&gt;What students will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A computer that can install and run the Unity game engine (Most Can)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;h2 id=&quot;goal-of-the-project&quot;&gt;Goal of the Project&lt;/h2&gt;
+
+&lt;p&gt;This tutorial will introduce game development through Unity and C#
+Scripting, provide the knowledge to make your own game. Unity is a
+powerful game engine capable of developing all manner of video games.
+Whether you are making something small for a game jam, or part of a team
+making fully fledged multiplayer games, Unity has the features and
+capabilities you need. The programming language Unity uses, C#, is a
+powerful and modern object orientated language with capabilities
+extending beyond Unity.&lt;/p&gt;
+
+&lt;p&gt;This tutorial will first explain the layout and concepts of the Unity
+Editor and C# scripting then split into sections for each important
+step of developing a very simple game. In each section there will be a
+video showing how to go use the Unity Editor to accomplish the task,
+which already has completed C# scripts. After, there will be an
+explanation of each script, building up the logic and showing what that
+script looks like.&lt;/p&gt;
+
+&lt;h2 id=&quot;prior-knowledge&quot;&gt;Prior Knowledge&lt;/h2&gt;
+
+&lt;p&gt;No knowledge of Unity / Visual Studio is needed, and neither is any
+knowledge about C# scripting. Although not necessary, experience or
+understanding of coding or game design theory is useful for
+understanding these topics.&lt;/p&gt;
+
+&lt;h2 id=&quot;game-demo-and-pre-made-sprites&quot;&gt;Game Demo and Pre Made Sprites&lt;/h2&gt;
+
+&lt;p&gt;*To play the demo, extract the zip file and run the middle application
+file from the folder named demo.* *Will be on website and needs to be
+replaced*&lt;/p&gt;
+
+&lt;h1 id=&quot;installing-unity-and-visual-studio&quot;&gt;Installing Unity and Visual Studio&lt;/h1&gt;
+
+&lt;p&gt;If you do not have Unity or Visual Studio installed, you are going to
+want to install the latest versions of Unity Hub and Visual Studio.
+Unity Hub acts as a medium for installing the Unity Editor along with
+accessing content provided by other users. Visual Studio is an excellent
+programming software that Unity integrates with to edit code and create
+scripts for your game.&lt;/p&gt;
+
+&lt;p&gt;Documentation for Download - PDF walkthrough of download (mostly images)
+(intuitive download so likely not needed)&lt;/p&gt;
+
+&lt;h1 id=&quot;understanding-the-unity-editor&quot;&gt;Understanding the Unity Editor&lt;/h1&gt;
+
+&lt;p&gt;Before starting your project, it is important to have a basic
+understanding of Unity and how to use the editor. However, the bulk of
+your understanding will come from creating your game and testing things
+out to figure out how it works.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-unity-editor&quot;&gt;The Unity Editor&lt;/h2&gt;
+
+&lt;p&gt;*This is a screenshot of what the Editor generally looks like*&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;*As you can see, there are four main parts of the screen*&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hierarchy-upper-left&quot;&gt;The Hierarchy (Upper Left)&lt;/h3&gt;
+
+&lt;p&gt;This part shows all the objects present in the game scene at that
+moment. This could include the camera, the player, random objects like
+rocks, enemies, etc. It also displays the relationship between the
+objects. For example, the children of an object might be tied to the
+object so that they follow as the object moves.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-file-system--console-bottom&quot;&gt;The File System / Console (Bottom)&lt;/h3&gt;
+
+&lt;p&gt;This part displays the files in your game such as images, programs, or
+useful tools the editor needs but you do not really need to worry about.
+The file system is useful for organizing the files used by your game.
+The console acts is where you can find errors displayed, as well as any
+other messages created by the code as it runs. This comes in use when
+you are debugging your code.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-game--scene-middle&quot;&gt;The Game / Scene (Middle)&lt;/h3&gt;
+
+&lt;p&gt;This displays what your current scene looks like. It allows you to move
+objects around, scale them or edit components of them. It also displays
+your game when you run it so you can play it as you build it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-inspector-right&quot;&gt;The Inspector (Right)&lt;/h3&gt;
+
+&lt;p&gt;This part allows you to add components and scripts to a game object, set
+variables, position objects by coordinate position, and much more. It
+allows you to modify variables in your scripts before and during running
+your game.&lt;/p&gt;
+
+&lt;h2 id=&quot;important-concepts&quot;&gt;Important Concepts&lt;/h2&gt;
+
+&lt;h3 id=&quot;game-objects&quot;&gt;Game Objects&lt;/h3&gt;
+
+&lt;p&gt;Game objects are a core concept in Unity. Essentially, everything that
+is in a game is an object or a clone of an object. All code that is run
+must be attached to a game object. Examples of game objects might be the
+camera, a light source, a background image, an enemy, or any other
+entity that is part of your game. All game objects have a Transform
+component which means they have a position that can be set in the X Y
+and Z axis, a scale on each axis, and a rotation around each axis. Game
+objects do not even have to be visible; some are there purely to run
+code. Values used in your script, such as player health, or ammo count,
+can be changed in the editor or through scripts.&lt;/p&gt;
+
+&lt;p&gt;Game Objects that are children of another one (placed inside them in
+hierarchy) will have a transform value relative to the parents instead
+of space around them (so 0, 0, 0 will end up at parents position)&lt;/p&gt;
+
+&lt;h3 id=&quot;components&quot;&gt;Components&lt;/h3&gt;
+
+&lt;p&gt;These are additions to game objects you can add that handle various
+things not every game object might need. For example, the Sprite
+Renderer component allows a game object to show an image in its place.
+The BoxCollider component allows a game object to physically interact
+and collide with other game objects with a BoxCollider component or
+detect when overlapping with another game object. Components are a
+powerful system that allow you to add new behavior to game objects
+without requiring every object to have that functionality, and without
+the need to copy code between objects.&lt;/p&gt;
+
+&lt;h3 id=&quot;scenes&quot;&gt;Scenes&lt;/h3&gt;
+
+&lt;p&gt;These are the way to have different levels in a game. They are built
+separately from each other and cannot interact with each because only
+one scene is able to run at a time, usually. Using scripts, you can
+switch between scenes, which will stop and reset the current scene, and
+then load the new scene.&lt;/p&gt;
+
+&lt;h3 id=&quot;variables&quot;&gt;Variables&lt;/h3&gt;
+
+&lt;p&gt;Variables are the most basic and common way of storing data. A variable
+can be any kind of data. Variables have “types” which describe what kind
+of data they store. Variables can store things like a number, word
+(called a 'string'), component, or game object.&lt;/p&gt;
+
+&lt;p&gt;There are multiple ways to represent numbers with a variable too.
+Depending on the accuracy and memory you want it to have. The most
+common ones are integers (numbers without any decimals) or floats
+(numbers that can have decimals and are indicated with an ‘f’ at the
+end)&lt;/p&gt;
+
+&lt;p&gt;A variable will usually look like this when set outside a method:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public Type Name&lt;/strong&gt; (Can be accessed anywhere in the game)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Private Type Name&lt;/strong&gt; (Can only be accessed in the script)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Static Public Type Name&lt;/strong&gt; (Accessed everywhere and all instances are
+the same)&lt;/p&gt;
+
+&lt;p&gt;And like this when inside a method:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Type Name&lt;/strong&gt; (essentially private since it is only used inside the
+function)&lt;/p&gt;
+
+&lt;p&gt;Type could be something like integer or string, etc.&lt;/p&gt;
+
+&lt;p&gt;Access modifiers are the first part of these lines, the public, private,
+static ones which tells the system who can use that variable and how it
+can be stored. A public variable can be used anywhere in your system.
+Inside its class it can be used however, and outside its call it must be
+called as a child of that class.&lt;/p&gt;
+
+&lt;p&gt;For example, in the class Animal you have a public variable Hair. In the
+class Animal you have some functions that use this variable and can call
+it as Hair. But another class Animal2 wants to call the variable Hair,
+so it must get a reference to the Animal object and then it can call the
+Hair variable like Animal.Hair. This is how you call a variable or
+function from a class, by placing a perioid after the class then the
+variable you want.&lt;/p&gt;
+
+&lt;p&gt;A private variable can only be used in the class it is defined.&lt;/p&gt;
+
+&lt;p&gt;And a static modifier is applied to a public or private variable so that
+each instance of that variable represents the same varaible, which does
+have its uses. For example, let's say we have an Enemy AI and each one
+needs to find and store a variable for the player's position. Each one
+could calculate it, or you could use a static variable to represent the
+position so only one enemy needs to find it and the rest will have the
+variable updated automatically.&lt;/p&gt;
+
+&lt;p&gt;With unity, any public variable can be set in the editor to initialize
+it when the game starts. Static or private ones cannot be set. Although
+there is a way to force Unity to let you set them by adding [Serialized
+Field] above each definition, although that is a very rare
+optimization.&lt;/p&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+
+&lt;p&gt;A method is a funciton that can take some variables as input, if any,
+and return something, if anything, after running some lines of code
+inside of it. There are some premade ones like Start (which runs its
+contents once at the start of a game) or Update (which runs its contents
+each frame of a game) or functions you define on your own which are
+handled based on how they are called in your script. They can also
+return a value such as a number or a component or even nothing (void).
+This is the Start method which takes no input and returns nothing,
+simply runs whatever code is inside of it once.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Void Start(){  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;  // Code Here  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;}  &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is an example of another method which returns true is its input is
+greater than 10, otherwise it returns false. These are boolean (bool)
+values (true or false):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;bool Method1(int Number){  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;  return Number &amp;gt; 10;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;}  &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;scripts&quot;&gt;Scripts&lt;/h3&gt;
+
+&lt;p&gt;This is a crucial part of unity. A script is code that you write that
+can become a component for game
+objects&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we have a script ‘FrameRate’ which represents a new Class under the
+same name. Any object with this script will have an instance of this
+class as a part of it.&lt;/p&gt;
+
+&lt;p&gt;It has a reference to the UnityEngine up top which means it will be
+using functions or variables or classes in the Library called
+UnityEngine.&lt;/p&gt;
+
+&lt;p&gt;And it has a call to MonoBehavior next to the class, which means the
+FrameRate class will inherit some actions from the MonoBehavior class.
+This is simply a way for Unity to make sure the classes are dealt with
+correctly when instantiating objects or destroying objects to make sure
+there are no errors. It is not needed for scripts that will not be
+attached to objects, basically ones that are just used to store
+variables across scenes, which you wont need to worry about.&lt;/p&gt;
+
+&lt;p&gt;In this class we have a public variable Rate which can be set in the
+editor or in any of the scripts as long as a reference to the instance
+of the script is made.&lt;/p&gt;
+
+&lt;p&gt;It has the Start method which means it will run whatever code is inside
+it once for the frist frame it is active, where it will use the Rate
+variable to set the frame rate of the game.&lt;/p&gt;
+
+&lt;p&gt;Then in the Update method, which runs for each frame of the game, it
+checks if the frame rate has changed and then sets it back to the Rate&lt;/p&gt;
+
+&lt;p&gt;Both methods and the public variable are in the same scope, which is a
+common term in programing that means they were defined in the same
+place, in this case insode the class definition but not inside anything
+else. This means that anything in the same scope or inside any functions
+in that scope can call them without needed a reference to the class.&lt;/p&gt;
+
+&lt;h1 id=&quot;setting-up-for-your-game&quot;&gt;Setting up for Your Game&lt;/h1&gt;
+
+&lt;h2 id=&quot;create-a-new-project&quot;&gt;Create a New Project&lt;/h2&gt;
+
+&lt;p&gt;Now that we have covered the basic background information, we are ready
+to start making something in Unity. We will be making a simple 2D game
+so you can start by clicking new and making a new 2D project, give it a
+name and choose where to save it. Exactly where you save it to is not
+important.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;folders&quot;&gt;Folders&lt;/h2&gt;
+
+&lt;p&gt;The first thing you should do if you want to stay organized is to set up
+several folders to divide your assets into. Four standard folders for a
+simple game like this one would be &lt;em&gt;Scenes&lt;/em&gt; (which should already
+exist), &lt;em&gt;Sprites&lt;/em&gt;, &lt;em&gt;Scripts&lt;/em&gt;, &lt;em&gt;Prefabs&lt;/em&gt;. Audio is not necessary in this
+case. Right click on open space in Assets or click the + to the left
+while in Assets to add the folders.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;making-your-game&quot;&gt;Making Your Game&lt;/h1&gt;
+
+&lt;h2 id=&quot;the-player&quot;&gt;The Player&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/Hute9B0Nzyc&quot;&gt;Player&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first essential part of making a game is setting up the player
+controls and making sure it feels right to play, we will start by making
+the game object for it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image6.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image7.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To add a Game Object into your scene, there are a couple methods:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click on the + to open a drop down menu, or Right Click in the open
+space below the Main Camera.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In this menu you can select either Empty Game Object, or select 2D
+Object then select Sprite.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can also open up the GameObject menu at the top of the screen
+for the drop down menu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clicking on the new Game Object after already clicking it
+(Highlighted Blue) will allow you to name it whatever you want to
+distinguish it &amp;gt;within the hierarchy.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Selecting 2D &amp;gt; Sprite will essentially make an Empty Game Object
+but with a Sprite Renderer already attached to it.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Always Remember to Reset the Transform component of a new Game
+Object (sometimes start off as random values)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;player-components&quot;&gt;Player Components&lt;/h3&gt;
+
+&lt;p&gt;Now we just need two components to make the player movement:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Sprite Renderer&lt;/strong&gt; - This simply displays an image for the object.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rigidbody2D&lt;/strong&gt; - This allows you to apply physics to an object such
+as velocity in 2 Dimensions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To add components to an object you can click on the player object in the
+hierarchy or in the scene view, then look over to the right in the
+Inspector.&lt;/p&gt;
+
+&lt;p&gt;Then you can press the button 'Add Component' and search for &lt;em&gt;Sprite
+Renderer&lt;/em&gt; and &lt;em&gt;Rigidbody2D&lt;/em&gt; and add each of them to the Player object.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rigidbody2d&quot;&gt;Rigidbody2D&lt;/h3&gt;
+
+&lt;p&gt;In the Rigidbody2D component we will need to make some changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the body type to Kinematic.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Dynamic means it will experience Mass and Forces applied to it
+by scripts and other objects.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Kinematic means it will only have a velocity value that is set
+through scripts.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set collision detection to Continuous.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Discrete means it checks for collisions less often which means
+they may be missed at higher speeds.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Continuous check for collisions more often which avoids the
+clipping effects.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image11.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;spriterenderer&quot;&gt;SpriteRenderer&lt;/h3&gt;
+
+&lt;p&gt;In the Sprite Renderer component, we need to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open the folder section to where the player sprite is located.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then find the player object again and go to its inspector and open
+Sprite Renderer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then drag the player sprite into the empty slot in Sprite Renderer.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Currently, the Sprite is not the size it should be and that is because
+the pixel size Unity thinks it is has not been set.&lt;/p&gt;
+
+&lt;p&gt;We can select all the images in the sprite folder and in the inspector,
+it should show some information about the sprites:&lt;/p&gt;
+
+&lt;p&gt;We should:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the pixels per unit to 16, this can help unity with handling the
+sprites but is more useful with keeping pixel art images consistent
+in pixel sizes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set Filter Mode to Point (no filter) and Compression to none&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select Apply&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;player-movement-script&quot;&gt;Player Movement Script&lt;/h3&gt;
+
+&lt;p&gt;Now we will need to create our own component for the player object to
+control its movements. You can do this in multiple ways, such as
+clicking to add new component to the player object in the inspector and
+simply selecting new script, naming it Player Movement or something. You
+may also right click in a designated folder in the file system below and
+use the menu to add a new C# Script then name it accordingly.&lt;/p&gt;
+
+&lt;p&gt;In this script we will need to set a few variables to use in the Update
+method which is what will happen each frame. We will need:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public Rigidbody2D Rigidbody&lt;/strong&gt; &amp;lt;- A reference to the players
+rigidbody component we can set through the editor&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public Vector2 Speed&lt;/strong&gt; &amp;lt;- A reference to a pair of values x, y we can
+use to set the speed the player has on each axis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public Vector2 Bounds&lt;/strong&gt; &amp;lt;- A reference to a pair of values that we
+will use to limit player movement to the screen bounds&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;private Vector2 Velocity&lt;/strong&gt; &amp;lt;- A pair of values we can use to set the
+velocity of the rigidbody to, since we can't set x or y individually&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;*'public' indicates that it can be viewed and set outside the
+script while 'private' only allows that within the script*&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;*The word after these is the type of variable being set, such as a
+number or component or something*&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;*Then the third word represents how that variable can be called in
+the script*&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This can be done outside the methods but within the class definition for
+Player Movement.&lt;/p&gt;
+
+&lt;p&gt;Next, we need to think about how we will handle the logic for the
+script.&lt;/p&gt;
+
+&lt;p&gt;We need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the Player on either axis based on Inputs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stop motion in a certain direction if it will go beyond bounds .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A useful class we can use is the Input class which houses several
+functions that get inputs from your computer. In this case we can use:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input.GetAxisRaw(“Horizontal”)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input.GetAxisRaw(“Vertical”)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the getAxisRaw function from the Input class which takes a
+direction and returns a float number as either -1, 0 or 1 based on WASD
+key inputs.&lt;/p&gt;
+
+&lt;p&gt;For example, W will return 1 for getAxisRaw(&quot;Vertical&quot;)&lt;/p&gt;
+
+&lt;p&gt;Now we need to check if moving in these directions will move us out of
+bounds, we can use an if statement, which takes a boolean or comparison
+as an input and runs whatver code is inside it if it is true, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;if(transform.position.x + Input.GetAxisRaw(&quot;Horizontal&quot;) &amp;lt;
+Bounds.x)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;{&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do Something&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;}&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;else&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;{&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do Something Else&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;}&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;However, this will need to work for either direction so taking the
+absolute value (from the Mathf class) of where the player will be should
+work like you will see below.&lt;/p&gt;
+
+&lt;p&gt;We can put this all together to form the Player Movement Script:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a player movement script. It starts each frame with a blank
+vector and depending on whether the inputs will go out of bounds, sets
+values to that vector which then is multiplied by a vector representing
+the speed of the player on each axis and applied to the rigidbody's
+velocity.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-laser&quot;&gt;The Laser&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/BRWhie3PUXY&quot;&gt;Laser&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What is a spaceship without lasers? First we need to create a new game
+object in the hierarchy and call it Laser.&lt;/p&gt;
+
+&lt;p&gt;Laser Components&lt;/p&gt;
+
+&lt;p&gt;Now we need to figure out what components we will need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SpriteRenderer&lt;/strong&gt; to show its sprite.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rigidbody2D&lt;/strong&gt; to move it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add these components and remember to drag the laser sprite into the
+sprite slot and set the rigidbody to kinematic and reset the transform.&lt;/p&gt;
+
+&lt;h3 id=&quot;laser-movement-script&quot;&gt;Laser Movement Script&lt;/h3&gt;
+
+&lt;p&gt;We should not need that complicated of a script for the Laser. It simply
+needs to set its velocity on spawn and wait until it is out of bounds
+then despawn.&lt;/p&gt;
+
+&lt;p&gt;To do so we need a reference to a Rigidbody2D, a variable to set the
+speed and one for the bound as well. Then in the Start method, which is
+called the first frame an object is active, we can set the velocity to
+the speed. Finally, we can use the Update method to check, each frame,
+that the Laser is out of bounds, and if so, destroy it, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Vector2 class also houses a few variables that are instances of
+Vector2's with different values representing directions. For example,
+the up Vector2 is (0, 1), or up the y axis.&lt;/p&gt;
+
+&lt;p&gt;This makes it just a little simpler when setting vectors in directions
+along an axis, since we want to set the velocity to going up at some
+speed and now we can just have the speed as a vaiable instead of making
+a new Vector2 variable.&lt;/p&gt;
+
+&lt;h3 id=&quot;player-shooting-script&quot;&gt;Player Shooting Script&lt;/h3&gt;
+
+&lt;p&gt;Now we need to have the Player shoot some lasers! First, we need to turn
+the Laser object in the scene into a prefab. To do so we just drag the
+Laser game object from the hierarchy into the file system. Then delete
+the old object from the scene. Now the Laser will be a prefab!&lt;/p&gt;
+
+&lt;p&gt;Next, we can make a new script to add to the Player to shoot lasers,
+something like PlayerShoot or Shootlaser or something.&lt;/p&gt;
+
+&lt;p&gt;There will be some new concepts here. But first we will want to set some
+variables:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;public GameObject Laser&lt;/strong&gt; &lt;em&gt;This is how you reference a prefab from
+a script&lt;/em&gt;*&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;public int CoolDown&lt;/strong&gt; &lt;em&gt;This is a number we will use to wait some
+frames to be able to shoot again.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;private int Timer&lt;/strong&gt; &lt;em&gt;This will be used to tell if we can shoot
+again.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So now, we can use the Update method to check each frame, if the Timer
+is not zero decrease it. And if the space is pressed and the timer is
+zero, then we can spawn some lasers in front of the player.&lt;/p&gt;
+
+&lt;p&gt;To handle the timer we can use a more compact if else statement which is
+used when you want it to return a value, in this case we can use it to
+return what number the timer should be subtracted by. It goes like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Var -= Var &amp;gt; 0 ? 1 : 0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a more optimized line of code than an if statement for specific
+cases and is structured where before the ? Is the comparison you want
+then immediately after is what you would return if it is true and after
+the : is what you would return if it isnt true. And whatever is returned
+takes place of what is after the =&lt;/p&gt;
+
+&lt;p&gt;To get a key press as an input we can use the GetKey function from the
+Input class:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Input.GetKey(KeyCode.Space)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are a few variants to the GetKey functions, there is also
+GetKeyDown and GetKeyUp. Each has its own use:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GetKey()&lt;/strong&gt; simply returns True when the specified key is pressed on
+that frame, doesn't matter how long it was pressed before.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GetKeyDown()&lt;/strong&gt; returns True only for the same frame that key was
+pressed down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GetKetUp()&lt;/strong&gt; returns True only on the frame the specified key was
+released.&lt;/p&gt;
+
+&lt;p&gt;Using GetKey can allow us to have an automatic fire for our laser which
+is what we will want.&lt;/p&gt;
+
+&lt;p&gt;Then to spawn in a prefab using a GameObject variable, we can use the
+Instantiate function:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instantiate(Prefab, Vector3, Rotation);&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This will spawn the Prefab in the game with coordinates of the Vector3
+parameter and rotation of the Rotation parameter.&lt;/p&gt;
+
+&lt;p&gt;In the editor make sure the script is added to the player and the laser
+script is added to the Laser prefab and the variables are filled with
+numbers that make sense. For example the cooldown could be 20 frames,
+and the spawn point could be 3, 3 for the laser. And the Laser could
+have a speed and bound of 50 or something.&lt;/p&gt;
+
+&lt;h3 id=&quot;frame-rate&quot;&gt;Frame Rate&lt;/h3&gt;
+
+&lt;p&gt;Running the game right now should allow you to move the player about and
+fire lasers, however you will notice you will be firing very fast. This
+is due to a frame rate not being set. To do so we can set the Target
+Frame Rate in a new script called Frame Rate like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you just need to attach that script to a game object like the Camera
+(which is always present) and it should be running a lot smoother. Set
+the rate to something like 60 like most games are. and you can also mess
+around with the cooldown frames until it feels right.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-asteroid&quot;&gt;The Asteroid&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/u5gUrv3mPaI&quot;&gt;Asteroid&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we need something to shoot at. An Asteroid moving down the screen
+will do. We can create a new game object in the hierarchy named
+Asteroid. It will need to move across the screen and interact with the
+lasers and player. To do so we will need:&lt;/p&gt;
+
+&lt;p&gt;Asteroid Components&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SpriteRenderer&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rigidbody2D&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;BoxCollider2D&lt;/strong&gt; &amp;lt;- This is a new concept, it is a component that
+can be used to collide with other objects, applying force to them,
+or just tell if an object overlaps with another.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember to reset the transform and set an asteroid sprite to the
+renderer slot and set the rigidbody to kinematic and continuous, and now
+you also should make sure the bounds for the collider fit the asteroid.
+Click the triangle shape for the BoxCillder2D component and in the scene
+view you should see the square it makes up around the object, if not
+make sure the sizes aren’t 0 for the size of the collider. You can edit
+these values and drag parts of the square until it feels like a correct
+hitbox for it. Having the sprite active to get a visual for the size is
+a good practice.&lt;/p&gt;
+
+&lt;h3 id=&quot;boxcollider2d&quot;&gt;BoxCollider2D&lt;/h3&gt;
+
+&lt;p&gt;A collider is a very important component when you want objects to
+interact with each other. Note that in some cases a rigidbody will be
+needed for colliders to work if physics are involved. But in this case,
+we just want the collider so that we can tell if it overlaps with
+another collider. To do so we can use a method called:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;void onTriggerEnter2D(Collider2d collision)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This method has a Collider as a parameter to it because it is called
+when the collider of the game object overlaps with a different collider
+and that other collider is the parameter here, so that we may access it
+if needed. In this method we will want to check that the object collided
+with is a certain type and destroy itself if so. One way to check this
+is to look at the tag of that game object. This is a word that we can
+attach to any game object to differentiate it from others. It is called
+like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;gameObject.tag&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reworking-laser-logic&quot;&gt;Reworking Laser Logic&lt;/h3&gt;
+
+&lt;p&gt;Now we can put these concepts together and form a script. However, if
+you think about what this object will be doing and compare it to the
+Laser, it will be very similar except for direction. We can just edit
+the Laser script and generalize it, so we should be able to set the
+speed to be negative and still have the bound logic work. A simple
+absolute value of the position should work for that comparison.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathf.Abs(Number)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Even though the asteroid will be moving down to say -60 at -15 speed,
+its position can be treated as positive, and the bounds will be positive
+just in the comparison. This will work for both the Laser and Asteroid.
+And we will also just need a string variable that will be the tag that
+will be checked for to destroy the game object.&lt;/p&gt;
+
+&lt;p&gt;So now we can apply these changes and add the collider logic to the
+Laser script like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And remember to add a box collider to the Laser prefab too, now that it
+should have one.&lt;/p&gt;
+
+&lt;p&gt;And you should also go into the inspector for the laser and asteroid and
+click on the tag button up top, this will drop down a menu where you can
+add and set tags. You will want to add a Laser and Asteroid tag to use
+for the respective objects for now.&lt;/p&gt;
+
+&lt;h2 id=&quot;asteroid-spawning&quot;&gt;Asteroid Spawning&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/fJwzA8PrQ2A&quot;&gt;Spawner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image19.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we have the asteroid concept done, we will need to make a way
+to spawn many of them randomly.&lt;/p&gt;
+
+&lt;h3 id=&quot;spawner-object&quot;&gt;Spawner Object&lt;/h3&gt;
+
+&lt;p&gt;We can create a new empty object in the hierarchy but this time we
+won't need to add any components to it. We can just have it exist and
+use it to run a script.&lt;/p&gt;
+
+&lt;h3 id=&quot;spawner-script&quot;&gt;Spawner Script&lt;/h3&gt;
+
+&lt;p&gt;We can make a new script and call it spawner or something and now we
+will need to figure out some logic for it. We need to make the asteroid
+into a prefab like we did with the laser to use as a reference, and to
+spawn it in we will want some range of values to spawn it into since it
+should be randomly around the screen, which also means we will need a
+number to use as a chance to spawn it too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public GameObject Asteroid;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public Vector2 Rangepublic float Height&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Random.Range(-10, 10)&lt;/strong&gt; returns a random integer from -10 to 10 while
+being &amp;lt; 10&lt;/p&gt;
+
+&lt;p&gt;So, each frame we can check if a random number for some range we decide
+is less than the chance we want and if it passes then spawn an asteroid
+above the screen with a random x coordinate in the range, we give it,
+like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we can use the range as the bounds of the player and the chance
+could be something like 0.05 to start but could be changed until a good
+spawning rate is achieved through testing. This would mean each frame
+has a 5 percent chance to spawn an asteroid, and that over 60 frames
+means about 3 asteroids per second.&lt;/p&gt;
+
+&lt;h2 id=&quot;health-system&quot;&gt;Health System&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/NZHLMlQwYVQ&quot;&gt;Health&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image21.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that the lasers and asteroids can spawn and interact with each
+other, the next step is to let the player object do the same. We will
+introduce a health system to use for the player.&lt;/p&gt;
+
+&lt;h3 id=&quot;health-script&quot;&gt;Health Script&lt;/h3&gt;
+
+&lt;p&gt;So, we should have a number to represent that amount of health we have
+and we can take some away every time the player collides with an
+asteroid, and as most retro games do, we can make the player immune for
+a small damage animation. We already know how to deal with collisions,
+but we will need a new concept to handle the immunity and damage
+animation. This will be the IEnumerator method, a function from the
+System.Collections library we can make a reference to. These are
+functions we can write that will run alongside your scripts, unaffected
+by framerates. It appears similar to how other functions or methods are
+defined, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IEnumerator Take_Damage()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;StartCoroutine(TakeDamage())&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this function we can make the player immune, flash the sprite on and
+off, then make the player not immune. To do this we will need a way to
+disable the sprite, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SpriteRenderer Sprite&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sprite.enabled = false&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can set the enabled variable of a SpriteRenderer to true or false to
+turn it on or off. And then to add some time between the flashes we will
+need a way to wait some time, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;yield return new WaitForSeconds(numSeconds)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This line will cause the now branched function to wait the number of
+seconds given in the parenthesis, which could even be a decimal number.
+In a regular update function you would not be able to wait to continue
+executing code. We could loop these concepts a few times to get the
+flashing effect we want. A for loop will do. This sets a variable and it
+can increment it until it reaches a limit, which is useful for looping a
+set number of times. It looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;for(int i = 0; i &amp;lt; MaxNumber; i++)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This sets a new variable ‘i’ to zero and increments it by 1 (i++) and
+runs whatever code is inside it until ‘i’ does not satisfy the
+conditional (i &amp;lt; MaxNUmber) in the middle. This can cause us to run the
+code inside the for loop a certain number of times.&lt;/p&gt;
+
+&lt;p&gt;Putting all these concepts together we can form the Health script for
+the player like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image22.png&quot; alt=&quot;&quot; title=&quot;Inserting image...&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;health-bar&quot;&gt;Health Bar&lt;/h3&gt;
+
+&lt;p&gt;Now that the player has a health value, we can set a visual on screen to
+show it. This will simply be a Sprite on screen that has its image
+changed each time the player's health is updated. To do this we can add
+two variables to the health script, a SpriteRenderer that is a reference
+to the sprite on screen, and an array of Sprite images we can swap to.
+An array is like a list of elements with a fixed size, and you can
+access each member of that list through an index. It appears like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public int[ ] Numbers&lt;/strong&gt; *This is an unset variable that references
+an array of integers.*&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;int Variable = Numbers[3]&lt;/strong&gt; *This is how you can call a certain
+element from the array.*&lt;/p&gt;
+
+&lt;p&gt;We can set a public array through the editor so no need to worry about
+initializing it through the script. There are cases where that would
+happen and in those cases there are functions that can find certain
+objects or components and returns an array you can use to set it.&lt;/p&gt;
+
+&lt;p&gt;So now that we can use an array of Sprites that contain health bars that
+relate to different levels of health, we can figure out a clever way to
+index it such that we can use the health as an index. This means that
+since the amount of bar variations or the length of the array should be
+equal to how much health the player has, we can use the health amount as
+a way to access the health bar associated with the amount. For example
+if health is 0, then we can use the sprite at 0 index in the array, and
+with health 1 we can sue index 1, etc. To make an array of sprites we
+can just do this:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;public Sprite[ ] Sprites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With this logic, whenever the player health is updated, we can just set
+the health bar sprite to whatever sprite is at the index in the array of
+the new health amount, as seen in the updated health script:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exporting&quot;&gt;Exporting&lt;/h2&gt;
+
+&lt;p&gt;Before exporting it is a good idea to add a line of code to a script
+that is always active that will let you quit out of the game without
+having to manually close the application. We can use this line of code
+in an update function, probably the frame rate one:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is much more you could do to add to this game, or any game, but
+eventually you are going to want to make a build for it whether it is
+finished or not, to see what the finished product would look like at
+this moment, or to save a previous copy of a game you may be updating.
+To build your game, or export the application into a file, you can go
+into the menu through file and click build settings.&lt;/p&gt;
+
+&lt;p&gt;Here you will see the scenes the game thinks it should export and how
+Unity will export it, such as how it will be windowed or what platform
+it will be for. If the scene you want is not in the build, make sure to
+click 'add open scenes' and then click build. This should then work on
+exporting your game into your computer's file system that you can play
+outside of Unity.&lt;/p&gt;
+
+&lt;p&gt;Additional Content for Visual Appeal, not Needed for Gameplay:&lt;/p&gt;
+
+&lt;p&gt;Stars in Background&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/snh7_DLc3KQ&quot;&gt;Stars&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image24.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Camera Shake&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/iixnz-1dFBs&quot;&gt;Camera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image25.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Could Also Do Additional Enemies / Item (No New Concepts There However)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C# Concepts Covered&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Variables, Classes and Methods&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sprite Renderer / Sprites&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rigidbody Physics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vectors&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Input&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Conditionals&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Spawning Prefabs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collisions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Random Numbers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IEnumerators&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Loops&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Arrays&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Unity Concepts Covered&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;2D Game Development&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Editor Layout&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Components&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Positioning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testing Game&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Building/Exporting Game&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><summary type="html">Making a Game in Unity</summary></entry><entry><title type="html">Design CNC Machines</title><link href="http://localhost:4000/project/2020/09/22/CNC-Machine.html" rel="alternate" type="text/html" title="Design CNC Machines" /><published>2020-09-22T10:02:30-04:00</published><updated>2020-09-22T10:02:30-04:00</updated><id>http://localhost:4000/project/2020/09/22/CNC-Machine</id><content type="html" xml:base="http://localhost:4000/project/2020/09/22/CNC-Machine.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image35.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;1-kickoff-and-design-ideology&quot;&gt;&lt;strong&gt;1. Kickoff and Design Ideology&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;kickoff--introduction&quot;&gt;Kickoff &amp;amp; Introduction&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This class intends to flesh out the process of designing and building a
+CNC milling machine as a gateway to the magic of project based
+engineering. The project should build skills and impart grander project
+structure advice along the way. Practical skills covered include:
+terminology, using CAD (Computer Aided Design), design for
+manufacturing, concepts in robotics and mechatronics, and much more! On
+a grander pedestal: We hope that going through this short work will
+impart wisdom about the thought process behind successfully completing
+practical engineering projects.&lt;/p&gt;
+
+&lt;p&gt;The class is designed to fit into five bite sized, and fairly
+independent chunks covering different material. This structure affords
+engineers the ability to spread themselves only across the parts they
+will benefit the most from.&lt;/p&gt;
+
+&lt;h3 id=&quot;structure&quot;&gt;Structure:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Introduction and Design Ideology (You’re already here)&lt;/p&gt;
+
+    &lt;p&gt;a.  A slightly dry kickoff to design ideology in simple terms of
+    &amp;gt; what to do on a high level when starting a project and some
+    &amp;gt; thinking exercises.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Nuts and Bolts of CNC Electronics&lt;/p&gt;
+
+    &lt;p&gt;a.  A high level overview of terminology, units, electronics, robot
+    &amp;gt; control, linear motion, and standards. Brief but targeted
+    &amp;gt; understanding of the background requirements for a CNC
+    &amp;gt; machine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CAD and Linear Motion&lt;/p&gt;
+
+    &lt;p&gt;a.  3D CAD ramp from beginner to intermediate and a jumping off
+    &amp;gt; point for the more practical half of the materials. With an
+    &amp;gt; introduction focusing on visualizing the moments and basic
+    &amp;gt; physics concepts and choosing fasteners, bearings, and general
+    &amp;gt; hardware.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Design for Manufacturing&lt;/p&gt;
+
+    &lt;p&gt;a.  School of hard knocks lesson split between more advanced design
+    &amp;gt; information and making better CAD. Design information covers
+    &amp;gt; an explorative look at the limitations of materials,
+    &amp;gt; tolerances, and advice for different forms of manufacturing.
+    &amp;gt; Practical side focuses on implementing the new knowledge into
+    &amp;gt; existing CAD designs for a new… revision.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Epilogue, What’s Next, and Why it’s All Important&lt;/p&gt;
+
+    &lt;p&gt;a.  Calibration, safety, and software implementation plus milling
+    &amp;gt; machine usage including basic CAM and tooling overview. Final
+    &amp;gt; tidbits about how you can use an “okay” milling machine to
+    &amp;gt; make a better one.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;design-ideology&quot;&gt;Design Ideology&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The cliche of beginning with a definition can be frustrating, but it
+really helps to conceptualize some of the philosophy I want to impart in
+this short course. For our purposes, engineering is like taking a large
+group of non-intersecting requirements and inputs and developing a way
+to convert them into a desired output. At its more abstract, this
+definition allows us to view an engineering solution as we can any
+simple solvable problem: The knowns and the unknowns. The sheer number
+of possible orientations and solutions creates a deluge of ideas that
+won’t work and rooting them out through careful thought early will save
+huge headaches.&lt;/p&gt;
+
+&lt;p&gt;I want to set out a few tenets of finishing engineering projects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Simplicity is every engineers best friend&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mistakes are inevitable, revisions are the key to successful
+    &lt;blockquote&gt;
+      &lt;p&gt;projects&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The earlier revisions are made, the faster, and cheaper they are&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Engineering seems to be unique in the complexity and variations possible
+within these structures allowing for solutions from the beautiful and
+elegant to the functional to even the non-functional. Within this
+spectrum from working to non-working the only difference is the number
+of revisions. As I like to say: there are no failed projects, only
+unfinished work. The practical component of this wisdom is that projects
+that work and work well need to be revised, revised, revised, and
+revised again. To this end, it is in the engineers best interest to
+remove as much friction from the process of revisions possible. Finding
+solutions to the problems created by legacy implementations can be much
+harder than finding novel implementations. There is no easy answer of
+when to add a new feature or to change a feature, but thinking about it
+in stages can help develop an important intuition. Like anyone starting
+or enjoying a journey, mistakes and pitfalls mark the path but an open
+mind and adherence to the tenets I’ve set here are a reasonable start.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the best CAD software?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It is the one that the engineer works best in, but it’s also a trick
+question. As of my writing this, the only CAD software that can flesh
+out complex ideas in seconds is old fashioned pen and paper.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 1, an example of the level of detail an extremely neat engineering
+drawing should include. Simple circles, boxes, and arrows with rough
+dimensions should suffice. Sketches like this are powerful but can only
+function when the designer finds their own work legible.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Any engineering project should start with documentation on the specific
+needs that need to be met in a final project both functionally and
+physically. The fun work can only begin with a clear list of objectives
+and constraints in place. The ideas phase should be as simple as
+thinking about different novel solutions and drawing them on paper.
+Taking some time to visualize motion, key steps in the function, the
+assembly, and manufacturing quickly aids the selection of ideas that are
+more practical.&lt;/p&gt;
+
+&lt;p&gt;The cost of any changes to a project go up exponentially as projects
+gain momentum and a base of research. Which is why cheap and fast tools
+like this are so essential.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;an-application&quot;&gt;An Application&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The time has finally come to begin thinking about some applications of
+these tools to enshrine their usage. In one of its most simple forms,
+any CNC milling machine (or for that matter a device similar such as a
+laser cutter, 3D printer, robot arm, etc) is just a device developed to
+move around in a certain coordinate plane. Note figure two and consider
+how many motors (or manipulators) it would take to move a robot from the
+origin to the point &lt;em&gt;P&lt;/em&gt;(3,5).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 2 A Cartesian Coordinate plane with two axes (x &amp;amp; y). Note the
+variation in possible locations that can be reached within the marked
+bounds of 0-10 on each axis.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you only need to move &lt;em&gt;between the two points P(3,5) and the origin&lt;/em&gt;,
+that can easily be achieved with a single stationary motor. This single
+motor configuration can be achieved in any number of ways but two
+examples are a motor attached to a leadscrew (turning the rotational
+motion into linear motion) or a motor placed between the two points with
+an armature or reach allowing a purely spinning motion to move between
+the points. It can be easy to over think challenges and hard to leave
+behind those assumptions. With two motors we have a lot more freedom, we
+can access an arbitrary number of spaces in this coordinate plane. This
+distinction is very important as cases where we don’t need the
+versatility offered by the extra motor can be greatly simplified with
+its absence.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;an-exercise&quot;&gt;An Exercise&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Exercise: &lt;em&gt;Given a two-dimensional coordinate plane (shown in figure 1),
+design a simple mechanical system that can reach any given point using
+its own motors. Then design &lt;strong&gt;two more&lt;/strong&gt; different systems to fulfill
+the same criteria. With three simple designs drawn out, compare them.
+Which would you rather make? Do you think some will be easier to program
+than others? Try to articulate specific reasons why some are better or
+worse. (&lt;strong&gt;Hint: Use paper and if you get stuck try thinking about cars
+navigating from top down or polar coordinates, don’t spend more than
+five minutes on this if you aren’t enjoying it&lt;/strong&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-the-nuts-and-bolts-of-cnc-electronics&quot;&gt;&lt;strong&gt;2. The Nuts and Bolts of CNC Electronics&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;introduction-to-electronics-and-movement&quot;&gt;Introduction to Electronics and Movement&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This lesson is about thinking of the challenges involved in all levels
+of getting objects from one discrete location to another with
+repeatability. The main focus of this class is linear automation systems
+that require getting to an arbitrary number of positions along a certain
+route or within the size constraints of the machine. I will also be
+touching on some elegant solutions to scenarios in automation that only
+require repeatable translation between specific a and b positions.&lt;/p&gt;
+
+&lt;h3 id=&quot;structure-1&quot;&gt;Structure:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Nuts and Bolts of CNC Electronics&lt;/p&gt;
+
+    &lt;p&gt;a.  A high level overview of terminology, units, electronics, robot
+    &amp;gt; control, linear motion, and standards. Brief but targeted
+    &amp;gt; understanding of the background requirements for a CNC
+    &amp;gt; machine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;electrical-and-computer-engineering-words&quot;&gt;Electrical and Computer Engineering Words&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It can be very easy to slip into techno-babble while writing work like
+this. Generally I will try to use technical words that I consider to be
+essential in the text with explanations. As these terms will show up in
+the process of acquiring goods and looking through less beginner
+friendly documentation. I will use this section, as glossary for this
+technical lesson and as an introduction to these topics for the totally
+uninitiated so don’t skip this section if you aren’t familiar with or
+need a refresher on terms like Arduino, serial communication, NEMA
+stepper, linear bearing, etc…&lt;/p&gt;
+
+&lt;p&gt;Electrical and Computer Engineering&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Arduino&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PWM&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C++&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Serial Communication&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;NEMA Stepper&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I2C / SPI&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;mechanical-engineering-words&quot;&gt;Mechanical Engineering Words&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This section will also operate as a standard glossary for those familiar
+with the subject but will be a very handy guide for those who haven’t
+had the fortune to work with linear slides too long.&lt;/p&gt;
+
+&lt;h3 id=&quot;figuring-out-fasteners-and-the-metric--imperial-dilemma&quot;&gt;Figuring out fasteners and the metric / imperial dilemma&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;The difference between Metric and Imperial in short and how to use
+them&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;The very basics:&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Metric and imperial are “competing” standard systems of units in the
+world. It is hard to provide substantial evidence of the objective
+superiority of one system over the other but metric poses many
+advantages for the beginner in manufacturing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Measuring things&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The easiest way to measure things distances accurately in an amature
+shop is either a ruler (for bigger stuff ideally no smaller than a few
+mm or one eighth of an inch) or a caliper. Which is a special kind of
+digital ruler that can be fantastically accurate. Figure 1 shows a
+digital caliper that you could expect to use when making sure a part
+has been manufactured to the right size. This tool and it’s
+capabilities are important when deciding whether to implement a metric
+or imperial shop as it is the main tool to use when converting between
+decimal inches and fractional inches until intuition kicks in.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image29.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 1 a typical Digital Caliper which measures the distance between
+the jaws in decimal mm, decimal inches, and fractional inches.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Hole sizes, drill bits&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the metric system, drill bits are denoted by their diameter in mm
+(generally in whole numbers like 3mm but exceptions do exist) 3.175mm
+(= ⅛” or one eighth of an inch), 5mm, 10mm, etc... Which is also the
+diameter of the hole they will make in the material to be drilled
+(small footnote here: there will be more details on this in DFM).&lt;/p&gt;
+
+  &lt;p&gt;In the imperial system, drill bits are denoted by inch fractions and
+by a gauge system. The “gauge system” operates with overlap on the
+very small end of imperial drills starting with a 1 (7/32”) and
+proceeding in &lt;em&gt;non-linear steps&lt;/em&gt; to an 80 (~1/90”). In other words
+higher gauge drill bits are smaller. While fractions might seem very
+simple it can be tricky to quickly determine the fraction of an inch
+something is. Drill bits, like anything are not perfect. Some will be
+slightly bigger or smaller and all will wear over time. Say the exact
+diameter of a drill bit has shifted by 1/125” or 0.008”. That drill
+bit is still fine for general use but when it is measured using the
+fractional setting on a caliper (from the bullet) the fraction might
+be confusingly different from the given drill size. Say the drill bit
+was a ⅛” given the fraction might be 15/128” which is only 1/128”
+below ⅛”. &lt;strong&gt;This is counter intuitive.&lt;/strong&gt; Metric is all decimal, no
+gauges, no fractional conversions. If a 3mm has worn slightly, it will
+read 2.97mm and be immediately recognisable, as pretty much 3mm. This
+is a convenience that cannot be understated for beginners. If this is
+too complicated, consider figure 2. Top is the spectrum of metric
+drill bits between 0 and 1”. And bottom is the same spectrum in
+inches. Then add having to do decimal conversions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image24.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 2 a simple ruler showing the spectrum of drill bits and holes
+below 1”&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Threads&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Threads are the helical or curvy teeth around the outside of a
+        &lt;blockquote&gt;
+          &lt;p&gt;screw or the inside of a nut. They are always defined by a
+diameter of the screw or nut hole and “rate of teeth” which
+can be measured in two ways. Pitch, as shown in figure 3 is
+the distance between corresponding parts of a thread. Then
+there is the other way to measure “rate of threads” which is
+the quantity of threads per unit distance. There can be screws
+with the same diameter that have a different rate of teeth
+which means that for each rotation the screw will travel a
+different distance into the nut. Smaller pitch bolts are
+slowly to bolt in but have a higher mechanical advantage.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image21.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. 3 Shows a bolt sideways with labels. Note the major diameter and
+pitch. They are the units that generally define the identity of a
+thread.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Metric Threads: Metric threads are measured with diameter and pitch.
+But to make things easier there are standard pitches for every
+diameter of bolt. Which means that for the vast majority of cases it
+is as simple as calling out a metric bolt diameter. Which looks like
+this M5 for a 5mm hole with a 0.8mm pitch. For every diameter it’s
+just “M” and the major diameter of the bolt in metric (remember the
+major diameter notation from figure 3). Non-standard pitches can be
+manufactured but generally the “fine” and “coarse” options as well as
+the default provide ample options.&lt;/p&gt;
+
+  &lt;p&gt;Imperial Threads: Once again, imperial screw sizes are much more
+complicated. For the little ones, there are gauges which run in the
+opposite direction as the gauges of imperial drill bits. Which means
+that the lower the gauge of thread, the smaller the diameter. For sub
+⅛” bolts, the gauges from 12 down to 0 in increments of 1 and then
+there are three aditional sizes: 00, 000, and 0000. For everything
+else (again, ⅛” and larger) it is the inch fraction. Okay we’re
+halfway there. The second part of an imperial thread is always going
+to be noted as a whole digit and it is the number of threads per inch.
+There aren’t technically standard pitches so all imperial screws are
+noted with both the diameter and pitch. For a little screw that could
+look like “000-120” or like 1⅛-5 for a screw with a diameter of an
+inch and an eight and five threads per inch. One last thing to note is
+that custom bolts can be made in the system for any size, but there
+are only a few pitch options regularly available at each given
+diameter.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The insignificant extras&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;International standards&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Almost everywhere in the world uses metric. That is a fact and the
+result of that fact is that very cheap parts are often available only
+in metric. While high end builds are available in either metric and
+imperial the low-end is ruled by metric. Which is very useful advice
+in the hobby-grade we are working with.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Metric is substantially easier to work with across almost all of
+    &lt;blockquote&gt;
+      &lt;p&gt;fabrication, even with no prior experience and is often cheaper
+due to inexpensive international manufacturing options. If you
+haven’t understood all of the finer details of this discussion at
+least take this home with you: have a good reason to use inches
+because even if you don’t know metric very well it is easier.
+&lt;em&gt;Period.&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This explanation of screws and their uses may feel like a gigantic waste
+of time but having an in-depth understanding of using screws and how
+they work is a necessity in building toys like a CNC machine. CNCs are
+generally driven by linear actuators that use big screws to turn
+rotational energy into linear motion. Oh and everything is held together
+by them. You will need to buy hundreds of screws to make a toy like this
+work and knowing what you’re doing with them is important.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-the-linear-motion-lingo&quot;&gt;Learning the linear motion lingo&lt;/h3&gt;
+
+&lt;p&gt;Most linear motion is a collection of a motor, a drive system, and a set
+of bearings that constrain motion in all but one axis. Rotational motion
+is almost universally the cheapest way to turn in electrical power into
+locomotion. Which means that the motor and drive system have to work
+together to turn the rotation of the motor shaft into linear motion.
+There are two main ways to achieve this. One is with screws and
+screw-like things (well go into this in a minute) and the other is with
+timing belts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Belts or timing belts&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The big advantage of belts is the inexpensive buy in and the
+        &lt;blockquote&gt;
+          &lt;p&gt;versatility that affords. Belts are extremely cheap by almost
+any metric and don’t need to be shipped in any special fashion
+due to their not needing to stay excessively straight. They
+are almost perfect. Before I ruin the magic, check your
+understanding by looking at fig. x below. Belts are often used
+in hobbyist machining applications but they are flexible. In a
+milling machine that means that when the cutting starts,
+excessive forces can cause the machine to lose all consistency
+and accuracy. Okay you may ask… What about a belt like thing
+that isn’t slippery? Flex creates the enemy of the CNC milling
+machine: backlash. Backlash is the play between components in
+a CNC system and the best CNCs need to maintain almost none so
+would a metal belt improve the backlash?&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. x a linear motion system driven by a belt. The ends of the belt on
+the right and left sides are fixed so as the motor (the large, central,
+silver wheel) turns pulling the axis in either a left or right
+direction.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chain: Great point. But the three problems are tensioning,
+    &lt;blockquote&gt;
+      &lt;p&gt;efficiency, and noise. Exact distances are difficult to achieve
+with chains because the loop sizes are “quantised” by the
+individual links. This creates the problem of how to tension the
+chain while maintaining efficiency. Really tight chain will have
+the least play but it will also be the hardest to turn.
+Fundamentally, the chain is designed to be a high power and very
+efficient transfer system but it suffers at higher RPMs because of
+the number of moving parts and it isn’t designed to transfer loads
+without backlash. But with all of that said, there are a lot of
+smart engineers like you who have found work arounds that make
+chain work. Checkout the maslow CNC in fig. x which uses a
+carefully weighted gantry to ensure the chain keeps the right
+tension in action.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig x. Maslow CNC machine which uses a weighted freehanding gantry and
+chains that are sprung and weighted for tensioning. It is designed to be
+an inexpensive huge CNC mill for wood.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Screws (and screw-like things)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Here’s where our discussion of screws wraps back around.
+        &lt;blockquote&gt;
+          &lt;p&gt;Remember a screw can be defined with two numbers: the diameter
+and the rate of teeth. The rate of teeth is important because
+it is part of the mechanical advantage the machine has. If you
+have a very fine pitch or high rate of the teeth the machine
+will exert much more torque on the workpiece but it will also
+move much slower. The classic dilemma: speed or power. The
+reason that screws aren’t often used in CNC machining is
+because of backlash. Screws are really bolts and bolts don’t
+need to be very precise, they are designed to be tightened
+till they bind and hold in place. Bolts and nuts have a lot of
+play. If you hold a bolt with an engaged nut with a hand on
+the bolt and a hand on the nut the nut will be able to move a
+little bit. In figure x, we can see why this happens. There
+will be a deeper analysis of this effect, in the fourth class
+which focused on DFM but the nut has to be made larger than
+the screw for it to engage on the thread and that means that
+the screw has to re-engage the nut each time in changes
+directions that means that the nut isn’t moving along the
+thread as much as the thread is moving. Backlash. Figure x,
+shows a nut engaged on each direction of the screw, we can use
+this to our advantage by placing a spring that forces the two
+nuts apart and keeps them engaged. This is called an
+anti-backlash nut and it almost counts as a screw-like thing
+because it is such an improvement on what a normal screw
+brings to the table.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fig. x shows how a nut can only be engaged in one direction at a time,
+and when the direction of the thread changes there is some lost linear
+motion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fig. x shows two sprung nuts, in much the same orientation as the nuts
+in figure x but as a more tangible solid part.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Screw like things: The undisputed king of CNC is the ball screw.
+    &lt;blockquote&gt;
+      &lt;p&gt;Ball screws work by creating a totally different kind of
+engagement between a nut and the helical slot. Ball screws are so
+called because there are intermediary ball bearings between the
+mediums that both work to reduce friction and create such long and
+smooth segments that they can cancel much of the individual
+engagement problems.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple other things to touch on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Couplings&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The world is far from perfect and no rotating bodies will ever
+        &lt;blockquote&gt;
+          &lt;p&gt;line up perfectly. It is very important to consider how the
+rotational motors will actually connect to the linear rods. On
+a lot of early 3D printers, makers just shoved aquarium tubing
+on the motor shaft and the linear rod and then added many
+zipties.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image31.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig x, an adequate coupling built from zip ties and flexible tubing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are slightly better ways to couple linear motion components
+    &lt;blockquote&gt;
+      &lt;p&gt;once you have a 3D printer available.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image26.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The next tier of coupling quality on this kind of project are spring
+    &lt;blockquote&gt;
+      &lt;p&gt;or flexible bearings which are manufactured to a higher quality
+professionally and are, despite their name, still more rigid than
+either of the previous mentions.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. x, a flexible coupling with two set screws at odd angles.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finally, the one of the best coupler designs is a semi-flexible
+    &lt;blockquote&gt;
+      &lt;p&gt;oldham coupling. Which tends to be particularly noteworthy due to
+the stark color contrast of the brushed aluminum finish and a
+bright softer middle.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig. x, an oldham style semi-flexible coupling. Note the red middle is
+a rubber material and typically called the spider.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This brief joant into the magical realm of couplings is included for a
+couple reasons, one to steer you in the direction of good couplings but
+more importantly to continue to highlight the variance of engineering
+solutions, each with their own reward structure.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Types of bearings: CNC machines mainly use linear slides for
+    &lt;blockquote&gt;
+      &lt;p&gt;purposes of smooth locomotion. A linear slide is generally any
+kind of bearing assembly that constrains all but one degree of
+motion. No pitch, no roll, no yaw, just one axis of sliding.
+Typically, there are about five standard linear slide designs.
+Dovetails, dual linear rods connected by a carriage, flat steel or
+aluminum with skate bearings constraining it on all sides, nylon
+or low friction covered bearings riding in or on an aluminum
+profile, and loaded linear rail carts. The decision of which to
+use is basically: price, weight, and maintenance. Though even that
+is really cheating because price, performance, and weight on CNC
+mills are all positively correlated. In an example like figure x
+we can see a very cheap and lightweight setup that can still do a
+lot of awesome stuff. But heavier linear motion components are
+much stronger and more rigid allowing for manufacturing with much
+tougher materials.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Quick note on dovetails: they require more maintenance than many
+        &lt;blockquote&gt;
+          &lt;p&gt;realize and is a reason that converinting old manual machining
+equipment into modern CNC equipment isn’t more popular.
+Dovetails need active lubrication throughout their usage or
+they will grind down and create more play.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig x, shows a short linear slide featuring a weak and flexible belt
+and a light and cheap extrusion slide linear bearing system. This is a
+cheap and cheerful setup that will be more than adequate for wood.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;the-right-linear-motion-system-for-you&quot;&gt;The Right Linear Motion System for You&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In order to decide on a linear motion system and the composition and
+design of the frame, it is important to understand the limitations of
+budget and what materials you are interested in cutting. Very
+inexpensive machines can have surprising versatility and due to more
+ubiquitous access the rest of the focus of this course will rest on belt
+and extrusion slide-based machines intended to cut wood, vinyl, leather,
+plastics, etc… as accurately as possible. With a little creativity
+much of this material applies to more expensive rigid milling machines.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;what-does-a-mill-look-like-electrically-what-will-yours-look-like&quot;&gt;What does a mill look like electrically? What will yours look like?&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-big-picture&quot;&gt;The big picture&lt;/h3&gt;
+
+&lt;p&gt;There are three main parts to an operational CNC machine. Firstly, there
+is the cnc milling machine, with its motors, linear slides, and spindle.
+Secondly, there is a control box that supplies power to an embedded
+microcontroller that interfaces between stepper drivers (one for each
+stepper motor on the CNC) and the third and final component, a PC that
+runs the G-CODE or coordinates that tell the machine where to go. There
+are several other inputs that go into the embedded microcontroller.
+There will be an “end stop” for each axis that homes the machine so it
+knows the exact position of each axis each time it powers up. Finally,
+there is an external emergency stop or E-STOP. Generally it is a big red
+panic button that occasionally has to be stressfully slammed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image32.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Fig x, shows an incomplete assembly of a CNC electronics stack
+featuring a wall power supply and buck converter or voltage changer
+providing power to four stepper drivers which are in turn connected to
+an embedded microcontroller.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;motors-and-stepper-drivers&quot;&gt;Motors and Stepper Drivers&lt;/h3&gt;
+
+&lt;p&gt;In the hobby space, the vast majority of CNC machines use DC stepper
+motors. The physics and exact functionality of these motors isn’t
+extremely important. What is important is that stepper motors have some
+behavioral quirks that other motors don’t share. Firstly, stepper motors
+have peak torque at a standstill and only lose torque as their RPM
+increases. Secondly, there is a much smaller variety of motors due the
+National Electrical Manufacturers Association or NEMA. They use three
+standard convenient sizes for projects the NEMA 17, NEMA 23, and NEMA&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The numbers correspond to a slightly confusing motor width in
+inches. The NEMA 17 motor is 1.7” across.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Motor Type:   Motor Size:   Typical Torque:*   Price Per:   Stepper Driver Price:
+  ————- ————- ——————- ———— ———————–
+  NEMA 17       1.7”          60 Ncm              $13.99      $2.00
+  NEMA 23       2.3”          190 Ncm             $25.99      $24.00
+  NEMA 34       3.4”          1200 Ncm            $69.99      $50.00&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Table 1. Note that the typical torque is dependent on the length of the
+motor. Also note that each stepper motor doubles the cost of the last
+but has substantially higher torque per dollar.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nema 17s are pretty small and weak but their popularity among 3D printer
+designers has massively brought their costs down making them a focus for
+the requirements of this class. NEMA XX motors are always available in a
+number of different depths which grant more customization and overhead
+on the typical torque numbers from the table.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-cad-and-linear-motion&quot;&gt;&lt;strong&gt;3. CAD and Linear Motion&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CAD and Linear Motion&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;a.  An overview of working in Fusion&lt;/p&gt;
+
+&lt;p&gt;b.  3D CAD ramp from beginner to intermediate and a jumping off point
+    &amp;gt; for the more practical half of the materials.&lt;/p&gt;
+
+&lt;p&gt;c.  A few tips&lt;/p&gt;
+
+&lt;p&gt;d.  Discussion of several devices and the complexity of making full 3D
+    &amp;gt; models&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;working-in-fusion&quot;&gt;Working In Fusion&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you first open fusion, after you are prompted to sign in you will
+see a home screen that looks much like this one below. Minus the crudely
+drawn colorful rectangles of course. The rectangles are placed on the
+screenshot below for a brief explanation of all of the parts they
+represent. The pink or top rectangle that encircles all of the icons is
+the least important to explain. All of the icons in the pink rectangle
+have an information dialog box that will pop up if you hover the mouse
+icon over them meaning that they don’t really need to be explained in
+great detail here. The icons are all about making changes to or
+formulating the design. The blue and magenta boxes (in the upper left
+and right corners) and the brown box at the bottom are all about
+observing the file and it’s parts and history. The final box, green or
+positioned in the lower center is the slightly tough to find display and
+interaction settings block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The brown box at the bottom encapsulates the timeline of a design file.
+This will track changes as they occur. It is empty or unpopulated at the
+moment because the file has just been opened. The timeline allows you to
+go back in the file history and make changes at different points. The
+system will then regenerate a new timeline with those changes, often
+without needing to fix merge conflicts.&lt;/p&gt;
+
+&lt;p&gt;The purple box, located in the upper right corner is the view cube. You
+can click on any of its sides that are visible to move the camera to
+that perspective. Generally it is more useful to click and drag on a
+face to move the camera around for more fine control. If you do this
+before you’ve actually made any geometry in Fusion, the results will be
+pretty uninteresting.&lt;/p&gt;
+
+&lt;p&gt;The blue box shows all the entities that exist in the file. These
+entities are generally restricted to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sketches&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;These are the flat planes with sketch geometry on them that make
+        &lt;blockquote&gt;
+          &lt;p&gt;up the bases of all of the 3D geometry in your CAD file.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Components &amp;amp; Bodies&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Understanding the difference between components and bodies and
+        &lt;blockquote&gt;
+          &lt;p&gt;the broader reasoning for those differences is key to
+understanding the difference between Fusion and other CAD
+softwares.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;In fusion, no matter how many parts are in an assembly, it all
+        &lt;blockquote&gt;
+          &lt;p&gt;takes place in one file. The way this one file (generally
+.f3d) organizes parts and sub assemblies is within the
+confines of components and bodies. A body is any self
+contained piece of 3D geometry. Any number of bodies can make
+up a component, but generally it is only one body per
+component and then, you simply add more components when you
+have more bodies. A component is kind of like a folder for
+bodies. But like folders a component can have a component or
+multiple inside it. This is how sub assemblies are organized.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For a more in depth and user friendly explanation of this
+        &lt;blockquote&gt;
+          &lt;p&gt;dynamic: &lt;a href=&quot;https://www.autodesk.com/products/fusion-360/blog/components-bodies-for-new-designers/&quot;&gt;[Fusion 360 Components &amp;amp; Bodies for New Designers -
+Fusion 360 Blog
+(autodesk.com)]{.ul}&lt;/a&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Joints (sometimes called constraints in other CAD softwares)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Joints are user created rules defining how parts interact with
+        &lt;blockquote&gt;
+          &lt;p&gt;each other. If you want a bolt to stay in a hole, you have to
+constrain it there. Joints can also be used to simulate
+motion. You can define the gear ratio between rotating bodies
+so when one is rotated the other will rotate the correct
+amount relative.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;More details: [[Joints in Fusion 360: A Comprehensive Tutorial!
+        &lt;blockquote&gt;
+          &lt;p&gt;FF117 -
+YouTube]{.ul}](https://www.youtube.com/watch?v=Bw08O6XsfDI)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Construction Geometry (think planes that can be sketched on)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Construction geometry is an advanced tool for accessing parts of
+        &lt;blockquote&gt;
+          &lt;p&gt;a CAD file that can be difficult to get to otherwise. Much
+like scaffolding in real life. Construction geometry is
+advanced for the scope of most of our work but I think it’s
+important to touch on here.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For reference later: [[Hacker Lab Coworking &amp;amp; Makerspace - Using
+        &lt;blockquote&gt;
+          &lt;p&gt;Construction Planes in Fusion 360 - Bringing your sketches to
+new heights | Hackerlab
+Global]{.ul}](https://www.hackerlab.org/en/blog/read/1342521194/using-construction-planes-in-fusion-360—bringing-your-sketches-to-new-heights)&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;ramp-to-intermediate-cad-skills&quot;&gt;Ramp to Intermediate CAD Skills&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image34.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;a-few-tips&quot;&gt;A Few Tips&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save time by grabbing CAD files of standard parts&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sectional analysis&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Modifying the appearance of different bodies&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An important step in reducing the number of revisions in any design
+involves finding problems before the parts have gone to manufacturing.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;taking-it-further-and-developing-something-for-this-class&quot;&gt;Taking it Further and Developing something for this class&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;4-design-for-manufacturing&quot;&gt;&lt;strong&gt;4. Design for Manufacturing&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;introduction-1&quot;&gt;Introduction&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CAD and Linear Motion&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;a.  3D CAD ramp from beginner to intermediate and a jumping off point
+    &amp;gt; for the more practical half of the materials. With an introduction
+    &amp;gt; focusing on visualizing the moments and basic physics concepts and
+    &amp;gt; choosing fasteners, bearings, and general hardware.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;3d-printing&quot;&gt;3D Printing&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-basics&quot;&gt;The Basics&lt;/h3&gt;
+
+&lt;p&gt;3D printers lay down plastic in thin lines that bead together as they
+dry, forming a strong bond. These bodies can be very complex and
+customizable as long as they are smaller than 20 cm\^3. But keep in mind
+that FDM printing is really slow and can be less accurate than other
+forms of manufacturing. 3D printers are most accurate in the X-Y axes.
+With distortion and layer thickness reducing the resolution. So you may
+be tempted to design parts in thin assembly ready plates that utilize
+the accuracy constraints on the Z. That is the smart way to work. But
+instead of 3D printing those parts it is better to cut them out on the
+laser cutter because thin wood is often stronger than thin plastic and
+importantly the part will come off the bed in far less time. But if you
+are set on 3D printing, then understand the differences between the
+plastics and the significance of print slice settings.&lt;/p&gt;
+
+&lt;h3 id=&quot;designing-parts-to-be-3d-printed&quot;&gt;Designing Parts to be 3D Printed&lt;/h3&gt;
+
+&lt;h4 id=&quot;geometry&quot;&gt;Geometry&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bridging&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Is when the printer has to lay out plastic between two supported
+        &lt;blockquote&gt;
+          &lt;p&gt;points. This causes the plastic to sag in these places during
+the printing process. This process happens the most on
+vertical axis holes found in the walls of items printed going
+up on the Z-axis.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Solutions:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Make the distances involved really small.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Use support material, which will be generated by the slicer.&lt;/p&gt;
+
+            &lt;ul&gt;
+              &lt;li&gt;Support material is a additional plastic extruded to
+                &lt;blockquote&gt;
+                  &lt;p&gt;ensure that the part doesn’t sag, it is then removed
+after the printing process. Removing it can be hard
+without damaging the part and it will always leave a
+mark on the surfaces it has been removed from.&lt;/p&gt;
+                &lt;/blockquote&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;At the end of the day, some sag or marks will always be
+        &lt;blockquote&gt;
+          &lt;p&gt;noticeable on parts unless the bridges are reduced to
+0.25”/5mm or less.&lt;/p&gt;
+        &lt;/blockquote&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;3D hubs suggests that an advanced solution is to separate a
+            &lt;blockquote&gt;
+              &lt;p&gt;part into several pieces to be assembled after printing.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vertical Axis Holes&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;When you put a whole in the side of 3D printed part, be ready
+        &lt;blockquote&gt;
+          &lt;p&gt;for the hole to be undersize by a decent margin.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The reasons for this are fairly simple (3Dhubs):&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;As the nozzle prints the perimeter of a vertical axis hole,
+            &lt;blockquote&gt;
+              &lt;p&gt;it compresses the newly printed layer down onto the
+existing build layers to help improve adhesion.&lt;br /&gt;
+The compressing force from the nozzle deforms the extruded
+round layer shape from a circle into a wider and flatter
+shape (see image below).&lt;br /&gt;
+This increases the area of contact with the previously
+printed layer (improving adhesion), but also increases the
+width of the extruded segment.&lt;br /&gt;
+The result of this is a decrease in the diameter of the
+hole that is being
+printed.&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image30.png&quot; alt=&quot;&quot; /&gt;{width=”3.697270341207349in”
+height=”3.3906255468066493in”}&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;This issue is particularly bad, when the holes are smaller
+        &lt;blockquote&gt;
+          &lt;p&gt;relative to the nozzle. Think 3mm holes.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;This effect can be accounted for in slicers and even on printer
+        &lt;blockquote&gt;
+          &lt;p&gt;firmware, but since you are likely working on educational
+equipment. Expect the worse end of that spectrum.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Solutions:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;If the diameter is not critical, aka the bolt/screw needs to
+            &lt;blockquote&gt;
+              &lt;p&gt;be a slip fit, then just make the hole oversized in the
+slicer.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+          &lt;li&gt;If the diameter needs to be exact, CAD the hole actual size
+            &lt;blockquote&gt;
+              &lt;p&gt;and then drill it out when the print comes off the bed.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Overhangs&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;This is an annoying one. Overhang causes a lot of problems in
+        &lt;blockquote&gt;
+          &lt;p&gt;FDM printing. It occurs when a material is printed only
+partially supported by the layer below. It is a lot like
+bridging but more troublesome. It is normally fine to print up
+to 45 degrees. As you can tell at 45 degrees a new layer is
+half supported by the previous layer. Note the a side effect
+of this trend where the end of a steep overhang gets thinner
+causing uneven cooling and the tip to trend towards drifting
+up.&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image3.png&quot; alt=&quot;&quot; /&gt;{width=”4.442708880139983in”
+height=”1.4189271653543307in”}&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Solutions:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Similar to bridging, use supports or prepare for the worst.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;You can also avoid this by staying away from this feature.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Corners&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Keep in mind that no 3d printed outside edge is ever going to be
+        &lt;blockquote&gt;
+          &lt;p&gt;perfectly square because the nozzle is round. (Most machines
+have 0.4mm nozzle, though it is replaceable and smaller ones
+can be purchased.) This is important if you are trying to
+design parts to slide together. Another important factor, if
+this weird effect called elephant's foot. Wherein the first
+layer of the print is pushed into the bed by the nozzle
+causing it to spread out a little over the rest of the wall.
+&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image23.png&quot; alt=&quot;&quot; /&gt;{width=”2.8125in”
+height=”1.8125in”}&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Solutions:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;3D Hubs: If assembly or overall dimensions are critical to
+            &lt;blockquote&gt;
+              &lt;p&gt;the function of an FDM part, include a 45o degree chamfer
+or radius on all edges touching the build plate. For high
+precision form &amp;amp; fit testing, go to college.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vertical Pins&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;These features are often used to ensure that parts designed to
+        &lt;blockquote&gt;
+          &lt;p&gt;press fit are lined up properly. To shorten a lot of
+information. Always make them &amp;lt;5mm in diameter, otherwise
+they will be extremely brittle.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Solution:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;If you need a really small pin, add a fillet at the base to
+            &lt;blockquote&gt;
+              &lt;p&gt;shift the stress point up the length of the rod.&lt;/p&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Advanced Stuff&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rules of Thumb&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;3D Hubs gives this convenient list of rules of thumb:&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If a bridge exceeds 5mm, sagging or marks from support material
+        &lt;blockquote&gt;
+          &lt;p&gt;can occur. Splitting the design or post-processing can
+eliminate this issue.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For critical vertical hole diameters, drilling after printing is
+        &lt;blockquote&gt;
+          &lt;p&gt;recommended if high accuracy is desirable.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The addition of support will allow FDM printers to print wall
+        &lt;blockquote&gt;
+          &lt;p&gt;angles greater than 45 degrees.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Include a 45 degree chamfer or radius on all edges of an FDM
+        &lt;blockquote&gt;
+          &lt;p&gt;part touching the build plate.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For applications with small vertical pins, add a small fillet at
+        &lt;blockquote&gt;
+          &lt;p&gt;the base or consider inserting an off the shelf pin into a
+printed hole instead.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Splitting a model, re-orientating holes, and specifying build
+        &lt;blockquote&gt;
+          &lt;p&gt;direction are all factors that can lower cost, speed up the
+printing process, and improve the strength and print quality
+of a design.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;hole-tolerances-and-integrating-reusable-fasteners&quot;&gt;Hole Tolerances and Integrating reusable fasteners&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image22.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fig x, table of tolerances for different mm diameter holes&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Charts like this provide really nice numbers for manufacturing and
+    &lt;blockquote&gt;
+      &lt;p&gt;CAD based on what you want to use the screws for. Keep in the mind
+the top, where it says close fit, medium fit, and free fit.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you want a chart like this for non-metric screw sizes…&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Don’t use non-metric screw sizes (google it).&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Attaching several 3D printed parts&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bolts and Nuts&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Reliable, cheap, simple, somewhat inconvenient&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bolt and heat-set inserts for plastics.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Reliable, expensive, simple
+        &lt;blockquote&gt;
+          &lt;p&gt;convenient&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image12.png&quot; alt=&quot;&quot; /&gt;{width=”1.5677088801399826in”
+height=”2.2868405511811023in”}&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;They are typically bronze and are very simple to use. Just over
+        &lt;blockquote&gt;
+          &lt;p&gt;size your hole to the spec of the manufacturer and then set
+the thread insert onto the hole and place a hot soldering iron
+onto the top. It will soften the plastic and the thread insert
+will slide in. Once it is in place, remove the iron and gently
+blow on the plastic around the threaded insert.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Super glue/solvent&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Excellent solution though difficult to undue and can be messy.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Welding&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Plastic welding is really easy and fun way to get a strong
+        &lt;blockquote&gt;
+          &lt;p&gt;connection between two or more pieces. Pick up a plastic
+welder or just use a discarded soldering iron. Run the warm
+tip along the seam until you cannot see between the parts.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Friction&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Be careful on this one, it is a little difficult to explain to
+        &lt;blockquote&gt;
+          &lt;p&gt;an authority figure.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Place some discarded filament into a dremel tool and spin it up
+        &lt;blockquote&gt;
+          &lt;p&gt;while applying light pressure to the joint. While it will
+require some practice and experimentation, it can provide a
+fast, wireless way to connect stuff.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;slicing-3d-prints&quot;&gt;Slicing 3D Prints&lt;/h3&gt;
+
+&lt;h4 id=&quot;file-selection&quot;&gt;File Selection&lt;/h4&gt;
+
+&lt;p&gt;All 3D prints start with a 3D model, that model is generally in the .STL
+format. In order to send the model to the printer it has to be sliced,
+or converted into motion coordinates for the machine to interpret in
+binary. This process is called slicing and the programs that do it are
+called slicers. This useful as frontend information because lots of
+settings between you exporting a 3D printed model and the model going to
+the printer can be edited or optimized for strength or weight. The main
+ones to consider are:&lt;/p&gt;
+
+&lt;h4 id=&quot;infill-percentage&quot;&gt;Infill percentage&lt;/h4&gt;
+
+&lt;p&gt;Infill percentage is almost certainly the most important characteristic
+to manage while slicing a new 3D Print. It is the amount of plastic fill
+that is used inside of the part. 20% infill is strong enough for the
+majority of 3D prints which is why that is the default setting on almost
+every machine. If you need to make a very light part you can drop the
+infil or if you are making a very small load bearing part, you may need
+to increase the infil. Not in the figure below the red lines inside the
+outer shell on the left figure and then their disappearance on the
+right. That is the infil level going from a geometric 20% to a barebones
+0%. Basically the stronger you need the part to be, the higher the
+infill should be.&lt;/p&gt;
+
+&lt;h3&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image33.jpg&quot; alt=&quot;&quot; /&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;coordination-or-relative-position-and-supports&quot;&gt;Coordination or relative position (and supports)&lt;/h4&gt;
+
+&lt;p&gt;This one is simple but important. As mentioned earlier, the printer has
+the most resolution on the ground X-Y axes. So it is an important
+decision how the part is oriented. Ideally orientation of printing has
+been a consideration throughout the design process. The sooner you think
+about this the better. Note in the figure to the right how the layers
+going up are very low resolution. Causing the outside of the drum to be
+very rough. Features that require accuracy in the Z axis are going to be
+rougher than those that only require accuracy in the X-Y axes. To
+further illustrate this, notice how the circle in the next figure is
+much smoother.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image25.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;shell-thickness&quot;&gt;Shell Thickness&lt;/h4&gt;
+
+&lt;p&gt;This is a really simple one that you basically never need to worry
+about, but should know is tweakable anyway. In the figure below you see
+a cross section of a sliced part with the infil in red and the outside
+layers in yellow. The shell thickness is the width of the outside wall
+as circled in the picture. You never need to worry about messing this
+unless you are printing without infill.&lt;/p&gt;
+
+&lt;h3 id=&quot;-1&quot;&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image28.png&quot; alt=&quot;&quot; /&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;layer-height&quot;&gt;Layer Height&lt;/h4&gt;
+
+&lt;p&gt;This is another fairly simple one. The reason it is below shell
+thickness is because it doesn’t have the power to compromise the
+integrity of the part. Just exponentially increase the amount of time it
+will take to print. If you have a small part, print it at 0.10-0.20, for
+really big stuff go up to 0.3-0.35. Low layer heights result in passes
+on the machine making high res parts take forever to print, print at low
+resolution whenever you can.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/CNCMachine/image27.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;scale&quot;&gt;Scale&lt;/h4&gt;
+
+&lt;p&gt;Just keep in mind that you can scale parts in the slicer without having
+to edit the actual design file. Allowing for quick customization for
+cosmetic parts like models, jewelry, or name plates.&lt;/p&gt;
+
+&lt;h3 id=&quot;life-in-plastic&quot;&gt;Life in Plastic&lt;/h3&gt;
+
+&lt;p&gt;Now onto a slightly less useful and interesting part of the lesson:
+Plastic choice. This can seem like a pretty mundane and useless decision
+to make during an engineering project, but it can make quite the
+difference.&lt;/p&gt;
+
+&lt;p&gt;PLA&lt;/p&gt;
+
+&lt;p&gt;Hassle: very low, 15$ per roll, non-translucent, glossy coloring&lt;/p&gt;
+
+&lt;p&gt;Is the cheapest filament or plastic by far. Always start with PLA to
+make sure the dimensions are right for a part you are making because it
+is the cheapest to replace. It also prints in the highest quality so
+cosmetic parts are best kept in the warm and fuzzy realm of printing
+with PLA. It is also the weakest mainstream printer filament and the
+easiest to melt. On a warm summer day it will get soft and lose form
+(don’t leave PLA in a warm car).&lt;/p&gt;
+
+&lt;p&gt;Additional bonus when working with PLA, it is biodegradable.&lt;/p&gt;
+
+&lt;p&gt;ABS&lt;/p&gt;
+
+&lt;p&gt;Hassle: pretty high, 23$ per spool, non-translucent, glossy coloring&lt;/p&gt;
+
+&lt;p&gt;ABS is much harder to print than PLA so parts that are supposed to look
+very smooth and professional should probably stick to PLA. But it is
+stronger for applications where high yield strength is necessary, it
+also won’t soften on a warm day, making it much more useful for
+applications involving nichrome wire or other instances of induced
+heating.&lt;/p&gt;
+
+&lt;p&gt;PETG&lt;/p&gt;
+
+&lt;p&gt;Hassle: pretty low, 27$ per spool, translucent, glossy coloring&lt;/p&gt;
+
+&lt;p&gt;PETG is a slightly modified version of the plastic that most bottles are
+made from, modified to be clearer and less brittle. It is stronger again
+than ABS, it cannot be overheated and made brittle, it can be
+sterilized, it is more impact resistant and it doesn’t soften under
+intense radioactive conditions.&lt;/p&gt;
+
+&lt;p&gt;Not that the cost increase may not seem like a big deal it is really
+more the hassle increase due to how hard getting non-pla materials to
+stick is.&lt;/p&gt;
+
+&lt;p&gt;Weird Other Stuff&lt;/p&gt;
+
+&lt;p&gt;There are lots of other filaments with properties like even more
+strength than PETG, actually being clear, having embedded materials like
+wood, stone, or ceramics, etc… Most of these aren’t necessary for a
+SCIOLY event, but I encourage you to research on your own time and see
+what else is out there.&lt;/p&gt;
+
+&lt;h1 id=&quot;5-epilogue&quot;&gt;&lt;strong&gt;5. Epilogue&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;introduction-2&quot;&gt;Introduction&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This&lt;/p&gt;
+
+&lt;h3 id=&quot;structure-2&quot;&gt;Structure:&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Epilogue, What’s Next, and Why it’s All Important&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;a.  General notes on machine safety&lt;/p&gt;
+
+&lt;p&gt;b.  Materials and why researching them beforehand is important&lt;/p&gt;
+
+&lt;p&gt;c.  Calibration and software implementation plus milling machine usage
+    &amp;gt; including basic CAM and tooling overview. Final tidbits about how
+    &amp;gt; you can use an “okay” milling machine to make a better one.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;safety-concerns-equipment-and-material-handling&quot;&gt;Safety Concerns, Equipment, and Material Handling&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;introduction-to-safe-cnc-operation&quot;&gt;Introduction to Safe CNC Operation&lt;/h3&gt;
+
+&lt;p&gt;Something to keep in mind about machining is that it doesn't compare
+too well to other forms of manufacturing available to makers. Processes
+like 3D printing, laser cutting, and even plasma cutting have far fewer
+variables to consider and can generally be nearly totally automated. The
+stakes of plasma cuts, 3D prints, and laser cutting failures are also
+generally fairly well constrained to poor performance and perhaps a
+small chance of fire or dangerous fumes. CNC really raises the bar in
+this regard. The first things to consider are fractures which can happen
+at high speeds sending airborne shrapnell in a near random direction.
+Next the fumes and fire risks need to be accounted for. Lots of
+materials create hazardous dust or chips when machined that need
+containment.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-note-on-materials-handling-and-selection&quot;&gt;A Note on Materials Handling and Selection&lt;/h3&gt;
+
+&lt;p&gt;After a maker moves past exclusive use of 3D printers, they need to get
+into the habit of doing some basic research on any and all materials
+they are interacting with. Any spool on a 3D printer is a heavily vetted
+and researched item. The versatility of more advanced maker tools comes
+with costs. Almost anything can be machined but since most materials
+aren’t designed or sold for the sole purpose of CNC, it can take time to
+find the safety information you may need. And taking that time is always
+worthwhile.&lt;/p&gt;
+
+&lt;h3 id=&quot;device-specifics&quot;&gt;Device Specifics&lt;/h3&gt;
+
+&lt;h4 id=&quot;laser-cutters&quot;&gt;Laser Cutters&lt;/h4&gt;
+
+&lt;p&gt;Many materials are available as thin, hard, sheets, but not all of them
+are well suited to laser cutters. Optimal choices for laser cutting will
+“vaporize” instead of melting under the extreme heat of the laser. Many
+plastics, especially those commonly used for food storage like HDPE and
+Polycarbonate melt and burn causing terrible quality parts and high risk
+of damage to a laser cutter and exposure to fairly toxic fumes&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. It
+is always a good idea to make sure a material you want to laser cut is
+either on the “machine approved list of materials” or checking elsewhere
+that it has behavior similar to materials that are. The main dangers
+from laser cutters are eye damage, risk of combustion, and fume
+exposure. Most laser cutters are fully enclosed in a protective shield
+and have a vacuum pump pulling air out of the enclosure and filtering
+it. If a laser cutter is missing one or both of these it is a good idea
+to use a light respirator mask and laser rated shaded safety glasses. As
+for combustion risks, they are low if you have done your research on the
+material you’re cutting but it’s always a good idea to know where the
+fire extinguisher is located.&lt;/p&gt;
+
+&lt;h4 id=&quot;plasma-cutters&quot;&gt;Plasma Cutters&lt;/h4&gt;
+
+&lt;p&gt;Plasma cutters work by using accelerated super heated electrically
+ionized gas to cut through conductive metals. The limitation that the
+work pieces need to be conductive metals keeps things pretty simple
+here. The usual conductive metal suspects Steel, Iron, Aluminum, Brass,
+Copper, and Stainless are all chemically stable and relatively safe.
+However, the interaction between the plasma and the metal is extremely
+dangerous. The bright arcs require welding visors to protect our
+sensitive eyes and the extreme heat and force of the plasma creates
+sparks and can create airborne chunks of superheated metal. If you’re
+plasma cutting, ensure you’re wearing the proper safety equipment for
+welding the equivalent material. This includes, long sleeves to block
+from small burning fragments and from high UV exposure, a welding visor,
+and a respirator mask for fine dust and metal impurities made airborne
+by the heat.&lt;/p&gt;
+
+&lt;h4 id=&quot;milling-machines&quot;&gt;Milling Machines&lt;/h4&gt;
+
+&lt;p&gt;As mentioned before the big general safety concerns with milling involve
+the endmills or milling machine specific drill bits breaking during
+operation. This generally happens because the machine programmer, you,
+have fallen into one of thousands of pitfalls. For hobbyist machines the
+speeds the fractured metal will reach can be a little frightening but
+with solid eye protection like safety glasses or a clear face shield
+seriously mitigate the risks. The end mills are so light weight that
+it’s unlikely the force from an endmill will cause more than a light
+bruise in a worst case scenario. What can be more dangerous is the
+workpiece or material being machined getting thrown. It is important to
+make sure that any material being held down for machining is held
+strongly enough to withstand a blow from a mallet. A CNC can easily
+exert forces rivaling that hammer strike in extreme circumstances. The
+material hazards involved in CNC machining are generally derived from
+the way the CNC mill cuts material. The end mill takes small circular
+slices as it moves across the material and some materials, especially
+the soft ones, chip off in very small pieces. Aluminum chips will often
+be sized as splinters and very sharp while in stark comparison MDF or
+Medium-Density Fibreboard when milled often produces micrometer fine
+dust. The fine dust produced when machining MDF is dangerous because it
+contains high levels of formaldehyde and the fine particles can
+penetrate deep into the lungs.&lt;/p&gt;
+
+&lt;p&gt;The sheer amount of versatility offered by CNC milling is exciting.
+Mills can cut almost anything to pretty precise dimensions. But that
+means that materials with huge health risks associated with their use
+can slip by without a user taking the proper precautions. Always read
+about the materials you are about to cut beforehand and take proper
+precautions.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;whats-next-after-hardware-and-electrical-assembly&quot;&gt;What’s next after hardware and electrical assembly?&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;calibration-and-software-implementation&quot;&gt;Calibration and software implementation&lt;/h3&gt;
+
+&lt;p&gt;This section is heavily reliant on information from part 2 of this
+coursework. Especially the materials in section 5 relating to
+information and communication structure of the milling machine. To
+briefly review that section, a mills electrical control system has a
+micro controller and a desktop computer that interact together to drive
+the CNC. The computer will have control software that will parse or
+interpret the CAM or toolpaths you’ve generated into serial or digital
+coordinate and machine status information for the controller. Many CNC
+controllers, especially older ones will be very “plug and play” because
+their hardware is built to be very proprietary. Newer CNC controllers
+will be built on more versatile platforms like the Arduino
+microcontroller which may require finding relevant source code and
+uploading it to the microcontroller. This article from Howtomechatronics
+(&lt;a href=&quot;https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino/&quot;&gt;[How to Setup GRBL &amp;amp; Control CNC Machine with Arduino
+(howtomechatronics.com)]{.ul}&lt;/a&gt;
+is an extremely useful guide for getting a handle on putting the right
+community made software on your Arduino powered CNC. The same article
+goes into how to calibrate a CNC machine too. This is useful because
+CNCs are very good at knowing how far they’ve traveled since they were
+powered up but pretty bad at figuring out their starting position. This
+is why CNC machines need to “home”. This is a prompted or unprompted
+slow motion of each axis in a defined direction until each gets to an
+origin position. The machine knows each axis has gotten to the correct
+position because there is a touch sensor in that position that is
+activated as the machine reaches it.&lt;/p&gt;
+
+&lt;h3 id=&quot;milling-machine-usage-cam-and-understanding-tooling&quot;&gt;Milling Machine Usage, CAM, and understanding tooling&lt;/h3&gt;
+
+&lt;p&gt;Milling machines are awesome tools but they are slow and expensive. As
+you become a machinist you’ll begin to see exactly where milling
+machines work and what makes them more difficult and unrully. Something
+to come to terms with is that a lot of projects will take as much time
+to make tool paths/CAM for as they took to design. There are plenty of
+great introductory resources online to get started, I will link a few of
+the resources I’ve found the most useful and introduce the workflow of a
+lot of the machining operations I’ve done.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.instructables.com/Fusion-360-CAM-Tutorial-for-CNC-Beginners/&quot;&gt;[Fusion 360 CAM for CNC Beginners : 19 Steps (with Pictures) -
+Instructables]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.autodesk.com/products/fusion-360/blog/getting-started-introduction-to-cam-and-toolpaths/&quot;&gt;[Fusion 360 CAM: Introduction &amp;amp; Toolpaths - Fusion 360 Blog
+(autodesk.com)]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Do_C_NLH5sw&quot;&gt;[https://www.youtube.com/watch?v=Do_C_NLH5sw]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.autodesk.com/products/fusion-360/blog/cam-for-fusion-360-tips-and-tricks/&quot;&gt;[CAM for Fusion 360 Tips and Tricks - Fusion 360 Blog
+(autodesk.com)]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Most of the CAM you’ll write for starter CNC projects will be
+essentially 2.5 axis machining. Which is essentially when you are only
+interested in a 2 axis sketch with various features having only a
+straight extruded depth. Think parts that can be designed with only one
+sketch. Like a flat panel with a series of holes and a special outline.
+The lack of complex 3D geometry on these parts makes them comparably
+very easy to design CAM for.&lt;/p&gt;
+
+&lt;h4 id=&quot;some-simple-cam-tools-and-advice&quot;&gt;Some Simple CAM tools and advice&lt;/h4&gt;
+
+&lt;p&gt;For the majority of 2.5 axis milling there are three tools to consider.
+2D Pocket, 2D Contour, and Engrave. 2D Pocket is the tool for clearing
+large amounts of stock without making a hole. It makes simple recessed
+parts quickly and efficiently. 2D Contour is for “cutting things out.”It
+creates long slots as deep as the stock. It is important when contour
+machining to enable the “tabs” option so the parts being machined don’t
+instantly fly out.&lt;/p&gt;
+
+&lt;p&gt;Any milling machine worth its wait&lt;/p&gt;
+
+&lt;h3 id=&quot;the-path-to-a-better-machine&quot;&gt;The path to a better machine&lt;/h3&gt;
+
+&lt;p&gt;If you’ve decided to follow along on the hardware and electrical side of
+this project and have a budget, but reasonably capable machine or if
+you’re considering taking the dive there is a long and reasonably
+interesting history of improving machines. A well designed machine tool
+will always be able to make a more accurate version of itself. This
+process is exactly how we are able to achieve the extreme precision of
+commercial machines.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in how this process worked historically, or in
+following along with with your own slightly optimised process check out
+a series of books by a famous DIYer called David Gingery who wrote a
+series of books on building a formidable machine shop with time and
+materials available in dumpsters and hardware stores.&lt;/p&gt;
+
+&lt;p&gt;Books: &lt;a href=&quot;https://gingerybookstore.com/MetalWorkingShopFromScrap.html&quot;&gt;[Build Your Own Metal Working Shop From Scrap - Hard Bound
+Edition
+(gingerybookstore.com)]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Good Video Resource: &lt;a href=&quot;https://hackaday.com/2016/07/07/the-best-gingery-lathe-video-series-to-date/&quot;&gt;[The Best Gingery Lathe Video Series To Date |
+Hackaday]{.ul}&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But what steps can I take with this specific device? Well that really
+depends on your time and creativity. The pen plotter, really doesn’t
+need physical strength upgrades unless you want to build a bigger one.
+The pen plotter, as mentioned in section 3, can fairly easily be turned
+into a somewhat capable milling machine. From there the mill should be
+able to make ⅛” parts out of aluminum which could be used to shore up
+the much less rigid 3D printed parts increasing rigidity and potentially
+feedspeeds. As mentioned in section 2, there are plenty of linear motion
+drivers and bearings across all price ranges that could be implemented.
+The aluminum extrusion in combination with steel linear bearings would
+be a good combo for moving into more audacious CNC aluminum projects.
+Really, the only constraints on the upwards mobility of this system are
+time and money.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Note in this case “fairly toxic fumes” denotes NFPA fire rating of
+1, with hazard identification noting toxic gases and fumes are
+released in burning but overexposure poses little likelihood of
+significant side effects. &lt;a href=&quot;https://www.sctech.com/MSDS-Polycarbonate-Sheets&quot;&gt;[SciCron | MSDS | Polycarbonate Sheets
+(sctech.com)]{.ul}&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">example tests</title><link href="http://localhost:4000/change/2020/08/01/example-tests.html" rel="alternate" type="text/html" title="example tests" /><published>2020-08-01T10:06:30-04:00</published><updated>2020-08-01T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/08/01/example-tests</id><content type="html" xml:base="http://localhost:4000/change/2020/08/01/example-tests.html">&lt;h1 id=&quot;markdown-and-other-cool-examples-webpage&quot;&gt;Markdown and other cool examples webpage&lt;/h1&gt;
 
 &lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
 
