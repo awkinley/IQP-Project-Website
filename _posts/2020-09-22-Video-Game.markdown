@@ -35,6 +35,18 @@ What students will need:
 
 -   A computer that can install and run the Unity game engine (Most Can)
 
+Procedure for User Study
+========================
+
+If you are participating in the user study, then these are the instructions for going through this tutorial. If at any point you do not want to continue the project, you are free to stop working on it. Then you go and complete the post-survey and are done with 
+1.	Read through the tutorial.
+2.	Follow along with the instructions.
+    a.	For this project,  creating a simple game in Unity similar to what is shown in the tutorial is considered completing the project.
+3.	Feel free to make note of any parts of the tutorial that were unclear, or you wish provided more or less detail.
+4.	Once you have either completed the project, or you wish to be done, you can complete the post-survey to finish the user study.
+5.	After the completion of the study, you are free to continue working on your project in whatever capacity you want. That work is not part of the study.
+
+
 Introduction
 ============
 
@@ -97,11 +109,11 @@ out to figure out how it works.
  The Unity Editor
 ----------------
 
-\*This is a screenshot of what the Editor generally looks like\*
+*This is a screenshot of what the Editor generally looks like*
 
 ![]({{ site.url }}/imgs/UnityGame/image1.png)
 
-\*As you can see, there are four main parts of the screen\*
+*As you can see, there are four main parts of the screen*
 
 ### The Hierarchy (Upper Left) 
 
@@ -244,21 +256,22 @@ return a value such as a number or a component or even nothing (void).
 This is the Start method which takes no input and returns nothing,
 simply runs whatever code is inside of it once.
 
-1.  Void Start(){  
+``` csharp
+void Start() {
+    // Code Here  
+}
+```
 
-2.    // Code Here  
-
-3.  }  
 
 This is an example of another method which returns true is its input is
 greater than 10, otherwise it returns false. These are boolean (bool)
 values (true or false):
 
-4.  bool Method1(int Number){  
-
-5.    return Number \> 10;
-
-6.  }  
+``` csharp
+bool Method1(int Number){
+    return Number > 10;
+}
+```
 
 ### Scripts 
 
@@ -332,7 +345,7 @@ Making Your Game
 ----------
 
 [Player](https://youtu.be/Hute9B0Nzyc)
-
+<iframe width="560" height="315" src="https://youtube.com/embed/Hute9B0Nzyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![]({{ site.url }}/imgs/UnityGame/image5.jpg)
 
 The first essential part of making a game is setting up the player
@@ -496,22 +509,16 @@ Now we need to check if moving in these directions will move us out of
 bounds, we can use an if statement, which takes a boolean or comparison
 as an input and runs whatver code is inside it if it is true, like so:
 
-**if(transform.position.x + Input.GetAxisRaw(\"Horizontal\") \<
-Bounds.x)**
-
-**{**
-
-Do Something
-
-**}**
-
-**else**
-
-**{**
-
-Do Something Else
-
-**}**
+``` csharp
+if(transform.position.x + Input.GetAxisRaw("Horizontal") < Bounds.x)
+{
+    // Do Something
+}
+else
+{
+    // Do Something Else
+}
+```
 
 However, this will need to work for either direction so taking the
 absolute value (from the Mathf class) of where the player will be should
@@ -531,7 +538,7 @@ velocity.
 ---------
 
 [Laser](https://youtu.be/BRWhie3PUXY)
-
+<iframe width="560" height="315" src="https://youtube.com/embed/BRWhie3PUXY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ![]({{ site.url }}/imgs/UnityGame/image14.jpg)
 
 What is a spaceship without lasers? First we need to create a new game
@@ -601,8 +608,9 @@ To handle the timer we can use a more compact if else statement which is
 used when you want it to return a value, in this case we can use it to
 return what number the timer should be subtracted by. It goes like this:
 
-**Var -= Var \> 0 ? 1 : 0**
-
+``` csharp
+Var -= Var > 0 ? 1 : 0
+```
 This is a more optimized line of code than an if statement for specific
 cases and is structured where before the ? Is the comparison you want
 then immediately after is what you would return if it is true and after
@@ -661,6 +669,7 @@ around with the cooldown frames until it feels right.
 ------------
 
 [Asteroid](https://youtu.be/u5gUrv3mPaI)
+<iframe width="560" height="315" src="https://youtube.com/embed/u5gUrv3mPaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![]({{ site.url }}/imgs/UnityGame/image17.jpg)
 
@@ -744,6 +753,7 @@ for the respective objects for now.
 -----------------
 
 [Spawner](https://youtu.be/fJwzA8PrQ2A)
+<iframe width="560" height="315" src="https://youtube.com/embed/fJwzA8PrQ2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![]({{ site.url }}/imgs/UnityGame/image19.jpg)
 
@@ -789,6 +799,7 @@ means about 3 asteroids per second.
 -------------
 
 [Health](https://youtu.be/NZHLMlQwYVQ)
+<iframe width="560" height="315" src="https://youtube.com/embed/NZHLMlQwYVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![]({{ site.url }}/imgs/UnityGame/image21.jpg)
 
@@ -915,12 +926,14 @@ Additional Content for Visual Appeal, not Needed for Gameplay:
 Stars in Background
 
 [Stars](https://youtu.be/snh7_DLc3KQ)
+<iframe width="560" height="315" src="https://youtube.com/embed/snh7_DLc3KQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![]({{ site.url }}/imgs/UnityGame/image24.jpg)
 
 Camera Shake
 
 [Camera](https://youtu.be/iixnz-1dFBs)
+<iframe width="560" height="315" src="https://youtube.com/embed/iixnz-1dFBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![]({{ site.url }}/imgs/UnityGame/image25.jpg)
 

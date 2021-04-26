@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-16T10:28:12-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-26T12:58:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -857,6 +857,18 @@ scripting in C#.&lt;/p&gt;
   &lt;li&gt;A computer that can install and run the Unity game engine (Most Can)&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h1 id=&quot;procedure-for-user-study&quot;&gt;Procedure for User Study&lt;/h1&gt;
+
+&lt;p&gt;If you are participating in the user study, then these are the instructions for going through this tutorial. If at any point you do not want to continue the project, you are free to stop working on it. Then you go and complete the post-survey and are done with&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Read through the tutorial.&lt;/li&gt;
+  &lt;li&gt;Follow along with the instructions.
+a.	For this project,  creating a simple game in Unity similar to what is shown in the tutorial is considered completing the project.&lt;/li&gt;
+  &lt;li&gt;Feel free to make note of any parts of the tutorial that were unclear, or you wish provided more or less detail.&lt;/li&gt;
+  &lt;li&gt;Once you have either completed the project, or you wish to be done, you can complete the post-survey to finish the user study.&lt;/li&gt;
+  &lt;li&gt;After the completion of the study, you are free to continue working on your project in whatever capacity you want. That work is not part of the study.&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;h2 id=&quot;goal-of-the-project&quot;&gt;Goal of the Project&lt;/h2&gt;
@@ -912,11 +924,11 @@ out to figure out how it works.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-unity-editor&quot;&gt;The Unity Editor&lt;/h2&gt;
 
-&lt;p&gt;*This is a screenshot of what the Editor generally looks like*&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is a screenshot of what the Editor generally looks like&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;*As you can see, there are four main parts of the screen*&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;As you can see, there are four main parts of the screen&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-hierarchy-upper-left&quot;&gt;The Hierarchy (Upper Left)&lt;/h3&gt;
 
@@ -1058,33 +1070,19 @@ return a value such as a number or a component or even nothing (void).
 This is the Start method which takes no input and returns nothing,
 simply runs whatever code is inside of it once.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Void Start(){  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;  // Code Here  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;}  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Code Here  &lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This is an example of another method which returns true is its input is
 greater than 10, otherwise it returns false. These are boolean (bool)
 values (true or false):&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;bool Method1(int Number){  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;  return Number &amp;gt; 10;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;}  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Method1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Number&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;scripts&quot;&gt;Scripts&lt;/h3&gt;
 
@@ -1153,7 +1151,7 @@ while in Assets to add the folders.&lt;/p&gt;
 &lt;h2 id=&quot;the-player&quot;&gt;The Player&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/Hute9B0Nzyc&quot;&gt;Player&lt;/a&gt;&lt;/p&gt;
-
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/Hute9B0Nzyc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first essential part of making a game is setting up the player
@@ -1369,22 +1367,15 @@ key inputs.&lt;/p&gt;
 bounds, we can use an if statement, which takes a boolean or comparison
 as an input and runs whatver code is inside it if it is true, like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;if(transform.position.x + Input.GetAxisRaw(&quot;Horizontal&quot;) &amp;lt;
-Bounds.x)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;{&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Do Something&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;}&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;else&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;{&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Do Something Else&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;}&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;GetAxisRaw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Horizontal&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bounds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Do Something&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Do Something Else&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;However, this will need to work for either direction so taking the
 absolute value (from the Mathf class) of where the player will be should
@@ -1403,7 +1394,7 @@ velocity.&lt;/p&gt;
 &lt;h2 id=&quot;the-laser&quot;&gt;The Laser&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/BRWhie3PUXY&quot;&gt;Laser&lt;/a&gt;&lt;/p&gt;
-
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/BRWhie3PUXY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What is a spaceship without lasers? First we need to create a new game
@@ -1484,8 +1475,8 @@ zero, then we can spawn some lasers in front of the player.&lt;/p&gt;
 used when you want it to return a value, in this case we can use it to
 return what number the timer should be subtracted by. It goes like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Var -= Var &amp;gt; 0 ? 1 : 0&lt;/strong&gt;&lt;/p&gt;
-
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Var&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Var&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;This is a more optimized line of code than an if statement for specific
 cases and is structured where before the ? Is the comparison you want
 then immediately after is what you would return if it is true and after
@@ -1543,6 +1534,7 @@ around with the cooldown frames until it feels right.&lt;/p&gt;
 &lt;h2 id=&quot;the-asteroid&quot;&gt;The Asteroid&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/u5gUrv3mPaI&quot;&gt;Asteroid&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/u5gUrv3mPaI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -1631,6 +1623,7 @@ for the respective objects for now.&lt;/p&gt;
 &lt;h2 id=&quot;asteroid-spawning&quot;&gt;Asteroid Spawning&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/fJwzA8PrQ2A&quot;&gt;Spawner&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/fJwzA8PrQ2A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image19.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -1675,6 +1668,7 @@ means about 3 asteroids per second.&lt;/p&gt;
 &lt;h2 id=&quot;health-system&quot;&gt;Health System&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/NZHLMlQwYVQ&quot;&gt;Health&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/NZHLMlQwYVQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image21.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -1800,12 +1794,14 @@ outside of Unity.&lt;/p&gt;
 &lt;p&gt;Stars in Background&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/snh7_DLc3KQ&quot;&gt;Stars&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/snh7_DLc3KQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image24.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Camera Shake&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/iixnz-1dFBs&quot;&gt;Camera&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/iixnz-1dFBs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image25.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 

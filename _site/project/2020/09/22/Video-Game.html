@@ -15,7 +15,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-22T10:03:30-04:00" />
 <script type="application/ld+json">
-{"headline":"Make a Video Game","dateModified":"2020-09-22T10:03:30-04:00","datePublished":"2020-09-22T10:03:30-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2020/09/22/Video-Game.html"},"url":"http://localhost:4000/project/2020/09/22/Video-Game.html","description":"Making a Game in Unity","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Make a Video Game","url":"http://localhost:4000/project/2020/09/22/Video-Game.html","dateModified":"2020-09-22T10:03:30-04:00","datePublished":"2020-09-22T10:03:30-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project/2020/09/22/Video-Game.html"},"description":"Making a Game in Unity","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Maker Projects for Learning" /><!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
@@ -91,6 +91,18 @@ scripting in C#.</p>
   <li>A computer that can install and run the Unity game engine (Most Can)</li>
 </ul>
 
+<h1 id="procedure-for-user-study">Procedure for User Study</h1>
+
+<p>If you are participating in the user study, then these are the instructions for going through this tutorial. If at any point you do not want to continue the project, you are free to stop working on it. Then you go and complete the post-survey and are done with</p>
+<ol>
+  <li>Read through the tutorial.</li>
+  <li>Follow along with the instructions.
+a.	For this project,  creating a simple game in Unity similar to what is shown in the tutorial is considered completing the project.</li>
+  <li>Feel free to make note of any parts of the tutorial that were unclear, or you wish provided more or less detail.</li>
+  <li>Once you have either completed the project, or you wish to be done, you can complete the post-survey to finish the user study.</li>
+  <li>After the completion of the study, you are free to continue working on your project in whatever capacity you want. That work is not part of the study.</li>
+</ol>
+
 <h1 id="introduction">Introduction</h1>
 
 <h2 id="goal-of-the-project">Goal of the Project</h2>
@@ -146,11 +158,11 @@ out to figure out how it works.</p>
 
 <h2 id="the-unity-editor">The Unity Editor</h2>
 
-<p>*This is a screenshot of what the Editor generally looks like*</p>
+<p><em>This is a screenshot of what the Editor generally looks like</em></p>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image1.png" alt="" /></p>
 
-<p>*As you can see, there are four main parts of the screen*</p>
+<p><em>As you can see, there are four main parts of the screen</em></p>
 
 <h3 id="the-hierarchy-upper-left">The Hierarchy (Upper Left)</h3>
 
@@ -292,33 +304,19 @@ return a value such as a number or a component or even nothing (void).
 This is the Start method which takes no input and returns nothing,
 simply runs whatever code is inside of it once.</p>
 
-<ol>
-  <li>
-    <p>Void Start(){  </p>
-  </li>
-  <li>
-    <p>  // Code Here  </p>
-  </li>
-  <li>
-    <p>}  </p>
-  </li>
-</ol>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">void</span> <span class="nf">Start</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Code Here  </span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <p>This is an example of another method which returns true is its input is
 greater than 10, otherwise it returns false. These are boolean (bool)
 values (true or false):</p>
 
-<ol>
-  <li>
-    <p>bool Method1(int Number){  </p>
-  </li>
-  <li>
-    <p>  return Number &gt; 10;</p>
-  </li>
-  <li>
-    <p>}  </p>
-  </li>
-</ol>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">bool</span> <span class="nf">Method1</span><span class="p">(</span><span class="kt">int</span> <span class="n">Number</span><span class="p">){</span>
+    <span class="k">return</span> <span class="n">Number</span> <span class="p">&gt;</span> <span class="m">10</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <h3 id="scripts">Scripts</h3>
 
@@ -387,7 +385,7 @@ while in Assets to add the folders.</p>
 <h2 id="the-player">The Player</h2>
 
 <p><a href="https://youtu.be/Hute9B0Nzyc">Player</a></p>
-
+<iframe width="560" height="315" src="https://youtube.com/embed/Hute9B0Nzyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p><img src="http://localhost:4000/imgs/UnityGame/image5.jpg" alt="" /></p>
 
 <p>The first essential part of making a game is setting up the player
@@ -603,22 +601,15 @@ key inputs.</p>
 bounds, we can use an if statement, which takes a boolean or comparison
 as an input and runs whatver code is inside it if it is true, like so:</p>
 
-<p><strong>if(transform.position.x + Input.GetAxisRaw("Horizontal") &lt;
-Bounds.x)</strong></p>
-
-<p><strong>{</strong></p>
-
-<p>Do Something</p>
-
-<p><strong>}</strong></p>
-
-<p><strong>else</strong></p>
-
-<p><strong>{</strong></p>
-
-<p>Do Something Else</p>
-
-<p><strong>}</strong></p>
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="p">(</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">x</span> <span class="p">+</span> <span class="n">Input</span><span class="p">.</span><span class="nf">GetAxisRaw</span><span class="p">(</span><span class="s">"Horizontal"</span><span class="p">)</span> <span class="p">&lt;</span> <span class="n">Bounds</span><span class="p">.</span><span class="n">x</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// Do Something</span>
+<span class="p">}</span>
+<span class="k">else</span>
+<span class="p">{</span>
+    <span class="c1">// Do Something Else</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <p>However, this will need to work for either direction so taking the
 absolute value (from the Mathf class) of where the player will be should
@@ -637,7 +628,7 @@ velocity.</p>
 <h2 id="the-laser">The Laser</h2>
 
 <p><a href="https://youtu.be/BRWhie3PUXY">Laser</a></p>
-
+<iframe width="560" height="315" src="https://youtube.com/embed/BRWhie3PUXY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p><img src="http://localhost:4000/imgs/UnityGame/image14.jpg" alt="" /></p>
 
 <p>What is a spaceship without lasers? First we need to create a new game
@@ -718,8 +709,8 @@ zero, then we can spawn some lasers in front of the player.</p>
 used when you want it to return a value, in this case we can use it to
 return what number the timer should be subtracted by. It goes like this:</p>
 
-<p><strong>Var -= Var &gt; 0 ? 1 : 0</strong></p>
-
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Var</span> <span class="p">-=</span> <span class="n">Var</span> <span class="p">&gt;</span> <span class="m">0</span> <span class="p">?</span> <span class="m">1</span> <span class="p">:</span> <span class="m">0</span>
+</code></pre></div></div>
 <p>This is a more optimized line of code than an if statement for specific
 cases and is structured where before the ? Is the comparison you want
 then immediately after is what you would return if it is true and after
@@ -777,6 +768,7 @@ around with the cooldown frames until it feels right.</p>
 <h2 id="the-asteroid">The Asteroid</h2>
 
 <p><a href="https://youtu.be/u5gUrv3mPaI">Asteroid</a></p>
+<iframe width="560" height="315" src="https://youtube.com/embed/u5gUrv3mPaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image17.jpg" alt="" /></p>
 
@@ -865,6 +857,7 @@ for the respective objects for now.</p>
 <h2 id="asteroid-spawning">Asteroid Spawning</h2>
 
 <p><a href="https://youtu.be/fJwzA8PrQ2A">Spawner</a></p>
+<iframe width="560" height="315" src="https://youtube.com/embed/fJwzA8PrQ2A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image19.jpg" alt="" /></p>
 
@@ -909,6 +902,7 @@ means about 3 asteroids per second.</p>
 <h2 id="health-system">Health System</h2>
 
 <p><a href="https://youtu.be/NZHLMlQwYVQ">Health</a></p>
+<iframe width="560" height="315" src="https://youtube.com/embed/NZHLMlQwYVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image21.jpg" alt="" /></p>
 
@@ -1034,12 +1028,14 @@ outside of Unity.</p>
 <p>Stars in Background</p>
 
 <p><a href="https://youtu.be/snh7_DLc3KQ">Stars</a></p>
+<iframe width="560" height="315" src="https://youtube.com/embed/snh7_DLc3KQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image24.jpg" alt="" /></p>
 
 <p>Camera Shake</p>
 
 <p><a href="https://youtu.be/iixnz-1dFBs">Camera</a></p>
+<iframe width="560" height="315" src="https://youtube.com/embed/iixnz-1dFBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p><img src="http://localhost:4000/imgs/UnityGame/image25.jpg" alt="" /></p>
 

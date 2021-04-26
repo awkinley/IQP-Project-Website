@@ -43,6 +43,10 @@ defaults:
       project_img: false
       project_desc: false
       project_color: #000000
+      
+# kramdown:
+#   syntax_highlighter: rouge
+# markdown: redcarpet
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
