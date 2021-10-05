@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-26T12:58:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-05T19:15:20-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maker Projects for Learning</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Robotic Arm</title><link href="http://localhost:4000/change/2020/09/22/Robotic-Arm.html" rel="alternate" type="text/html" title="Robotic Arm" /><published>2020-09-22T10:06:30-04:00</published><updated>2020-09-22T10:06:30-04:00</updated><id>http://localhost:4000/change/2020/09/22/Robotic-Arm</id><content type="html" xml:base="http://localhost:4000/change/2020/09/22/Robotic-Arm.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -899,9 +899,12 @@ understanding these topics.&lt;/p&gt;
 
 &lt;h2 id=&quot;game-demo-and-pre-made-sprites&quot;&gt;Game Demo and Pre Made Sprites&lt;/h2&gt;
 
-&lt;p&gt;*To play the demo, extract the zip file and run the middle application
-file from the folder named demo.* *Will be on website and needs to be
-replaced*&lt;/p&gt;
+&lt;p&gt;Folders containing the Sprites used in the game and an example download
+of a game (where the application is the middle file) can be found in the
+google drive folder linked below, along with a document walking through
+the download of Unity and a zip folder of the two folders mentioned above
+if needed.&lt;br /&gt;
+&lt;a href=&quot;https://drive.google.com/drive/folders/1s25mtHGSSrDsAIstl6RRpmQweew1jg1s?usp=sharing&quot;&gt;Link to Google Drive Folder&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;installing-unity-and-visual-studio&quot;&gt;Installing Unity and Visual Studio&lt;/h1&gt;
 
@@ -911,9 +914,6 @@ Unity Hub acts as a medium for installing the Unity Editor along with
 accessing content provided by other users. Visual Studio is an excellent
 programming software that Unity integrates with to edit code and create
 scripts for your game.&lt;/p&gt;
-
-&lt;p&gt;Documentation for Download - PDF walkthrough of download (mostly images)
-(intuitive download so likely not needed)&lt;/p&gt;
 
 &lt;h1 id=&quot;understanding-the-unity-editor&quot;&gt;Understanding the Unity Editor&lt;/h1&gt;
 
@@ -1804,8 +1804,6 @@ outside of Unity.&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://youtube.com/embed/iixnz-1dFBs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/imgs/UnityGame/image25.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Could Also Do Additional Enemies / Item (No New Concepts There However)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;C# Concepts Covered&lt;/strong&gt;&lt;/p&gt;
 
