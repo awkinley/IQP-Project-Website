@@ -81,9 +81,12 @@ understanding these topics.
 Game Demo and Pre Made Sprites 
 ------------------------------
 
-\*To play the demo, extract the zip file and run the middle application
-file from the folder named demo.\* \*Will be on website and needs to be
-replaced\*
+Folders containing the Sprites used in the game and an example download
+of a game (where the application is the middle file) can be found in the
+google drive folder linked below, along with a document walking through
+the download of Unity and a zip folder of the two folders mentioned above
+if needed.  
+[Link to Google Drive Folder](https://drive.google.com/drive/folders/1s25mtHGSSrDsAIstl6RRpmQweew1jg1s?usp=sharing)
 
 Installing Unity and Visual Studio
 ==================================
@@ -94,9 +97,6 @@ Unity Hub acts as a medium for installing the Unity Editor along with
 accessing content provided by other users. Visual Studio is an excellent
 programming software that Unity integrates with to edit code and create
 scripts for your game.
-
-Documentation for Download - PDF walkthrough of download (mostly images)
-(intuitive download so likely not needed)
 
 Understanding the Unity Editor
 ==============================
@@ -937,7 +937,6 @@ Camera Shake
 
 ![]({{ site.url }}/imgs/UnityGame/image25.jpg)
 
-Could Also Do Additional Enemies / Item (No New Concepts There However)
 
 **C\# Concepts Covered**
 
