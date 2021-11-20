@@ -8,16 +8,13 @@ project_desc: "Follow along with the tutorial to design a 3d printable carabiner
 project_color: "#DF5959"
 ---
 
-# <span id="anchor"></span>Designing a Carabiner
 
-# <span id="anchor-1"></span>Project Information
+# Project Information
 
 Description: Students will follow along with a tutorial and learn to
 design a 3D printable carabiner in CAD and then use FEA to analyze the
 performance of the design under stress. Students will use the insights
 gained from FEA to improve the strength and performance of their design.
-
-https://awkinley.github.io/IQP-Project-Website/
 
 Learning outcomes:
 
@@ -39,11 +36,10 @@ What students will need:
   - A computer with CAD that has a FEA Package (Fusion 360 is used in
     this tutorial)
 
-## 
 
-## <span id="anchor-2"></span>Introduction  
+## Introduction  
 
-## <span id="anchor-3"></span>Project Goal
+## Project Goal
 
 The goal of this project is to introduce part design, design
 optimization using FEA (Finite Element Analysis), design for
@@ -51,7 +47,7 @@ manufacture, and iterative design. Giving examples of how to apply those
 skills to a carabiner, then challenging them to design their own
 carabiner. 
 
-## <span id="anchor-4"></span>Prior knowledge
+## Prior knowledge
 
 This tutorial is designed for using Fusion 360. This tutorial is not
 designed to be a replacement for a more comprehensive introduction to
@@ -62,7 +58,7 @@ Fusion 360 is not the only CAD program you can use along with this
 guide. These concepts will translate to most programs on the market with
 a little know-how. 
 
-## <span id="anchor-5"></span>Needed Programs
+## Needed Programs
 
 CAD+FEA: Fusion 360 (or your choice)
 
@@ -342,9 +338,8 @@ window and in the document tree (upper left drop down menus), you can
 also double click (or right-click) on a specific symbol to edit that
 feature.
 
-## 
 
-## <span id="anchor-6"></span>3D Printing
+## 3D Printing
 
 3D printing and specifically FDM is a form of additive manufacturing
 that can turn part files into finished parts using a variety of
@@ -516,7 +511,7 @@ example carabiner measures 0.2in \* 0.2in = 0.04in^2 \* 4777.5 psi =
 carabiner is 191.1lb \* 2 (both sides) = 382.2lb.
 
   
-<span id="anchor-7"></span>Designing the Gate
+## Designing the Gate
 
 Now, let's work on the gate of the carabiner, the main purpose of the
 gate is to allow a gap in the frame of the carabiner letting you attach
